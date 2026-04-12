@@ -56,6 +56,17 @@ En este contexto, la problemática principal que buscamos afrontar es la falta d
   Esto genera más gasto de tiempo y combustible para los conductores y para los padres involucra una preocupación constante y tiempo perdido esperando sin información clara.
 ### **1.2.2 Lean UX Process**
 #### **1.2.2.1. Lean UX Problem Statements**
+Los servicios de movilidad escolar en el Perú, sobre todo los que son manejados por conductores independientes o pequeñas empresas, todavía tienen poco uso de tecnología para controlar y dar seguimiento a los trayectos diarios, de igual manera pasa con colegios que tienen su propia movilidad. Esto afecta directamente la tranquilidad de los padres, ya que muchas veces no saben con certeza dónde se encuentran sus hijos y también, complica el trabajo de los conductores.
+
+Actualmente, la comunicación se basa en llamadas o mensajes y el control de la asistencia suele hacerse de forma manual, haciendolo propenso a un posible error. Esto puede generar confusión, retrasos y poca coordinación cuando ocurre algún imprevisto durante el recorrido, ya sea si un padre se olvido de notificar que su hijo no iba a asistir o que algún estudiante se demore más de lo previsto.
+
+Además, existen factores que dificultan mejorar este servicio, puede ser el tráfico en ciudades como Lima, que es una de las ciudades con más tiempo se pierde en horas pico, haciendo difícil cumplir horarios exactos y el hecho de que el conductor no debería estar usando el celular mientras maneja, ya que esto representa un riesgo, cosa que actualmente se ven obligados a hacer cuando algún padre pregunta ya sea mediante mensaje o llamada por su hijo.
+
+Frente a esta situación proponemos KidsOnWay, una solución que busca facilitar el seguimiento del transporte escolar mediante una aplicación sencilla de usar. Esta permitirá a los padres conocer la ubicación de la movilidad y recibir notificaciones sobre el trayecto, además de registrar la asistencia de los estudiantes de forma digital, sin necesidad de que el conductor esté constantemente interactuando con el sistema.
+
+De esta manera, buscamos mejorar la organización del servicio y brindar mayor tranquilidad tanto a padres como a conductores.
+
+¿Cómo podemos ayudar a los padres y conductores de movilidad escolar a tener un mejor control del recorrido, brindando información clara y segura, sin generar distracciones ni complicar su uso?
 #### **1.2.2.2. Lean UX Assumptions**
 #### **1.2.2.3. Lean UX Hypothesis Statements**
 #### **1.2.2.4. Lean UX Canvas**
