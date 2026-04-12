@@ -124,4 +124,5 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 
 * Creemos que diseñar una interfaz simple y fácil de usar para el conductor reducirá distracciones y facilitará su uso durante el trabajo. Sabremos que funciona si el 90% de los conductores considera que la aplicación es intuitiva y no afecta su atención al manejar.
 #### **1.2.2.4. Lean UX Canvas**
+![Lean UX Canvas](../assets/chapter-1/img/lean-ux-canvas.png)
 ## **1.3. Target Segments**
