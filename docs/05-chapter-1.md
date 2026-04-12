@@ -126,3 +126,47 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 #### **1.2.2.4. Lean UX Canvas**
 ![Lean UX Canvas](../assets/chapter-1/img/lean-ux-canvas.png)
 ## **1.3. Target Segments**
+### Segmento #1 Conductores Independientes
+* **Aspectos demográficos**
+  * **Sexo:** Masculino y femenino
+  * **Edades:** Entre 35 y 60 años
+  * **Nivel socioeconómico:** Clases B y C
+* **Aspectos geográficos**
+  * **Nacionalidad:** Peruana o Venezolana
+  * **Zona geográfica:** Urbana, que tienen como ruta 2 a 3 distritos cercanos
+  * **Departamento:** Lima Metropolitana
+* **Aspectos psicográficos**
+  * Su negocio depende 100% de la confianza y el "boca a boca" de los padres de familia
+  * Se sienten frustrados por la pérdida de tiempo y combustible al esperar a alumnos que se demoran en salir o que faltan sin previo aviso
+  * Prefieren herramientas tecnológicas directas e intuitivas.
+* **Información estadística de sustento**
+  * Lima es catalogada como la ciudad con mayor congestión vehicular de América y a nivel mundial está dentro del top 10. Esto genera que un conductor promedio pierda aproximadamente 254 horas al año estando en el tráfico (El Comercio, 2023). En este contexto, estar largos periodos detenido con el motor encendido aumenta considerablemente el consumo de combustible, lo que reduce la rentabilidad diaria y hace menos eficiente el trabajo de los conductores de movilidad escolar.
+
+### Segmento #2 Empresas dedicadas a movilidad escolar
+* **Aspectos demográficos**
+  * **Perfil:** Dueños o administradores de flotas pequeñas
+  * **Edades:** Entre 40 y 60 años
+  * **Nivel socioeconómico:** Clases A y B
+* **Aspectos geográficos**
+  * **Nacionalidad:** Peruana o Venezolana
+  * **Zona geográfica:** Urbana, que opera distintas rutas para varios colegios
+  * **Departamento:** Lima Metropolitana
+* **Aspectos psicográficos**
+  * Su objetivo principal es la eficiencia operativa y la rentabilidad
+  * Buscan formalizar y estandarizar su servicio para poder poder tener contratos con instituciones educativas privadas.
+  * Necesitan dashboards administrativos para monitorear a sus choferes en tiempo real y justificar la calidad de su servicio
+* **Información estadística de sustento**
+  * Para las pequeñas y medianas empresas del sector transporte, no contar con herramientas digitales hace que su trabajo sea más lento y costoso. Incorporar soluciones tecnológicas puede ayudar a organizar mejor sus operaciones y reducir gastos innecesarios (Ministerio de Transportes y Comunicaciones, s.f.). De esta manera, las empresas de movilidad escolar necesitan apoyarse en herramientas que les permitan monitorear sus unidades, mejorar sus tiempos y ser más competitivas en el mercado.
+### Segmento #3 Colegios con movilidad propia
+* **Aspectos demográficos**
+  * **Perfil:** Directores o jefes de logística en instituciones educativas privadas
+  * **Nivel socioeconómico:** Clases A y B
+* **Aspectos geográficos**
+  * **Zona geográfica:** Distritos urbanos de nivel socioeconómico medio alto y alto
+  * **Departamento:** Lima Metropolitana
+* **Aspectos psicográficos**
+  * Buscan brindar una experiencia de máxima seguridad para justificar el costo de sus pensiones y servicios adicionales
+  * Buscan evitar problemas legales y cuidar su reputación, por lo que necesitan llevar un registro claro de la asistencia de los estudiantes.
+  * Valoran plataformas que se puedan integrar a la gestión institucional del colegio.
+* **Información estadística de sustento**
+  * Actualmente, la inseguridad ciudadana es un problema que afecta directamente a las instituciones educativas en Lima Metropolitana. Por una parte, el aumento de extorsiones y por otra parte, los riesgos en las calles ha llevado a que muchos padres acompañen o supervisen de cerca los traslados de sus hijos y que también exijan a los colegios mayores medidas de seguridad (Educación al Futuro, s.f.). En este contexto, contar con un servicio de movilidad monitoreado con tecnología se vuelve clave para brindar mayor tranquilidad a las familias y generar confianza en las instituciones.
