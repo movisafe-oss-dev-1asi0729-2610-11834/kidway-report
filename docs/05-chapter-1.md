@@ -68,6 +68,53 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 
 ¿Cómo podemos ayudar a los padres y conductores de movilidad escolar a tener un mejor control del recorrido, brindando información clara y segura, sin generar distracciones ni complicar su uso?
 #### **1.2.2.2. Lean UX Assumptions**
+
+**Business Outcomes**
+* Establecer a MoviSafe como la herramienta tecnológica estándar para el transporte escolar en Lima Metropolitana.
+* Aumentar la retención de los conductores afiliados al demostrarles ahorro en tiempo y combustible.
+* Generar ingresos recurrentes mediante un modelo SaaS dirigido a empresas de transporte, colegios y para conductores independientes.
+* Fomentar la formalización y profesionalización del sector de movilidad escolar.
+
+**User Benefits**
+* **Padres** 
+  
+  Eliminar la incertidumbre al conocer la ubicación exacta y el estado del traslado de su hijo en tiempo real.
+* **Conductores** 
+  
+  Ahorrar tiempo en cada parada y reducir el consumo de combustible al evitar esperas innecesarias y reducir sus tareas manuales de responder llamadas o mensajes.
+* **Colegios** 
+  
+  Ofrecer un valor agregado de alta seguridad a su comunidad educativa, mostrando que no solo cuidan a sus estudiantes dentro, sino que también fuera de la institución.
+
+**Assumptions**
+* Se cree que los padres de familia tienen una necesidad urgente de visibilidad y control sobre el transporte escolar.
+* Estas necesidades se pueden resolver con una plataforma centralizada que automatice las notificaciones de ruta sin distraer al conductor.
+* Nuestros clientes iniciales son conductores independientes y padres de familia de colegios privados que buscan modernizar su servicio.
+* Lo que un padre quiere de nuestro servicio es la tranquilidad y lo que espera el conductor es la eficiencia y reducción de tareas.
+* Vamos a adquirir a nuestros primeros clientes a través de alianzas con Asociaciones de Padres de Familia y recomendaciones boca a boca entre conductores de una misma zona.
+* Haremos dinero a través de planes de suscripción mensual pagados por el conductor independiente, la empresa de transportes o el colegio.
+* Nuestra competencia principal actual son los métodos informales como son los grupos de WhatsApp y algunas plataformas genéricas de rastreo GPS vehicular.
+* Nuestro mayor riesgo es la resistencia al cambio por parte de conductores mayores o la pérdida de señal GPS/Internet en ciertas zonas urbanas.
+
+**Assumptions Worksheet**
+* **¿Quién es el usuario?** 
+  
+  Principalmente padres de familia preocupados por la seguridad de sus hijos y conductores de movilidad escolar que buscan optimizar su tiempo y dar un mejor servicio.
+* **¿Dónde encaja nuestro producto en su trabajo o vida?** 
+  
+  En los días de colegio. Para los padres que se encuentren en casa o el trabajo mientras esperan algún aviso del conductor sobre su hijo. Para los conductores, sería en su vehículo durante todo el trayecto desde que los estudiantes ingresan hasta que los dejan en sus respectivos hogares.
+* **¿Qué problemas tiene nuestro producto y cómo se puede resolver?** 
+  
+  Un problema grave podría ser la distracción del conductor al usar la app. Esto se resolverá automatizando los avisos por proximidad, para que el conductor no tenga que tocar la pantalla o escribir manualmente. Otro problema que se tiene es la dependencia de los datos móviles, esto se resolverá optimizando la app para consumir un ancho de banda mínimo y con un funcionamiento básico en segundo plano.
+* **¿Cuándo y cómo es usado nuestro producto?** 
+  
+  Se usa intensivamente durante las ventanas de transporte escolar ya sea en las mañanas como en las tardes. El conductor lo usa activo en un soporte en el tablero del auto o con algo que sostenga su celular y el padre lo usa mediante notificaciones desde su móvil.
+* **¿Qué características son importantes?** 
+  
+  Alta precisión del GPS, notificaciones rápidas y automáticas, bajo consumo de la batería del dispositivo del conductor y un registro claro de quién subió y bajó del vehículo en todo momento.
+* **¿Cómo debe verse nuestro producto y cómo comportarse?** 
+  
+  Para el padre, debe verse confiable, limpio y transmitir seguridad. Para el conductor, debe verse sumamente práctico con modo oscuro incluído como una opción por si lo quiere, además de contar con una tipografía grande y un comportamiento fluido que no requiera más de un toque por acción, para que no se demore y no pierda tiempo en aprender a usar la aplicación ni cuando la este usando.
 #### **1.2.2.3. Lean UX Hypothesis Statements**
 #### **1.2.2.4. Lean UX Canvas**
 ## **1.3. Target Segments**
