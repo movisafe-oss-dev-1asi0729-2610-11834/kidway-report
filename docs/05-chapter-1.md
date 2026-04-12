@@ -27,6 +27,33 @@ Convertirnos en la plataforma líder y el estándar de seguridad en el transport
 ### **1.1.2. Team Member Profiles**
 ## **1.2. Solution Profile**
 ### **1.2.1 Background and Problem Statement**
+El servicio de movilidad escolar en el Perú se ha caracterizado históricamente por un alto nivel de informalidad y la ausencia de estándares tecnológicos. Las familias confían el traslado de sus hijos a terceros basándose en la recomendación de otro padre, pero carecen de una plataforma dedicada que profesionalice el servicio y les brinde visibilidad durante los trayectos. Al no existir un sistema de seguimiento en tiempo real, los padres de familia experimentan una constante incertidumbre, desconociendo si los estudiantes abordaron la unidad de forma segura o si llegaron a su destino.
+
+En este contexto, la problemática principal que buscamos afrontar es la falta de formalización digital en el transporte escolar y la inexistencia de un canal de comunicación centralizado que garantice la tranquilidad de los padres. Esta carencia no solo afecta emocionalmente a las familias, sino que también genera ineficiencias y riesgos para los conductores, quienes se ven obligados a gestionar la comunicación de manera improvisada y manual mientras operan el vehículo.
+
+**Método 5W y 2H**
+
+* **What (¿Qué?)** 
+  
+  La problemática principal es la falta de organización y de información durante el trayecto de transporte escolar. Actualmente, los padres dependen de comunicarse con los conductores mediante llamadas o mensajes, lo cual son distractores peligrosos para el conductor e insuficientes para la tranquilidad de los padres. Además, no siempre es efectivo y puede haber una confusión por parte del conductor al notificar lo que el padre esta preguntando, posiblemente por un error humano.
+* **Who (¿Quién?)** 
+  
+  Los más afectados son los padres de familia y más si son de estudiantes en etapa escolar básica, que no tienen una certeza sobre el traslado de sus hijos y los conductores de movilidad, que tiene que hacer varias tareas a la vez, lo cual puede llevar a involuntario.
+* **When (¿Cuándo?)** 
+  
+  Esta situación ocurre diariamente, las días de clases, durante las horas pico, ya sea en el recojo matutino, entre las (6:20 am - 7:10 am) y retorno en las tardes, entre las(2:00 pm - 4:00 pm).
+* **Where (¿Dónde?)** 
+  
+  Principalmente en distritos de Lima Metropolitana con una alta demanda de movilidad escolar y tráfico constante.
+* **Why (¿Por qué?)** 
+  
+  Porque el servicio del transporte escolar sigue funcionando de forma tradicional, es decir, aún no está tan incorporado herramientas digitales que ayuden a organizar el recorrido o informar a los padres en tiempo real.
+* **How (¿Cómo?)** 
+  
+  El problema se refleja en tiempos de espera innecesarios, congestión en los puntos de recojo y constantes llamadas al conductor para preguntar por su ubicación. Para poder solucionarlo, proponemos **KidsOnWay**, que es una aplicación que permite ver la ubicación de la movilidad y recibir notificaciones sobre el estado del trayecto.
+* **How Much (¿Cuánto?)** 
+  
+  Esto genera más gasto de tiempo y combustible para los conductores y para los padres involucra una preocupación constante y tiempo perdido esperando sin información clara.
 ### **1.2.2 Lean UX Process**
 #### **1.2.2.1. Lean UX Problem Statements**
 #### **1.2.2.2. Lean UX Assumptions**
