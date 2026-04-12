@@ -116,5 +116,12 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
   
   Para el padre, debe verse confiable, limpio y transmitir seguridad. Para el conductor, debe verse sumamente práctico con modo oscuro incluído como una opción por si lo quiere, además de contar con una tipografía grande y un comportamiento fluido que no requiera más de un toque por acción, para que no se demore y no pierda tiempo en aprender a usar la aplicación ni cuando la este usando.
 #### **1.2.2.3. Lean UX Hypothesis Statements**
+* Creemos que implementar alertas automáticas de proximidad podrá ayudar a los conductores y a los padres a tener un mejor control del recorrido, reduciendo los tiempos de espera y la necesidad de comunicarse constantemente. Se podrá saber que funciona sí el tiempo de parada se reduce a menos de 2 minutos y las llamadas o mensajes bajan en un 80%.
+
+* Creemos que desarrollar un dashboard web para los colegios permitirá tener un mejor control de sus movilidades y de las rutas que realizan. Sabremos que funciona si al menos 2 instituciones educativas aceptan probar la plataforma durante el primer trimestre.
+
+* Creemos que contar con un registro digital automático de asistencia dará mayor tranquilidad a los padres, ya que podrán saber si sus hijos subieron o llegaron correctamente. Sabremos que funciona si la satisfacción de los usuarios y el uso diario de la aplicación supera el 80% en el primer mes.
+
+* Creemos que diseñar una interfaz simple y fácil de usar para el conductor reducirá distracciones y facilitará su uso durante el trabajo. Sabremos que funciona si el 90% de los conductores considera que la aplicación es intuitiva y no afecta su atención al manejar.
 #### **1.2.2.4. Lean UX Canvas**
 ## **1.3. Target Segments**
