@@ -27,7 +27,45 @@ BatOnRoute es un software de origen europeo que ayuda a gestionar rutas de trans
 | **Productos & Servicios** | App para padres y conductores, ubicación en tiempo real y panel web con control de asistencia | App de seguimiento con registro digital y validación por QR. | Plataforma web, apps y herramientas para organizar rutas | Apps móviles, panel administrativo y reportes de recorridos. |
 | **Precios & Costos** | Planes según la cantidad de alumnos y de la cantidad de vehículos. | Planes de suscripción según cantidad de alumnos | Planes más costosos con contratos institucionales | Suscripción según funciones del sistema. |
 | **Canales de distribución** | Aplicación móvil y plataforma web. | Aplicación móvil y plataforma web. | Aplicación móvil y plataforma web. | Aplicación móvil y plataforma web. |
+
 ### **2.1.2. Strategies and Tactics Against Competitors**
+En una ciudad como Lima Metropolitana en donde el tráfico y la desorganización del transporte son parte del día a día, en KidsOnWay buscamos diferenciarnos ofreciendo una solución más simple y útil para padres y conductores a diferencia otras aplicaciones del rubro. No solo nos enfocamos en la ubicación en tiempo real, sino también en mejorar la seguridad y la tranquilidad durante todo el recorrido.
+
+**Fortalezas**
+
+* **Automatización de avisos**
+  
+   A diferencia de métodos actuales como llamadas o mensajes en WhatsApp, la aplicación envía notificaciones automáticas cuando la movilidad está cerca o llega al destino. Esto permite que el conductor no tenga que usar el celular mientras maneja y pueda concentrarse en la ruta.
+* **Información clara y verídica para los padres** 
+  
+  Los padres pueden ver el recorrido sin necesidad de estar llamando o escribiendo. Esto les da mayor tranquilidad y confianza durante el traslado de sus hijos. Además, viendo información en tiempo real.
+
+**Debilidades**
+
+* **Baja presencia en el mercado**
+  
+   Al ser una startup nueva, todavía no contamos con una marca conocida. Para poder generar confianza, se realizarán pruebas piloto con algunos usuarios y se compartirán sus experiencias, para demostrar que nuestra solución es sólida y vale la pena apostar por ella.
+* **Dependencia del internet** 
+  
+  En algunas zonas de Lima la señal puede fallar, lo que afecta la actualización en tiempo real. Para reducir este problema, la app estará optimizada para consumir pocos datos y guardar información cuando no haya señal. 
+
+**Oportunidades**
+
+* **Problemas de tráfico e inseguridad**
+  
+   El tráfico en Lima hace que los tiempos sean impredecibles. La app puede ayudar a los padres a saber cuándo llegará la movilidad y reducir el tiempo de espera en la calle.
+* **Mayor uso de tecnología** 
+  
+  Cada vez más servicios se están digitalizando, esto permite que soluciones como KidsOnWay sean mejor aceptadas por conductores y empresas de transporte.
+
+**Amenazas**
+
+* **Competencia de otras plataformas**
+  
+   Existen aplicaciones más desarrolladas en otros países. Ante esta situación, KidsOnWay se enfocará en adaptarse mejor a la realidad local, con precios accesibles y soluciones más cercanas al contexto local.
+* **Resistencia al cambio** 
+  
+  Algunos conductores prefieren seguir usando métodos tradicionales, es por esto que la aplicación será simple de usar y se brindará una explicación clara de sus beneficios.
 ## **2.2. Interviews**
 ### **2.2.1. Interview Design**
 ### **2.2.2. Interview Recording**
