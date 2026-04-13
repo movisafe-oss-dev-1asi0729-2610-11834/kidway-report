@@ -68,6 +68,51 @@ En una ciudad como Lima Metropolitana en donde el tráfico y la desorganización
   Algunos conductores prefieren seguir usando métodos tradicionales, es por esto que la aplicación será simple de usar y se brindará una explicación clara de sus beneficios.
 ## **2.2. Interviews**
 ### **2.2.1. Interview Design**
+Con el objetivo de obtener información cualitativa que nos ayude a validar nuestras ideas y entender mejor a los usuarios, se diseñaron tres entrevistas para cada grupo objetivo de la plataforma KidsOnWay.Las preguntas fueron planteadas buscando obtener respuestas abiertas, para poder evitar en lo posible las respuestas de sí o nó. Además, se organizaron en bloques para conocer el perfil de los usuarios, sus hábitos tecnológicos, los problemas que enfrentan y lo que esperan de un servicio de transporte escolar.
+
+**Segmento #1: Conductores Independientes**
+
+Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
+
+1. ¿Podrías indicarme tu edad, distrito de residencia y cuántos años llevas trabajando como conductor de movilidad escolar?
+2. ¿Qué marca y modelo de vehículo manejas actualmente? ¿Es de tu propiedad o alquilado?
+3. En tu día a día, ¿qué aplicaciones utilizas más en tu celular? (Algunos ejemplos como Waze, WhatsApp, redes sociales).
+4. ¿Cómo organizas el orden de tu ruta cada mañana? ¿Utilizas alguna herramienta digital o confías en tu memoria?
+5. Describe tu experiencia manejando en las horas pico en Lima, ¿Cómo afecta el tráfico a tu estado de ánimo y a tu puntualidad?
+6. ¿Qué es lo que más te molesta cuando llegas a recoger a un alumno y este no está listo en la puerta?
+7. ¿Cuántas veces al día recibes llamadas o mensajes de padres preguntando por tu ubicación mientras estás conduciendo?
+8. ¿Alguna vez has tenido una distracción peligrosa por intentar contestar el celular para avisar que ya estabas cerca de un domicilio?
+9. Si una aplicación avisara automáticamente a los padres cuando estás a 5 minutos de su casa sin que tú hagas nada, ¿cómo cambiaría tu jornada?
+10. ¿Qué tan importante es para ti que la aplicación sea extremadamente simple de usar, por ejemplo con botones grandes y que no te distraiga del volante?
+11. ¿Qué beneficio económico o de tiempo esperarías obtener al usar una plataforma como la nuestra?
+
+**Segmento #2: Empresas dedicadas a movilidad escolar**
+
+Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
+
+1. ¿Cuál es el nombre de la empresa, cuántas unidades conforman su flota actual y en qué distritos de Lima operan principalmente?
+2. ¿Cuál es su cargo dentro de la empresa y cuáles son sus principales retos logísticos diarios?
+3. ¿Qué métodos utilizan actualmente para supervisar que sus conductores estén cumpliendo con las rutas y horarios establecidos?
+4. ¿Cómo manejan el registro de asistencia de los alumnos? (Algunos ejemplos como ¿Es manual, en papel o tienen algún sistema digital?)
+5. ¿Cuál es el costo operativo más alto que enfrentan, como combustible, mantenimiento o multas y cómo intentan reducirlo?
+6. ¿Qué tipo de reclamos reciben con más frecuencia por parte de los padres de familia?
+7. ¿Qué tan valioso sería para su empresa contar con un Dashboard centralizado donde puedan ver todas sus unidades en un solo mapa en tiempo real?
+8. ¿Cómo cree que impactaría en la confianza de los padres el ofrecerles una aplicación para monitorear el bus de sus hijos?
+9. Para adoptar una solución como KidsOnWay, ¿qué tipo de reportes o datos estadísticos necesitarían que la plataforma les entregue mensualmente?
+
+**Segmento #3: Colegios con movilidad propia**
+
+Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
+
+1. ¿Qué cargo ocupa en la institución y cuál es la visión del colegio respecto a la seguridad y bienestar de los alumnos durante el traslado?
+2. ¿A cuántos alumnos moviliza el colegio diariamente con su propia flota?
+3. ¿Cómo garantizan hoy que un alumno ha subido correctamente al bus y ha sido entregado a la persona autorizada en su domicilio?
+4. Ante una emergencia en la ruta, ya sea un accidente, falla mecánica o retraso severo, ¿cuál es el protocolo de comunicación que sigue el colegio con los padres?
+5. ¿Qué importancia tiene para el colegio evitar que los padres llamen directamente a los conductores de la institución mientras estos están en ruta?
+6. ¿Considera que contar con un sistema de monitoreo en tiempo real exclusivo del colegio mejoraría el prestigio y la propuesta de valor institucional frente a otros colegios?
+7. ¿Qué nivel de privacidad y protección de datos esperaría el colegio de una plataforma que maneja la ubicación de sus estudiantes?
+8. ¿Qué funcionalidades específicas (Algunos ejemplos como, registro de asistencia con fotos o código, alertas de velocidad) harían que el colegio decida invertir en una plataforma como KidsOnWay en lugar de usar GPS tradicionales?
+
 ### **2.2.2. Interview Recording**
 ### **2.2.3. Interview Analysis**
 ## **2.3. Needfinding**
