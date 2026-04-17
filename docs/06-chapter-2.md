@@ -16,7 +16,7 @@ BatOnRoute es un software de origen europeo que ayuda a gestionar rutas de trans
 
 | Nombre | KidsOnWay | titiGO | BatOnRoute | OnTrack School |
 | :--- | :---: | :---: | :---: | :---: |
-| **Logo** | ![KidsOnWay](../assets/chapter-2/img/) | ![titiGO](../assets/chapter-2/img/logo-titiGO.png) | ![BatOnRoute](../assets/chapter-2/img/logo-batonrout.png) | ![OnTrack](../assets/chapter-2/img/logo-ontrack.png) |
+| **Logo** | ![KidsOnWay](../assets/chapter-2/img/logo-kidway.png) | ![titiGO](../assets/chapter-2/img/logo-titiGO.png) | ![BatOnRoute](../assets/chapter-2/img/logo-batonrout.png) | ![OnTrack](../assets/chapter-2/img/logo-ontrack.png) |
 | **Perfil** | | | | |
 | **Overview** | Software que automatiza la comunicación entre conductores y padres mediante alertas de proximidad. | Aplicación peruana que se enfoca en el control del transporte escolar mediante estados de viaje y validación por QR | Software orientado a empresas que gestiona flotas escolares con seguimiento en tiempo real y alertas. | Sistema latinoamericano que permite monitorear rutas escolares y llevar control de asistencia |
 | **Ventaja competitiva** | Envía avisos automáticos sin que el conductor tenga que usar el celular, evitando distracciones y reduciendo tiempos de espera. | Controla la salida de los estudiantes mediante códigos QR para mayor seguridad | Está pensado para manejar muchas unidades y rutas complejas | Ofrece seguimiento constante de las rutas con un enfoque adaptado a la región. |
