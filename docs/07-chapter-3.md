@@ -82,7 +82,6 @@
 |8|US31|Generar reporte de recorridos|Como administrador, quiero generar reportes de recorridos realizados, para analizar el cumplimiento de rutas.|5|
 |9|US46|Visualizar historial de recorridos|Como institución educativa, quiero consultar el historial de recorridos realizados, para verificar el cumplimiento del servicio.|3|
 |10|US33|Exportar reportes|Como administrador, quiero exportar reportes, para compartirlos o analizarlos externamente.|2|
-
 |11|US09|Visualizar paradas en mapa|Como conductor, quiero ver las paradas de mi ruta en un mapa, para ubicarme fácilmente durante el recorrido.|3|
 |12|US13|Visualizar estado de la ruta|Como conductor, quiero ver el progreso de mi ruta, para saber cuánto falta completar.|2|
 |13|US24|Visualizar detalle de unidad|Como administrador, quiero seleccionar una unidad y ver su información, para conocer su estado actual.|3|
