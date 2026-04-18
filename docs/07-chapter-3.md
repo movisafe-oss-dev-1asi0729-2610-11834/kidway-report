@@ -69,3 +69,59 @@
 ![Impact Mapping](../assets/chapter-3/impact-mapping.jpg)
 
 ## **3.3. Product Backlog**
+
+|Orden|User Story Id|Título|Descripción|Story Points|
+|-----|-------------|------|-----------|------------|
+|1|US08|Visualizar ruta asignada|Como conductor, quiero visualizar la ruta asignada del día, para saber el orden de recorrido.|3|
+|2|US03|Registrar abordaje|Como conductor, quiero marcar rápidamente cuando un estudiante sube, para llevar control del traslado.|3|
+|3|US23|Visualizar movilidades en mapa|Como administrador, quiero ver todas mis unidades en un mapa en tiempo real, para supervisar su ubicación.|5|
+|4|US11|Marcar parada como completada|Como conductor, quiero marcar una parada como completada, para avanzar en mi ruta de forma ordenada.|2|
+|5|US15|Registrar incidencia rápida|Como conductor, quiero registrar una incidencia en pocos pasos, para no distraerme durante el recorrido.|2|
+|6|US25|Visualizar estado de unidades|Como administrador, quiero identificar el estado de cada unidad, para detectar problemas rápidamente.|3|
+|7|US40|Visualizar cumplimiento de rutas|Como institución educativa, quiero verificar si las rutas se están cumpliendo, para asegurar el correcto servicio.|5|
+|8|US31|Generar reporte de recorridos|Como administrador, quiero generar reportes de recorridos realizados, para analizar el cumplimiento de rutas.|5|
+|9|US46|Visualizar historial de recorridos|Como institución educativa, quiero consultar el historial de recorridos realizados, para verificar el cumplimiento del servicio.|3|
+|10|US33|Exportar reportes|Como administrador, quiero exportar reportes, para compartirlos o analizarlos externamente.|2|
+
+|11|US09|Visualizar paradas en mapa|Como conductor, quiero ver las paradas de mi ruta en un mapa, para ubicarme fácilmente durante el recorrido.|3|
+|12|US13|Visualizar estado de la ruta|Como conductor, quiero ver el progreso de mi ruta, para saber cuánto falta completar.|2|
+|13|US24|Visualizar detalle de unidad|Como administrador, quiero seleccionar una unidad y ver su información, para conocer su estado actual.|3|
+|14|US38|Visualizar unidades en tiempo real|Como institución educativa, quiero ver las unidades en un mapa en tiempo real, para supervisar su ubicación.|5|
+|15|US42|Visualizar incidencias en tiempo real|Como institución educativa, quiero ver incidencias registradas durante el recorrido, para tener control del servicio.|3|
+|16|US19|Registro automático de hora y ubicación|Como conductor, quiero que el sistema registre automáticamente la hora y ubicación, para no tener que hacerlo manualmente.|3|
+|17|US16|Seleccionar tipo de incidencia|Como conductor, quiero elegir el tipo de incidencia, para clasificar correctamente el evento.|2|
+|18|US18|Asociar incidencia a parada o estudiante|Como conductor, quiero vincular la incidencia a una parada o estudiante, para mayor precisión en el registro.|3|
+|19|US20|Visualizar historial de incidencias|Como conductor, quiero ver las incidencias registradas, para hacer seguimiento del recorrido.|2|
+|20|US30|Actualización automática de datos|Como administrador, quiero que la información se actualice automáticamente, para no tener que recargar manualmente.|3|
+|21|US26|Filtrar unidades|Como administrador, quiero filtrar las unidades por estado o ruta, para enfocarme en lo relevante.|2|
+|22|US41|Alertas de retraso|Como institución educativa, quiero recibir alertas cuando una unidad presente retrasos, para tomar acciones oportunas.|3|
+|23|US28|Visualizar recorrido en tiempo real|Como administrador, quiero ver el recorrido que está realizando cada unidad, para validar el cumplimiento de la ruta.|5|
+|24|US29|Historial reciente de ubicación|Como administrador, quiero consultar las ubicaciones recientes de una unidad, para analizar su comportamiento.|3|
+|25|US32|Generar reporte de desempeño|Como administrador, quiero visualizar métricas de desempeño de conductores y unidades, para evaluar la eficiencia operativa.|5|
+|26|US34|Filtrar reportes|Como administrador, quiero aplicar filtros a los reportes, para enfocarme en información específica.|2|
+|27|US35|Visualizar incidencias en reportes|Como administrador, quiero incluir incidencias en los reportes, para tener contexto completo del servicio.|3|
+|28|US36|Resumen general |Como administrador, quiero ver un resumen general del desempeño, para tomar decisiones rápidas.|3|
+|29|US37|Descarga rápida de reportes recientes|Como administrador, quiero acceder rápidamente a reportes recientes, para ahorrar tiempo en consultas frecuentes.|3|
+|30|US01|Visualizar lista de estudiantes por ruta|Como conductor, quiero ver la lista de estudiantes asignados a mi ruta, para saber a quién debo recoger.|3|
+|31|US44|Visualizar historial reciente|Como institución educativa, quiero consultar el historial reciente de recorridos, para validar el servicio.|3|
+|32|US45|Actualización automática del monitoreo|Como institución educativa, quiero que la información se actualice automáticamente, para no recargar manualmente.|2|
+|39|US02|Visualizar estudiantes por parada|Como conductor, quiero ver qué estudiantes corresponden a cada parada, para organizar el recojo.|2|
+|33|US47|Visualizar detalle de recorrido|Como institución educativa, quiero ver el detalle de un recorrido específico, para analizar lo sucedido.|3|
+|34|US48|Visualizar incidencias históricas|Como institución educativa, quiero consultar incidencias registradas en recorridos pasados, para tener contexto ante problemas.|3|
+|35|US49|Filtrar historial|Como institución educativa, quiero filtrar el historial por fechas, rutas o unidades, para encontrar información específica.|2|
+|36|US50|Exportar historial|Como institución educativa, quiero exportar registros históricos, para respaldar información ante incidentes o auditorías.|2|
+|37|US51|Registro de evidencia automática|Como institución educativa, quiero que el sistema registre automáticamente datos de cada recorrido, para no depender de procesos manuales.|5|
+|38|US52|Consulta rápida de eventos|Como institución educativa, quiero acceder rápidamente a eventos relevantes, para responder ante incidentes.|2|
+|40|US04|Registrar ausencia|Como conductor, quiero marcar cuando un estudiante no sube, para evitar esperas innecesarias.|2|
+|41|US05|Edición rápida de estado|Como conductor, quiero corregir el estado de un estudiante en caso de error, para mantener información precisa.|2|
+|42|US06|Funcionamiento offline|Como conductor, quiero poder registrar abordajes sin conexión a internet, para no depender de la señal.|5|
+|43|US07|Confirmación visual rápida|Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.|2|
+|44|US10|Navegación entre paradas|Como conductor, quiero recibir indicaciones para llegar a cada parada, para optimizar mi recorrido.|5|
+|45|US12|Reordenamiento básico de ruta|Como conductor, quiero ajustar el orden de paradas en caso de imprevistos, para adaptarme a cambios en el recorrido.|5|
+|46|US43|Filtrar unidades y rutas|Como institución educativa, quiero filtrar unidades o rutas, para enfocarme en información específica.|2|
+|47|US14|Funcionamiento offline de ruta|Como conductor, quiero acceder a mi ruta sin conexión a internet, para no depender de la señal.|3|
+|48|US17|Registrar detalle opcional|Como conductor, quiero añadir un comentario opcional, para dar más contexto si es necesario.|2|
+|49|US21|Editar o corregir incidencia|Como conductor, quiero corregir una incidencia en caso de error, para mantener información precisa.|2|
+|50|US22|Funcionamiento offline de incidencias|Como conductor, quiero registrar incidencias sin conexión, para no depender de la red.|2|
+|51|US27|Alertas de desviación|Como administrador, quiero recibir alertas cuando una unidad se desvíe de su ruta, para tomar acciones oportunas.|5|
+|52|US39|Visualizar detalle de unidad|Como institución educativa, quiero ver la información de cada unidad, para conocer su estado operativo.|2|
