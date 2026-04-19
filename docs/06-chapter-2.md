@@ -17,21 +17,34 @@ BatOnRoute es un software de origen europeo que ayuda a gestionar rutas de trans
 <table width="100%">
   <thead>
     <tr>
-      <th align="left">Nombre</th>
-      <th align="center">KidsOnWay</th>
-      <th align="center">titiGO</th>
-      <th align="center">BatOnRoute</th>
-      <th align="center">OnTrack School</th>
+      <th align="left" width="20%">
+        ¿Por qué llevar a cabo este análisis?
+      </th>
+      <th colspan="4" align="left">
+        Identificar las limitaciones en el uso y nivel de automatización de las plataformas actuales de transporte escolar, con el fin de definir una propuesta que facilite el trabajo del conductor y reduzca las distracciones durante la ruta.
+      </th>
+    </tr>
+    <tr>
+      <th align="left"></th>
+      <th align="center">
+        KidsOnWay<br>
+        <img src="../assets/chapter-2/img/logo-kidway.png" alt="KidsOnWay" width="80">
+      </th>
+      <th align="center">
+        titiGO<br>
+        <img src="../assets/chapter-2/img/logo-titiGO.png" alt="titiGO" width="80">
+      </th>
+      <th align="center">
+        BatOnRoute<br>
+        <img src="../assets/chapter-2/img/logo-batonrout.png" alt="BatOnRoute" width="80">
+      </th>
+      <th align="center">
+        OnTrack School<br>
+        <img src="../assets/chapter-2/img/logo-ontrack.png" alt="OnTrack" width="80">
+      </th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td align="left"><b>Logo</b></td>
-      <td align="center"><img src="../assets/chapter-2/img/logo-kidway.png" alt="KidsOnWay" width="80"></td>
-      <td align="center"><img src="../assets/chapter-2/img/logo-titiGO.png" alt="titiGO" width="80"></td>
-      <td align="center"><img src="../assets/chapter-2/img/logo-batonrout.png" alt="BatOnRoute" width="80"></td>
-      <td align="center"><img src="../assets/chapter-2/img/logo-ontrack.png" alt="OnTrack" width="80"></td>
-    </tr>
     <tr>
       <th colspan="5" align="left">Perfil</th>
     </tr>
@@ -43,7 +56,7 @@ BatOnRoute es un software de origen europeo que ayuda a gestionar rutas de trans
       <td>Sistema latinoamericano que permite monitorear rutas escolares y llevar control de asistencia.</td>
     </tr>
     <tr>
-      <td><b>Ventaja competitiva</b></td>
+      <td><b>Ventaja competitiva<br>(¿Qué valor ofrece a los clientes?)</b></td>
       <td>Envía avisos automáticos sin que el conductor tenga que usar el celular, evitando distracciones y reduciendo tiempos de espera.</td>
       <td>Controla la salida de los estudiantes mediante códigos QR para mayor seguridad.</td>
       <td>Está pensado para manejar muchas unidades y rutas complejas.</td>
@@ -84,11 +97,42 @@ BatOnRoute es un software de origen europeo que ayuda a gestionar rutas de trans
       <td>Suscripción según funciones del sistema.</td>
     </tr>
     <tr>
-      <td><b>Canales de distribución</b></td>
+      <td><b>Canales de distribución<br>(Web y/o Móvil)</b></td>
       <td>Aplicación móvil y plataforma web.</td>
       <td>Aplicación móvil y plataforma web.</td>
       <td>Aplicación móvil y plataforma web.</td>
       <td>Aplicación móvil y plataforma web.</td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">SWOT Análisis</th>
+    </tr>
+    <tr>
+      <td><b>Fortalezas</b></td>
+      <td>Automatización de alertas de proximidad con mínima interacción del conductor</td>
+      <td>Fuerte enfoque en seguridad institucional mediante códigos QR físicos</td>
+      <td>Software robusto para gestionar grandes flotas escolares</td>
+      <td>Amplio alcance regional y monitoreo consolidado</td>
+    </tr>
+    <tr>
+      <td><b>Debilidades</b></td>
+      <td>Marca nueva sin validación institucional a gran escala</td>
+      <td>Requiere interacción manual constante (escaneo QR)</td>
+      <td>Complejo y costoso para conductores independientes</td>
+      <td>Interfaz genérica poco adaptada a contextos locales específicos</td>
+    </tr>
+    <tr>
+      <td><b>Oportunidades</b></td>
+      <td>Alta necesidad de reducir distracciones en conductores urbanos</td>
+      <td>Creciente interés en digitalización de seguridad escolar</td>
+      <td>Expansión en colegios privados de alto nivel</td>
+      <td>Crecimiento del mercado de transporte escolar en LATAM</td>
+    </tr>
+    <tr>
+      <td><b>Amenazas</b></td>
+      <td>Resistencia al cambio tecnológico en conductores mayores</td>
+      <td>Problemas con lectura de QR en condiciones adversas</td>
+      <td>Competidores más baratos en el segmento PYME</td>
+      <td>Dificultad para adaptar soluciones globales a nichos locales</td>
     </tr>
   </tbody>
 </table>
