@@ -114,6 +114,185 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
 8. ¿Qué funcionalidades específicas (Algunos ejemplos como, registro de asistencia con fotos o código, alertas de velocidad) harían que el colegio decida invertir en una plataforma como KidsOnWay en lugar de usar GPS tradicionales?
 
 ### **2.2.2. Interview Recording**
+
+**Segmento 1: Conductores Independientes**
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #1</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Datos del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre completo</b></td>
+      <td>Carlos Marcelo Mansilla Rivero</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>24 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Conductor de movilidad escolar</i></td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Surquillo</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del video</th>
+    </tr>
+    <tr>
+      <td><b>Link</b></td>
+      <td><a href="(link)" target="_blank">(link)</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>5:36</td>
+    </tr>
+    <tr>
+      <td><b>Timing de inicio</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Screenshot</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-2/img/screenshot-interview-1.png" alt="Screenshot Entrevista 1" width="400">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen de la entrevista**
+
+Carlos es un conductor de movilidad escolar con poca experiencia en el rubro, por lo que aún depende de herramientas como Waze o Google Maps para organizar sus rutas y evitar errores. En su día a día se basa en recoger a los estudiantes, mantener la puntualidad y coordinar constantemente con los padres mediante WhatsApp. Sin embargo, enfrenta varios problemas como la impuntualidad de algunos alumnos, que afecta toda su ruta y el tráfico en Lima que es bastante denso, que incrementa su estrés y dificulta cumplir con los horarios. Además, le preocupa su imagen frente a los padres, ya que al ser nuevo siente mayor presión por demostrar responsabilidad y generar confianza.
+
+Otro punto crítico es la comunicación con los padres, ya que recibe constantemente mensajes y llamadas preguntando por su ubicación, lo que lo obliga a responder mientras conduce, generando distracciones peligrosas. Ante esta situación, valora mucho una solución que automatice los avisos de proximidad, que le podrían ayudar a enfocarse en manejar y reducir el estrés. También, destaca que la herramienta debe ser muy simple de usar, con mínima interacción, debido a que esta al volante. Finalmente, espera que una solución así le ayude a mejorar su reputación, optimizar su tiempo y reducir costos como el consumo de combustible por esperas innecesarias.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #2</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Datos del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre completo</b></td>
+      <td>Mateo Nicolás de Mendiburu Aguilar</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>20 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Conductor de movilidad escolar</i></td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Santiago de Surco</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del video</th>
+    </tr>
+    <tr>
+      <td><b>Link</b></td>
+      <td><a href="(link)" target="_blank">(link)</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>8:47</td>
+    </tr>
+    <tr>
+      <td><b>Timing de inicio</b></td>
+      <td>5:37</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Screenshot</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-2/img/screenshot-interview-2.png" alt="Screenshot Entrevista 1" width="400">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen de la entrevista**
+
+Mateo es un conductor de movilidad escolar con aproximadamente dos años de experiencia, que opera principalmente en distritos como Surco. En su día a día combina el uso de herramientas digitales como Google Maps con su propio conocimiento de rutas, utilizando también un calendario para organizar sus recorridos. Esta mezcla entre apoyo tecnológico y experiencia le permite optimizar su trabajo, aunque todavía depende de las condiciones del entorno, especialmente del tráfico en horas punta, que representa uno de sus mayores desafíos y afecta directamente su puntualidad y nivel de estrés.
+
+Durante sus recorridos, uno de los principales problemas que enfrenta es la impuntualidad de algunos alumnos donde los padres no avisan con tiempo, lo que genera retrasos acumulados y desorden en toda la ruta. A esto se suma la constante comunicación con los padres, quienes lo contactan con frecuencia no solo para consultar su ubicación, sino también por imprevistos como objetos olvidados. Esta situación lo obliga a dividir su atención entre manejar, responder mensajes y supervisar a los estudiantes dentro del vehículo, generando una sobrecarga que impacta tanto en su desempeño como en la seguridad durante el trayecto.
+
+Ante este contexto, Mateo valora de forma muy positiva una solución que automatice la comunicación con los padres, especialmente mediante alertas de proximidad, ya que reduciría significativamente las interrupciones y le permitiría enfocarse en la conducción. Además, destaca la importancia de que la aplicación sea simple, visual y fácil de usar, con elementos grandes que no generen distracción. Finalmente, espera que una herramienta como KidsOnWay le ayude a optimizar su tiempo, reducir el consumo de combustible y hacer su trabajo más eficiente, mejorando al mismo tiempo la experiencia para los padres y estudiantes, haciendo su servicio más sólido.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #3</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Datos del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre completo</b></td>
+      <td>Joao David Jiménez Abarca</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>36 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Conductor de movilidad escolar</i></td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Comas</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del video</th>
+    </tr>
+    <tr>
+      <td><b>Link</b></td>
+      <td><a href="(link)" target="_blank">(link)</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>5:42</td>
+    </tr>
+    <tr>
+      <td><b>Timing de inicio</b></td>
+      <td>14.24</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Screenshot</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-2/img/screenshot-interview-3.png" alt="Screenshot Entrevista 1" width="400">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen de la entrevista**
+
+Joao es un conductor de movilidad escolar con varios años de experiencia, lo que le permite organizar sus rutas principalmente de memoria, apoyándose ocasionalmente en herramientas como Waze para evitar el tráfico. Su rutina diaria consiste en recoger a los alumnos respetando horarios establecidos, aunque las condiciones del tráfico en Lima suelen generarle estrés y retrasos. A diferencia de algunos conductores más nuevos, maneja mejor la dinámica del servicio con respecto a la puntialidad, pero igual se ve afectado cuando los alumnos no están listos a tiempo, ya que esto puede alterar su planificación, aunque intenta adaptarse según la situación.
+
+Uno de los principales retos que enfrenta es la constante comunicación con los padres, llegando a recibir varias llamadas al día para consultar su ubicación. Esto lo pone en una situación complicada ya que, aunque entiende la preocupación de los padres, responder mientras conduce implica un riesgo para él y para los estudiantes. Por esto considera que una solución que automatice los avisos sería de gran ayuda, ya que reduciría interrupciones y le permitiría enfocarse en manejar. También, resalta la importancia de que la aplicación sea simple y accesible para todo tipo de conductores. Para acabar menciona que espera que una herramienta así, le ayude a ahorrar tiempo en sus rutas, evitar retrasos y mejorar su reputación, incluso permitiéndole asumir más servicios.
+
 ### **2.2.3. Interview Analysis**
 ## **2.3. Needfinding**
 ### **2.3.1. User Personas**
