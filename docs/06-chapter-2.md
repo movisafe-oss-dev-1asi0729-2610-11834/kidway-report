@@ -14,19 +14,84 @@ BatOnRoute es un software de origen europeo que ayuda a gestionar rutas de trans
 ### **2.1.1. Competitive Analysis**
 **Competitive Analysis Landscape**
 
-| Nombre | KidsOnWay | titiGO | BatOnRoute | OnTrack School |
-| :--- | :---: | :---: | :---: | :---: |
-| **Logo** | ![KidsOnWay](../assets/chapter-2/img/logo-kidway.png) | ![titiGO](../assets/chapter-2/img/logo-titiGO.png) | ![BatOnRoute](../assets/chapter-2/img/logo-batonrout.png) | ![OnTrack](../assets/chapter-2/img/logo-ontrack.png) |
-| **Perfil** | | | | |
-| **Overview** | Software que automatiza la comunicación entre conductores y padres mediante alertas de proximidad. | Aplicación peruana que se enfoca en el control del transporte escolar mediante estados de viaje y validación por QR | Software orientado a empresas que gestiona flotas escolares con seguimiento en tiempo real y alertas. | Sistema latinoamericano que permite monitorear rutas escolares y llevar control de asistencia |
-| **Ventaja competitiva** | Envía avisos automáticos sin que el conductor tenga que usar el celular, evitando distracciones y reduciendo tiempos de espera. | Controla la salida de los estudiantes mediante códigos QR para mayor seguridad | Está pensado para manejar muchas unidades y rutas complejas | Ofrece seguimiento constante de las rutas con un enfoque adaptado a la región. |
-| **Perfil de Marketing** | | | | |
-| **Mercado objetivo** | Colegios, conductores independientes y pequeñas empresas de transporte en Lima. | Colegios y padres interesados en controlar la asistencia de los alumnos. | Directivos de colegios privados con mayor capacidad económica | Colegios, empresas de transporte y familias |
-| **Estrategias de marketing** | Difusión mediante recomendaciones y alianzas con colegios y asociaciones de padres. | Trabajo directo con colegios para que adopten la app como parte de su sistema | Ventas directas a instituciones mostrando beneficios del servicio. | Enfoque en seguridad y organización del transporte para atraer usuarios. |
-| **Perfil de Producto** | | | | |
-| **Productos & Servicios** | App para padres y conductores, ubicación en tiempo real y panel web con control de asistencia | App de seguimiento con registro digital y validación por QR. | Plataforma web, apps y herramientas para organizar rutas | Apps móviles, panel administrativo y reportes de recorridos. |
-| **Precios & Costos** | Planes según la cantidad de alumnos y de la cantidad de vehículos. | Planes de suscripción según cantidad de alumnos | Planes más costosos con contratos institucionales | Suscripción según funciones del sistema. |
-| **Canales de distribución** | Aplicación móvil y plataforma web. | Aplicación móvil y plataforma web. | Aplicación móvil y plataforma web. | Aplicación móvil y plataforma web. |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">Nombre</th>
+      <th align="center">KidsOnWay</th>
+      <th align="center">titiGO</th>
+      <th align="center">BatOnRoute</th>
+      <th align="center">OnTrack School</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><b>Logo</b></td>
+      <td align="center"><img src="../assets/chapter-2/img/logo-kidway.png" alt="KidsOnWay" width="80"></td>
+      <td align="center"><img src="../assets/chapter-2/img/logo-titiGO.png" alt="titiGO" width="80"></td>
+      <td align="center"><img src="../assets/chapter-2/img/logo-batonrout.png" alt="BatOnRoute" width="80"></td>
+      <td align="center"><img src="../assets/chapter-2/img/logo-ontrack.png" alt="OnTrack" width="80"></td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Perfil</th>
+    </tr>
+    <tr>
+      <td><b>Overview</b></td>
+      <td>Software que automatiza la comunicación entre conductores y padres mediante alertas de proximidad.</td>
+      <td>Aplicación peruana que se enfoca en el control del transporte escolar mediante estados de viaje y validación por QR.</td>
+      <td>Software orientado a empresas que gestiona flotas escolares con seguimiento en tiempo real y alertas.</td>
+      <td>Sistema latinoamericano que permite monitorear rutas escolares y llevar control de asistencia.</td>
+    </tr>
+    <tr>
+      <td><b>Ventaja competitiva</b></td>
+      <td>Envía avisos automáticos sin que el conductor tenga que usar el celular, evitando distracciones y reduciendo tiempos de espera.</td>
+      <td>Controla la salida de los estudiantes mediante códigos QR para mayor seguridad.</td>
+      <td>Está pensado para manejar muchas unidades y rutas complejas.</td>
+      <td>Ofrece seguimiento constante de las rutas con un enfoque adaptado a la región.</td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Perfil de Marketing</th>
+    </tr>
+    <tr>
+      <td><b>Mercado objetivo</b></td>
+      <td>Conductores independientes y pequeñas empresas de transporte en Lima.</td>
+      <td>Colegios y padres interesados en controlar la asistencia de los alumnos.</td>
+      <td>Directivos de colegios privados con mayor capacidad económica.</td>
+      <td>Colegios, empresas de transporte y familias.</td>
+    </tr>
+    <tr>
+      <td><b>Estrategias de marketing</b></td>
+      <td>Difusión mediante recomendaciones y asociaciones de padres (APAFA).</td>
+      <td>Trabajo directo con colegios para que adopten la app como parte de su sistema.</td>
+      <td>Ventas directas a instituciones mostrando beneficios del servicio.</td>
+      <td>Enfoque en seguridad y organización del transporte para atraer usuarios.</td>
+    </tr>
+    <tr>
+      <th colspan="5" align="left">Perfil de Producto</th>
+    </tr>
+    <tr>
+      <td><b>Productos & Servicios</b></td>
+      <td>App para padres y conductores, ubicación en tiempo real y panel web con control de asistencia.</td>
+      <td>App de seguimiento con registro digital y validación por QR.</td>
+      <td>Plataforma web, apps y herramientas para organizar rutas.</td>
+      <td>Apps móviles, panel administrativo y reportes de recorridos.</td>
+    </tr>
+    <tr>
+      <td><b>Precios & Costos</b></td>
+      <td>Planes según la cantidad de alumnos y de la cantidad de vehículos.</td>
+      <td>Planes de suscripción según cantidad de alumnos.</td>
+      <td>Planes más costosos con contratos institucionales.</td>
+      <td>Suscripción según funciones del sistema.</td>
+    </tr>
+    <tr>
+      <td><b>Canales de distribución</b></td>
+      <td>Aplicación móvil y plataforma web.</td>
+      <td>Aplicación móvil y plataforma web.</td>
+      <td>Aplicación móvil y plataforma web.</td>
+      <td>Aplicación móvil y plataforma web.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### **2.1.2. Strategies and Tactics Against Competitors**
 En una ciudad como Lima Metropolitana en donde el tráfico y la desorganización del transporte son parte del día a día, en KidsOnWay buscamos diferenciarnos ofreciendo una solución más simple y útil para padres y conductores a diferencia otras aplicaciones del rubro. No solo nos enfocamos en la ubicación en tiempo real, sino también en mejorar la seguridad y la tranquilidad durante todo el recorrido.
@@ -100,18 +165,6 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
 8. ¿Cómo cree que impactaría en la confianza de los padres el ofrecerles una aplicación para monitorear el bus de sus hijos?
 9. Para adoptar una solución como KidsOnWay, ¿qué tipo de reportes o datos estadísticos necesitarían que la plataforma les entregue mensualmente?
 
-**Segmento #3: Colegios con movilidad propia**
-
-Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
-
-1. ¿Qué cargo ocupa en la institución y cuál es la visión del colegio respecto a la seguridad y bienestar de los alumnos durante el traslado?
-2. ¿A cuántos alumnos moviliza el colegio diariamente con su propia flota?
-3. ¿Cómo garantizan hoy que un alumno ha subido correctamente al bus y ha sido entregado a la persona autorizada en su domicilio?
-4. Ante una emergencia en la ruta, ya sea un accidente, falla mecánica o retraso severo, ¿cuál es el protocolo de comunicación que sigue el colegio con los padres?
-5. ¿Qué importancia tiene para el colegio evitar que los padres llamen directamente a los conductores de la institución mientras estos están en ruta?
-6. ¿Considera que contar con un sistema de monitoreo en tiempo real exclusivo del colegio mejoraría el prestigio y la propuesta de valor institucional frente a otros colegios?
-7. ¿Qué nivel de privacidad y protección de datos esperaría el colegio de una plataforma que maneja la ubicación de sus estudiantes?
-8. ¿Qué funcionalidades específicas (Algunos ejemplos como, registro de asistencia con fotos o código, alertas de velocidad) harían que el colegio decida invertir en una plataforma como KidsOnWay en lugar de usar GPS tradicionales?
 
 ### **2.2.2. Interview Recording**
 
