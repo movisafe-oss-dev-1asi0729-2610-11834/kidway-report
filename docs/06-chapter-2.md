@@ -99,41 +99,34 @@ En una ciudad como Lima Metropolitana en donde el tráfico y la desorganización
 **Fortalezas**
 
 * **Automatización de avisos**
-  
+   
    A diferencia de métodos actuales como llamadas o mensajes en WhatsApp, la aplicación envía notificaciones automáticas cuando la movilidad está cerca o llega al destino. Esto permite que el conductor no tenga que usar el celular mientras maneja y pueda concentrarse en la ruta.
-* **Información clara y verídica para los padres** 
-  
-  Los padres pueden ver el recorrido sin necesidad de estar llamando o escribiendo. Esto les da mayor tranquilidad y confianza durante el traslado de sus hijos. Además, viendo información en tiempo real.
+* **Información clara y verídica para los padres** Los padres pueden ver el recorrido sin necesidad de estar llamando o escribiendo. Esto les da mayor tranquilidad y confianza durante el traslado de sus hijos. Además, viendo información en tiempo real.
 
 **Debilidades**
 
 * **Baja presencia en el mercado**
-  
+   
    Al ser una startup nueva, todavía no contamos con una marca conocida. Para poder generar confianza, se realizarán pruebas piloto con algunos usuarios y se compartirán sus experiencias, para demostrar que nuestra solución es sólida y vale la pena apostar por ella.
-* **Dependencia del internet** 
-  
-  En algunas zonas de Lima la señal puede fallar, lo que afecta la actualización en tiempo real. Para reducir este problema, la app estará optimizada para consumir pocos datos y guardar información cuando no haya señal. 
+* **Dependencia del internet** En algunas zonas de Lima la señal puede fallar, lo que afecta la actualización en tiempo real. Para reducir este problema, la app estará optimizada para consumir pocos datos y guardar información cuando no haya señal. 
 
 **Oportunidades**
 
 * **Problemas de tráfico e inseguridad**
-  
+   
    El tráfico en Lima hace que los tiempos sean impredecibles. La app puede ayudar a los padres a saber cuándo llegará la movilidad y reducir el tiempo de espera en la calle.
-* **Mayor uso de tecnología** 
-  
-  Cada vez más servicios se están digitalizando, esto permite que soluciones como KidsOnWay sean mejor aceptadas por conductores y empresas de transporte.
+* **Mayor uso de tecnología** Cada vez más servicios se están digitalizando, esto permite que soluciones como KidsOnWay sean mejor aceptadas por conductores y empresas de transporte.
 
 **Amenazas**
 
 * **Competencia de otras plataformas**
-  
+   
    Existen aplicaciones más desarrolladas en otros países. Ante esta situación, KidsOnWay se enfocará en adaptarse mejor a la realidad local, con precios accesibles y soluciones más cercanas al contexto local.
-* **Resistencia al cambio** 
-  
-  Algunos conductores prefieren seguir usando métodos tradicionales, es por esto que la aplicación será simple de usar y se brindará una explicación clara de sus beneficios.
+* **Resistencia al cambio** Algunos conductores prefieren seguir usando métodos tradicionales, es por esto que la aplicación será simple de usar y se brindará una explicación clara de sus beneficios.
+
 ## **2.2. Interviews**
 ### **2.2.1. Interview Design**
-Con el objetivo de obtener información cualitativa que nos ayude a validar nuestras ideas y entender mejor a los usuarios, se diseñaron tres entrevistas para cada grupo objetivo de la plataforma KidsOnWay.Las preguntas fueron planteadas buscando obtener respuestas abiertas, para poder evitar en lo posible las respuestas de sí o nó. Además, se organizaron en bloques para conocer el perfil de los usuarios, sus hábitos tecnológicos, los problemas que enfrentan y lo que esperan de un servicio de transporte escolar.
+Con el objetivo de obtener información cualitativa que nos ayude a validar nuestras ideas y entender mejor a los usuarios, se diseñaron tres entrevistas para cada grupo objetivo de la plataforma KidsOnWay. Las preguntas fueron planteadas buscando obtener respuestas abiertas, para poder evitar en lo posible las respuestas de sí o no. Además, se organizaron en bloques para conocer el perfil de los usuarios, sus hábitos tecnológicos, los problemas que enfrentan y lo que esperan de un servicio de transporte escolar.
 
 **Segmento #1: Conductores Independientes**
 
@@ -165,7 +158,6 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
 8. ¿Cómo cree que impactaría en la confianza de los padres el ofrecerles una aplicación para monitorear el bus de sus hijos?
 9. Para adoptar una solución como KidsOnWay, ¿qué tipo de reportes o datos estadísticos necesitarían que la plataforma les entregue mensualmente?
 
-
 ### **2.2.2. Interview Recording**
 
 **Segmento 1: Conductores Independientes**
@@ -190,7 +182,7 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
     </tr>
     <tr>
       <td><b>Ocupación</b></td>
-      <td>Conductor de movilidad escolar</i></td>
+      <td>Conductor de movilidad escolar</td>
     </tr>
     <tr>
       <td><b>Distrito de residencia</b></td>
@@ -248,7 +240,7 @@ Otro punto crítico es la comunicación con los padres, ya que recibe constantem
     </tr>
     <tr>
       <td><b>Ocupación</b></td>
-      <td>Conductor de movilidad escolar</i></td>
+      <td>Conductor de movilidad escolar</td>
     </tr>
     <tr>
       <td><b>Distrito de residencia</b></td>
@@ -274,7 +266,7 @@ Otro punto crítico es la comunicación con los padres, ya que recibe constantem
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-2.png" alt="Screenshot Entrevista 1" width="400">
+        <img src="../assets/chapter-2/img/screenshot-interview-2.png" alt="Screenshot Entrevista 2" width="400">
       </td>
     </tr>
   </tbody>
@@ -308,7 +300,7 @@ Ante este contexto, Mateo valora de forma muy positiva una solución que automat
     </tr>
     <tr>
       <td><b>Ocupación</b></td>
-      <td>Conductor de movilidad escolar</i></td>
+      <td>Conductor de movilidad escolar</td>
     </tr>
     <tr>
       <td><b>Distrito de residencia</b></td>
@@ -327,14 +319,14 @@ Ante este contexto, Mateo valora de forma muy positiva una solución que automat
     </tr>
     <tr>
       <td><b>Timing de inicio</b></td>
-      <td>14.24</td>
+      <td>14:24</td>
     </tr>
     <tr>
       <th colspan="2" align="center">Screenshot</th>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-3.png" alt="Screenshot Entrevista 1" width="400">
+        <img src="../assets/chapter-2/img/screenshot-interview-3.png" alt="Screenshot Entrevista 3" width="400">
       </td>
     </tr>
   </tbody>
@@ -342,11 +334,206 @@ Ante este contexto, Mateo valora de forma muy positiva una solución que automat
 
 **Resumen de la entrevista**
 
-Joao es un conductor de movilidad escolar con varios años de experiencia, lo que le permite organizar sus rutas principalmente de memoria, apoyándose ocasionalmente en herramientas como Waze para evitar el tráfico. Su rutina diaria consiste en recoger a los alumnos respetando horarios establecidos, aunque las condiciones del tráfico en Lima suelen generarle estrés y retrasos. A diferencia de algunos conductores más nuevos, maneja mejor la dinámica del servicio con respecto a la puntialidad, pero igual se ve afectado cuando los alumnos no están listos a tiempo, ya que esto puede alterar su planificación, aunque intenta adaptarse según la situación.
+Joao es un conductor de movilidad escolar con varios años de experiencia, lo que le permite organizar sus rutas principalmente de memoria, apoyándose ocasionalmente en herramientas como Waze para evitar el tráfico. Su rutina diaria consiste en recoger a los alumnos respetando horarios establecidos, aunque las condiciones del tráfico en Lima suelen generarle estrés y retrasos. A diferencia de algunos conductores más nuevos, maneja mejor la dinámica del servicio con respecto a la puntualidad, pero igual se ve afectado cuando los alumnos no están listos a tiempo, ya que esto puede alterar su planificación, aunque intenta adaptarse según la situación.
 
 Uno de los principales retos que enfrenta es la constante comunicación con los padres, llegando a recibir varias llamadas al día para consultar su ubicación. Esto lo pone en una situación complicada ya que, aunque entiende la preocupación de los padres, responder mientras conduce implica un riesgo para él y para los estudiantes. Por esto considera que una solución que automatice los avisos sería de gran ayuda, ya que reduciría interrupciones y le permitiría enfocarse en manejar. También, resalta la importancia de que la aplicación sea simple y accesible para todo tipo de conductores. Para acabar menciona que espera que una herramienta así, le ayude a ahorrar tiempo en sus rutas, evitar retrasos y mejorar su reputación, incluso permitiéndole asumir más servicios.
 
 ### **2.2.3. Interview Analysis**
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="4" align="center">
+        <h2>Segmento 1: Conductores Independientes (Análisis Objetivo)</h2>
+      </th>
+    </tr>
+    <tr>
+      <th align="left" width="30%">Característica</th>
+      <th align="center" width="15%">Frecuencia en entrevistas</th>
+      <th align="center" width="10%">Porcentaje</th>
+      <th align="left" width="45%">Fuente en entrevistas</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><b>Uso intensivo de aplicaciones de mensajería (WhatsApp) para la gestión diaria</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Joao:</b> "uso bastante WhatsApp para comunicarme con los padres"<br>
+        <b>Mateo:</b> "lo que más utilizo en mi día a día puede ser... WhatsApp"<br>
+        <b>Marcelo:</b> "WhatsApp para los grupos de padres"
+      </td>
+    </tr>
+    <tr>
+      <td><b>El tráfico genera altos niveles de estrés, afectando su jornada y estado de ánimo</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Joao:</b> "es muy complicado... me genera a veces estrés"<br>
+        <b>Mateo:</b> "el horario es muy fuerte... hay combis que se atraviesan"<br>
+        <b>Marcelo:</b> "manejar en horas pico es muy tedioso... me pone tenso"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Frustración y efecto dominó en la ruta por demoras del alumno en el recojo</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Joao:</b> "puede afectar (la ruta), a veces no"<br>
+        <b>Mateo:</b> "me retrasa a todos los demás pasajeros... se me va alargando la ruta"<br>
+        <b>Marcelo:</b> "me malogra toda la ruta y luego tengo que estar pidiendo disculpas"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Pre-planifica la ruta con anticipación mediante calendarios o herramientas digitales</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Mateo:</b> "organizo mi ruta con un calendario... y a su vez con Google Maps"<br>
+        <b>Marcelo:</b> "utilizo Waze para marcar los puntos desde la noche anterior"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Confía principalmente en su memoria para estructurar el orden de recojo</b></td>
+      <td align="center">Mencionado por 1/3</td>
+      <td align="center">33.3%</td>
+      <td>
+        <b>Joao:</b> "mayormente lo hago por mi memoria ya que conozco a mis alumnos"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Buscan explícitamente mejorar su reputación y profesionalismo frente a los padres</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Joao:</b> "mejorar mi reputación con los padres"<br>
+        <b>Marcelo:</b> "me daría mucha autoridad... quisiera ganar reputación"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Priorizan el ahorro económico directo (gasolina y batería) gracias a la app</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Mateo:</b> "económico por el ahorro en combustible... gasto menos electricidad"<br>
+        <b>Marcelo:</b> "ahorrar gasolina al no tener que estar dando vueltas o parado"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Han experimentado maniobras de peligro (giros, frenos secos) por usar el celular</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Mateo:</b> "ha venido una combi y se me ha metido y he tenido que hacer un giro inesperado"<br>
+        <b>Marcelo:</b> "casi freno en seco porque el de adelante paró de la nada"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Reciben interrupciones en ruta por objetos olvidados de los estudiantes</b></td>
+      <td align="center">Mencionado por 1/3</td>
+      <td align="center">33.3%</td>
+      <td>
+        <b>Mateo:</b> "alguno de los niños se les ha olvidado la lonchera o alguna cosa... y me están llamando"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Validación positiva de alertas automáticas para mejorar la concentración</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Joao:</b> "me permitiría concentrarme más en manejar"<br>
+        <b>Mateo:</b> "no tendría que estar mirando dos cosas a la vez"<br>
+        <b>Marcelo:</b> "me dejarían de escribir tanto y solo me concentraría en manejar bien"
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="4" align="center">
+        <h2>Segmento 1: Conductores Independientes (Análisis Subjetivo)</h2>
+      </th>
+    </tr>
+    <tr>
+      <th align="left" width="30%">Característica</th>
+      <th align="center" width="15%">Frecuencia en entrevistas</th>
+      <th align="center" width="10%">Porcentaje</th>
+      <th align="left" width="45%">Fuente en entrevistas</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><b>Siente presión constante por responder a los padres y generar confianza</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Joao:</b> "sé que los padres de familia... deben estar preocupados"<br>
+        <b>Mateo:</b> "los padres que ya están con el tiempo ya establecido me llaman y me dicen de que dónde estoy"<br>
+        <b>Marcelo:</b> "Es una presión extra porque quiero contestar para que confíen en mí"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Tiene dificultades para manejar y responder mensajes al mismo tiempo</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Joao:</b> "mirar el celular mientras manejo... es muy riesgoso para mí y para los alumnos"<br>
+        <b>Mateo:</b> "tengo que estar haciendo las dos cosas a la vez... son varias cosas que estoy viendo en el mismo instante y no me puedo concentrar"<br>
+        <b>Marcelo:</b> "por querer dar un buen servicio me estaba arriesgando"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Los retrasos de alumnos afectan toda su ruta y generan quejas de otros padres</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Mateo:</b> "me retrasa a todos los demás pasajeros... las mamás me comienzan a escribir"<br>
+        <b>Marcelo:</b> "lo que más me mata es que me hacen quedar mal con el siguiente padre"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Busca ser visto como un conductor confiable y organizado por los padres</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Joao:</b> "mejorar mi reputación con los padres"<br>
+        <b>Marcelo:</b> "que me recomienden porque soy el tío de la movilidad que tiene todo bajo control"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Percibe que usar tecnología mejora su imagen frente a los padres</b></td>
+      <td align="center">Mencionado por 1/3</td>
+      <td align="center">33.3%</td>
+      <td>
+        <b>Marcelo:</b> "Me daría mucha autoridad y profesionalismo. Los padres verían que soy tecnológico y además organizado"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Algunos conductores sienten inseguridad por su poca experiencia en el rubro</b></td>
+      <td align="center">Mencionado por 1/3</td>
+      <td align="center">33.3%</td>
+      <td>
+        <b>Marcelo:</b> "me preocupa que piensen que soy impuntual por ser joven"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Existe diferencia en el uso de tecnología según la edad o experiencia del conductor</b></td>
+      <td align="center">Mencionado por 1/3</td>
+      <td align="center">33.3%</td>
+      <td>
+        <b>Joao:</b> "hay otros colegas... más mayores que yo que pueden tener una dificultad al ver"
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## **2.3. Needfinding**
 ### **2.3.1. User Personas**
 ### **2.3.2. User Task Matrix**
