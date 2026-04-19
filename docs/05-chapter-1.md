@@ -25,6 +25,92 @@ Convertirnos en la plataforma líder y el estándar de seguridad en el transport
   * **Innovación:** Mejoramos constantemente nuestra plataforma mediante el uso de tecnologías modernas que facilitan la experiencia de usuarios y conductores.
 
 ### **1.1.2. Team Member Profiles**
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td width="30%" align="center" valign="middle">
+        <img src="../assets/chapter-1/img/alonso-higa-image.jpg" alt="Foto de Alonso Higa" width="180" style="border-radius: 8px;">
+        <br>
+        <i></i>
+      </td>
+      <td width="70%" valign="top" style="padding-left: 20px;">
+        <h3>Alonso Enrique Higa Kohatsu</h3>
+        <p><b>Código de estudiante:</b> u202416276</p>
+        <p><b>Edad:</b> 19 años</p>
+        <p><b>Carrera:</b> Ingeniería de Software</p>
+        <br>
+        <p><b>Sobre mí:</b></p>
+        <p>Me apasiona la tecnología y aprender cosas nuevas. Tengo conocimientos en C++ y un poco de Python y actualmente estoy enfocado en el aprendizaje de desarrollo web con Spring Boot. Me considero una persona curiosa, en constante aprendizaje y firmemente comprometido con el logro de mis objetivos profesionales y personales.</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" align="center" valign="middle">
+        <img src="" alt="Foto de " width="180" style="border-radius: 8px;">
+        <br>
+        <i></i>
+      </td>
+      <td width="70%" valign="top" style="padding-left: 20px;">
+        <h3>Nombre</h3>
+        <p><b>Código de estudiante:</b> </p>
+        <p><b>Edad:</b> </p>
+        <p><b>Carrera:</b> </p>
+        <br>
+        <p><b>Sobre mí:</b></p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" align="center" valign="middle">
+        <img src="" alt="Foto de " width="180" style="border-radius: 8px;">
+        <br>
+        <i></i>
+      </td>
+      <td width="70%" valign="top" style="padding-left: 20px;">
+        <h3>Nombre</h3>
+        <p><b>Código de estudiante:</b> </p>
+        <p><b>Edad:</b> </p>
+        <p><b>Carrera:</b> </p>
+        <br>
+        <p><b>Sobre mí:</b></p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" align="center" valign="middle">
+        <img src="" alt="Foto de " width="180" style="border-radius: 8px;">
+        <br>
+        <i></i>
+      </td>
+      <td width="70%" valign="top" style="padding-left: 20px;">
+        <h3>Nombre</h3>
+        <p><b>Código de estudiante:</b> </p>
+        <p><b>Edad:</b> </p>
+        <p><b>Carrera:</b> </p>
+        <br>
+        <p><b>Sobre mí:</b></p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td width="30%" align="center" valign="middle">
+        <img src="" alt="Foto de " width="180" style="border-radius: 8px;">
+        <br>
+        <i></i>
+      </td>
+      <td width="70%" valign="top" style="padding-left: 20px;">
+        <h3>Nombre</h3>
+        <p><b>Código de estudiante:</b> </p>
+        <p><b>Edad:</b> </p>
+        <p><b>Carrera:</b> </p>
+        <br>
+        <p><b>Sobre mí:</b></p>
+        <p></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## **1.2. Solution Profile**
 ### **1.2.1 Background and Problem Statement**
 El servicio de movilidad escolar en el Perú se ha caracterizado históricamente por un alto nivel de informalidad y la ausencia de estándares tecnológicos. Las familias confían el traslado de sus hijos a terceros basándose en la recomendación de otro padre, pero carecen de una plataforma dedicada que profesionalice el servicio y les brinde visibilidad durante los trayectos. Al no existir un sistema de seguimiento en tiempo real, los padres de familia experimentan una constante incertidumbre, desconociendo si los estudiantes abordaron la unidad de forma segura o si llegaron a su destino.
@@ -56,7 +142,7 @@ En este contexto, la problemática principal que buscamos afrontar es la falta d
   Esto genera más gasto de tiempo y combustible para los conductores y para los padres involucra una preocupación constante y tiempo perdido esperando sin información clara.
 ### **1.2.2 Lean UX Process**
 #### **1.2.2.1. Lean UX Problem Statements**
-Los servicios de movilidad escolar en el Perú, sobre todo los que son manejados por conductores independientes o pequeñas empresas, todavía tienen poco uso de tecnología para controlar y dar seguimiento a los trayectos diarios, de igual manera pasa con colegios que tienen su propia movilidad. Esto afecta directamente la tranquilidad de los padres, ya que muchas veces no saben con certeza dónde se encuentran sus hijos y también, complica el trabajo de los conductores.
+Los servicios de movilidad escolar en el Perú, sobre todo los que son manejados por conductores independientes o pequeñas empresas, todavía tienen poco uso de tecnología para controlar y dar seguimiento a los trayectos diarios. Esto afecta directamente la tranquilidad de los padres, ya que muchas veces no saben con certeza dónde se encuentran sus hijos y también, complica el trabajo de los conductores.
 
 Actualmente, la comunicación se basa en llamadas o mensajes y el control de la asistencia suele hacerse de forma manual, haciendolo propenso a un posible error. Esto puede generar confusión, retrasos y poca coordinación cuando ocurre algún imprevisto durante el recorrido, ya sea si un padre se olvido de notificar que su hijo no iba a asistir o que algún estudiante se demore más de lo previsto.
 
@@ -72,7 +158,7 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 **Business Outcomes**
 * Establecer a MoviSafe como la herramienta tecnológica estándar para el transporte escolar en Lima Metropolitana.
 * Aumentar la retención de los conductores afiliados al demostrarles ahorro en tiempo y combustible.
-* Generar ingresos recurrentes mediante un modelo SaaS dirigido a empresas de transporte, colegios y para conductores independientes.
+* Generar ingresos recurrentes mediante un modelo SaaS dirigido a empresas de transporte y para conductores independientes.
 * Fomentar la formalización y profesionalización del sector de movilidad escolar.
 
 **User Benefits**
@@ -82,9 +168,6 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 * **Conductores** 
   
   Ahorrar tiempo en cada parada y reducir el consumo de combustible al evitar esperas innecesarias y reducir sus tareas manuales de responder llamadas o mensajes.
-* **Colegios** 
-  
-  Ofrecer un valor agregado de alta seguridad a su comunidad educativa, mostrando que no solo cuidan a sus estudiantes dentro, sino que también fuera de la institución.
 
 **Assumptions**
 * Se cree que los padres de familia tienen una necesidad urgente de visibilidad y control sobre el transporte escolar.
@@ -92,7 +175,7 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 * Nuestros clientes iniciales son conductores independientes y padres de familia de colegios privados que buscan modernizar su servicio.
 * Lo que un padre quiere de nuestro servicio es la tranquilidad y lo que espera el conductor es la eficiencia y reducción de tareas.
 * Vamos a adquirir a nuestros primeros clientes a través de alianzas con Asociaciones de Padres de Familia y recomendaciones boca a boca entre conductores de una misma zona.
-* Haremos dinero a través de planes de suscripción mensual pagados por el conductor independiente, la empresa de transportes o el colegio.
+* Haremos dinero a través de planes de suscripción mensual pagados por el conductor independiente o la empresa de transportes.
 * Nuestra competencia principal actual son los métodos informales como son los grupos de WhatsApp y algunas plataformas genéricas de rastreo GPS vehicular.
 * Nuestro mayor riesgo es la resistencia al cambio por parte de conductores mayores o la pérdida de señal GPS/Internet en ciertas zonas urbanas.
 
@@ -118,18 +201,23 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 #### **1.2.2.3. Lean UX Hypothesis Statements**
 * Creemos que implementar alertas automáticas de proximidad podrá ayudar a los conductores y a los padres a tener un mejor control del recorrido, reduciendo los tiempos de espera y la necesidad de comunicarse constantemente. Se podrá saber que funciona sí el tiempo de parada se reduce a menos de 2 minutos y las llamadas o mensajes bajan en un 80%.
 
-* Creemos que desarrollar un dashboard web para los colegios permitirá tener un mejor control de sus movilidades y de las rutas que realizan. Sabremos que funciona si al menos 2 instituciones educativas aceptan probar la plataforma durante el primer trimestre.
+* Creemos que desarrollar un dashboard web para los padres de familia permitirá tener un mejor control de la movilidad y de las rutas que realizan. Sabremos que funciona si al menos 1 conductores independientes aceptan probar la plataforma durante el primer trimestre.
 
 * Creemos que contar con un registro digital automático de asistencia dará mayor tranquilidad a los padres, ya que podrán saber si sus hijos subieron o llegaron correctamente. Sabremos que funciona si la satisfacción de los usuarios y el uso diario de la aplicación supera el 80% en el primer mes.
 
 * Creemos que diseñar una interfaz simple y fácil de usar para el conductor reducirá distracciones y facilitará su uso durante el trabajo. Sabremos que funciona si el 90% de los conductores considera que la aplicación es intuitiva y no afecta su atención al manejar.
 #### **1.2.2.4. Lean UX Canvas**
 ![Lean UX Canvas](../assets/chapter-1/img/lean-ux-canvas.png)
+
+Mediante el Lean UX Canvas de KidWay permite identificar de forma clara los principales problemas del servicio de movilidad escolar, destacando la falta de digitalización como el eje central. Esto se traduce en rutas desorganizadas, tiempos de espera innecesarios y situaciones de riesgo, ya que los conductores deben usar el celular mientras manejan para comunicarse con los padres. Ante esta situación, se plantea una solución basada en una plataforma web dirigida a padres y conductores, junto con un dashboard para padres de familia, que permita conocer la ubicación en tiempo real y recibir notificaciones automáticas sin necesidad de interacción constante.
+
+A partir de esta propuesta, se espera mejorar la organización del servicio, reducir las distracciones al volante y brindar mayor tranquilidad a las familias. Además, se considera viable un modelo de ingresos por suscripción a largo plazo. Se plantea desarrollar un MVP enfocado en funciones clave como la ubicación en tiempo real y las alertas de proximidad, el cual será probado en una ruta real para validar su utilidad y comprobar si realmente mejora la experiencia tanto para conductores como para padres.
+
 ## **1.3. Target Segments**
 ### Segmento #1 Conductores Independientes
 * **Aspectos demográficos**
   * **Sexo:** Masculino y femenino
-  * **Edades:** Entre 35 y 60 años
+  * **Edades:** Entre 20 y 60 años
   * **Nivel socioeconómico:** Clases B y C
 * **Aspectos geográficos**
   * **Nacionalidad:** Peruana o Venezolana
@@ -145,7 +233,7 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
 ### Segmento #2 Empresas dedicadas a movilidad escolar
 * **Aspectos demográficos**
   * **Perfil:** Dueños o administradores de flotas pequeñas
-  * **Edades:** Entre 40 y 60 años
+  * **Edades:** Entre 30 y 60 años
   * **Nivel socioeconómico:** Clases A y B
 * **Aspectos geográficos**
   * **Nacionalidad:** Peruana o Venezolana
@@ -157,16 +245,3 @@ De esta manera, buscamos mejorar la organización del servicio y brindar mayor t
   * Necesitan dashboards administrativos para monitorear a sus choferes en tiempo real y justificar la calidad de su servicio
 * **Información estadística de sustento**
   * Para las pequeñas y medianas empresas del sector transporte, no contar con herramientas digitales hace que su trabajo sea más lento y costoso. Incorporar soluciones tecnológicas puede ayudar a organizar mejor sus operaciones y reducir gastos innecesarios (Ministerio de Transportes y Comunicaciones, s.f.). De esta manera, las empresas de movilidad escolar necesitan apoyarse en herramientas que les permitan monitorear sus unidades, mejorar sus tiempos y ser más competitivas en el mercado.
-### Segmento #3 Colegios con movilidad propia
-* **Aspectos demográficos**
-  * **Perfil:** Directores o jefes de logística en instituciones educativas privadas
-  * **Nivel socioeconómico:** Clases A y B
-* **Aspectos geográficos**
-  * **Zona geográfica:** Distritos urbanos de nivel socioeconómico medio alto y alto
-  * **Departamento:** Lima Metropolitana
-* **Aspectos psicográficos**
-  * Buscan brindar una experiencia de máxima seguridad para justificar el costo de sus pensiones y servicios adicionales
-  * Buscan evitar problemas legales y cuidar su reputación, por lo que necesitan llevar un registro claro de la asistencia de los estudiantes.
-  * Valoran plataformas que se puedan integrar a la gestión institucional del colegio.
-* **Información estadística de sustento**
-  * Actualmente, la inseguridad ciudadana es un problema que afecta directamente a las instituciones educativas en Lima Metropolitana. Por una parte, el aumento de extorsiones y por otra parte, los riesgos en las calles ha llevado a que muchos padres acompañen o supervisen de cerca los traslados de sus hijos y que también exijan a los colegios mayores medidas de seguridad (Educación al Futuro, s.f.). En este contexto, contar con un servicio de movilidad monitoreado con tecnología se vuelve clave para brindar mayor tranquilidad a las familias y generar confianza en las instituciones.
