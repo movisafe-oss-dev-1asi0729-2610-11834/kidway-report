@@ -721,94 +721,91 @@
   </tr>
 
   <!-- US 28 -->
-|US28|Visualizar recorrido en tiempo real|Como administrador, quiero ver el recorrido que está realizando cada unidad, para validar el cumplimiento de la ruta.|Criterios de aceptación: <br>Se muestra trayectoria en el mapa. <br>Se actualiza conforme avanza la unidad. <br>Permite identificar el progreso.|EP04|
   <tr>
     <td style="text-align: center;">
-    US07
+    US28
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Visualizar recorrido en tiempo real
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como administrador, quiero ver el recorrido que está realizando cada unidad, para validar el cumplimiento de la ruta.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Se muestra trayectoria en el mapa. 
+    <br>Se actualiza conforme avanza la unidad. 
+    <br>Permite identificar el progreso.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP04
     </td>
   </tr>
 
   <!-- US 29 -->
-|US29|Historial reciente de ubicación|Como administrador, quiero consultar las ubicaciones recientes de una unidad, para analizar su comportamiento.|Criterios de aceptación: <br>Se muestran ubicaciones recientes. <br>Orden cronológico. <br>Accesible desde el detalle de la unidad.|EP04|
   <tr>
     <td style="text-align: center;">
-    US07
+    US29
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Historial reciente de ubicación
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como administrador, quiero consultar las ubicaciones recientes de una unidad, para analizar su comportamiento.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Se muestran ubicaciones recientes. 
+    <br>Orden cronológico. 
+    <br>Accesible desde el detalle de la unidad.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP04
     </td>
   </tr>
 
   <!-- US 30 -->
-|US30|Actualización automática de datos|Como administrador, quiero que la información se actualice automáticamente, para no tener que recargar manualmente.|Criterios de aceptación: <br>Actualización en intervalos cortos. <br>No requiere recarga manual. <br>Se mostrará la hora donde fue la última actualización. <br>No interrumpe la navegación.|EP04|
   <tr>
     <td style="text-align: center;">
-    US07
+    US30
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Actualización automática de datos
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como administrador, quiero que la información se actualice automáticamente, para no tener que recargar manualmente.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Actualización en intervalos cortos. 
+    <br>No requiere recarga manual. 
+    <br>Se mostrará la hora donde fue la última actualización. 
+    <br>No interrumpe la navegación.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP04
     </td>
   </tr>
 
   <!-- US 31 -->
-|US31|Generar reporte de recorridos|Como administrador, quiero generar reportes de recorridos realizados, para analizar el cumplimiento de rutas.|Criterios de aceptación: <br>Permite generar reporte por rango de fechas. <br>Incluye rutas realizadas por unidad. <br>Se puede visualizar en pantalla.|EP05|
   <tr>
     <td style="text-align: center;">
-    US07
+    US31
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Generar reporte de recorridos
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como administrador, quiero generar reportes de recorridos realizados, para analizar el cumplimiento de rutas.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Permite generar reporte por rango de fechas. 
+    <br>Incluye rutas realizadas por unidad. 
+    <br>Se puede visualizar en pantalla.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP05
     </td>
   </tr>
 
@@ -816,7 +813,7 @@
 |US32|Generar reporte de desempeño|Como administrador, quiero visualizar métricas de desempeño de conductores y unidades, para evaluar la eficiencia operativa.|Criterios de aceptación: <br>Muestra métricas clave (tiempos, paradas completadas). <br>Información agrupada por conductor o unidad. <br>Datos claros y comprensibles.|EP05|
   <tr>
     <td style="text-align: center;">
-    US07
+    US32
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -831,7 +828,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP05
     </td>
   </tr>
 
@@ -839,7 +836,7 @@
 |US33|Exportar reportes|Como administrador, quiero exportar reportes, para compartirlos o analizarlos externamente.|Criterios de aceptación: <br>Permite exportar en formato PDF o Excel. <br>Descarga rápida del archivo. <br>Incluye la información seleccionada.|EP05|
   <tr>
     <td style="text-align: center;">
-    US07
+    US33
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -854,7 +851,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP05
     </td>
   </tr>
 
@@ -862,7 +859,7 @@
 |US34|Filtrar reportes|Como administrador, quiero aplicar filtros a los reportes, para enfocarme en información específica.|Criterios de aceptación: <br>Permite filtrar por fecha. <br>Permite filtrar por conductor o unidad. <br>La información se actualiza según filtros.|EP05|
   <tr>
     <td style="text-align: center;">
-    US07
+    US34
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -877,7 +874,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP05
     </td>
   </tr>
 
@@ -885,7 +882,7 @@
 |US35|Visualizar incidencias en reportes|Como administrador, quiero incluir incidencias en los reportes, para tener contexto completo del servicio.|Criterios de aceptación: <br>Se muestran incidencias registradas. <br>Asociadas a rutas o unidades. <br>Incluidas en reportes generados.|EP05|
   <tr>
     <td style="text-align: center;">
-    US07
+    US35
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -900,7 +897,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP05
     </td>
   </tr>
 
@@ -908,7 +905,7 @@
 |US36|Resumen general |Como administrador, quiero ver un resumen general del desempeño, para tomar decisiones rápidas.|Criterios de aceptación: <br>Muestra indicadores clave resumidos. <br>Vista simple y clara. <br>Actualización periódica.|EP05|
   <tr>
     <td style="text-align: center;">
-    US07
+    US36
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -923,7 +920,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP05
     </td>
   </tr>
 
@@ -931,7 +928,7 @@
 |US37|Descarga rápida de reportes recientes|Como administrador, quiero acceder rápidamente a reportes recientes, para ahorrar tiempo en consultas frecuentes.|Criterios de aceptación: <br>Lista de reportes recientes. <br>Acceso con un clic. <br>No requiere volver a generarlos.|EP05|
   <tr>
     <td style="text-align: center;">
-    US07
+    US37
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -946,7 +943,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP05
     </td>
   </tr>
 
@@ -954,7 +951,7 @@
 |US38|Visualizar unidades en tiempo real|Como institución educativa, quiero ver las unidades en un mapa en tiempo real, para supervisar su ubicación.|Criterios de aceptación: <br>Se muestra mapa con todas las unidades activas. <br>Cada unidad tiene identificación visible. <br>La ubicación se actualiza automáticamente.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US38
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -969,7 +966,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
@@ -977,7 +974,7 @@
 |US39|Visualizar detalle de unidad|Como institución educativa, quiero ver la información de cada unidad, para conocer su estado operativo.|Criterios de aceptación: <br>Se muestra conductor, ruta y estado. <br>Acceso al seleccionar una unidad. <br>Información actualizada en tiempo real.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US39
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -992,7 +989,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
@@ -1000,7 +997,7 @@
 |US40|Visualizar cumplimiento de rutas|Como institución educativa, quiero verificar si las rutas se están cumpliendo, para asegurar el correcto servicio.|Criterios de aceptación: <br>Se muestra progreso de cada ruta. <br>Indica paradas completadas y pendientes. <br>Actualización en tiempo real.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US40
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -1015,7 +1012,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
@@ -1023,7 +1020,7 @@
 |US41|Alertas de retraso|Como institución educativa, quiero recibir alertas cuando una unidad presente retrasos, para tomar acciones oportunas.|Criterios de aceptación: <br>Detecta retrasos respecto a la ruta. <br>Genera alerta visual o notificación. <br>Identifica la unidad afectada.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US41
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -1038,7 +1035,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
@@ -1046,7 +1043,7 @@
 |US42|Visualizar incidencias en tiempo real|Como institución educativa, quiero ver incidencias registradas durante el recorrido, para tener control del servicio.|Criterios de aceptación: <br>Se muestran incidencias activas. <br>Asociadas a unidades o rutas. <br>Actualización inmediata.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US42
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -1061,7 +1058,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
@@ -1069,7 +1066,7 @@
 |US43|Filtrar unidades y rutas|Como institución educativa, quiero filtrar unidades o rutas, para enfocarme en información específica.|Criterios de aceptación: <br>Permite filtrar por ruta. <br>Permite filtrar por estado. <br>Vista se actualiza dinámicamente.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US43
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -1084,7 +1081,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
@@ -1092,7 +1089,7 @@
 |US44|Visualizar historial reciente|Como institución educativa, quiero consultar el historial reciente de recorridos, para validar el servicio.|Criterios de aceptación: <br>Acceso a recorridos recientes. <br>Orden cronológico. <br>Incluye información básica.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US44
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -1107,7 +1104,7 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
@@ -1115,7 +1112,7 @@
 |US45|Actualización automática del monitoreo|Como institución educativa, quiero que la información se actualice automáticamente, para no recargar manualmente.|Criterios de aceptación: <br>Actualización en tiempo real. <br>No requiere interacción del usuario. <br>No interrumpe la visualización.|EP06|
   <tr>
     <td style="text-align: center;">
-    US07
+    US45
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -1130,15 +1127,15 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP06
     </td>
   </tr>
 
   <!-- US 46 -->
-|US46|Visualizar historial de recorridos|Como institución educativa, quiero consultar el historial de recorridos realizados, para verificar el cumplimiento del servicio.|Criterios de aceptación: <br>Se muestra lista de recorridos pasados. <br>Ordenados por fecha. <br>Incluye información básica (ruta, unidad, conductor).|EP07|
+|US46|||Criterios de aceptación: <br>Se muestra lista de recorridos pasados. <br>Ordenados por fecha. <br>Incluye información básica (ruta, unidad, conductor).|EP07|
   <tr>
     <td style="text-align: center;">
-    US07
+    US046
     </td>
     <td style="text-align: center;">
     Confirmación visual rápida
@@ -1153,145 +1150,139 @@
     <br>Interfaz optimizada para uso rápido
     </td>
     <td style="text-align: center;">
-    EP01
+    EP07
     </td>
   </tr>
 
   <!-- US 47 -->
-|US47|Visualizar detalle de recorrido|Como institución educativa, quiero ver el detalle de un recorrido específico, para analizar lo sucedido.|Criterios de aceptación: <br>Muestra ruta completa realizada. <br>Incluye paradas y tiempos. <br>Información clara y organizada.|EP07|
   <tr>
     <td style="text-align: center;">
-    US07
+    US47
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Visualizar detalle de recorrido
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como institución educativa, quiero ver el detalle de un recorrido específico, para analizar lo sucedido.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Muestra ruta completa realizada. 
+    <br>Incluye paradas y tiempos. 
+    <br>Información clara y organizada.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP07
     </td>
   </tr>
 
   <!-- US 48 -->
-|US48|Visualizar incidencias históricas|Como institución educativa, quiero consultar incidencias registradas en recorridos pasados, para tener contexto ante problemas.|Criterios de aceptación: <br>Lista de incidencias por recorrido. <br>Incluye tipo, hora y descripción. <br>Asociadas correctamente a rutas.|EP07|
   <tr>
     <td style="text-align: center;">
-    US07
+    US48
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Visualizar incidencias históricas
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como institución educativa, quiero consultar incidencias registradas en recorridos pasados, para tener contexto ante problemas.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Lista de incidencias por recorrido. 
+    <br>Incluye tipo, hora y descripción. 
+    <br>Asociadas correctamente a rutas.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP07
     </td>
   </tr>
 
   <!-- US 49 -->
-|US49|Filtrar historial|Como institución educativa, quiero filtrar el historial por fechas, rutas o unidades, para encontrar información específica.|Criterios de aceptación: <br>Permite filtrar por fecha. <br>Permite filtrar por ruta o unidad. <br>Resultados se actualizan dinámicamente.|EP07|
   <tr>
     <td style="text-align: center;">
-    US07
+    US49
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Filtrar historial
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como institución educativa, quiero filtrar el historial por fechas, rutas o unidades, para encontrar información específica.
     </td>
     <td style="text-align: center;">
-    Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    Criterios de aceptación:
+    <br>Permite filtrar por fecha.
+    <br>Permite filtrar por ruta o unidad.
+    <br>Resultados se actualizan dinámicamente.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP07
     </td>
   </tr>
 
   <!-- US 50 -->
-|US50|Exportar historial|Como institución educativa, quiero exportar registros históricos, para respaldar información ante incidentes o auditorías.|Criterios de aceptación: <br>Permite exportar en PDF o Excel. <br>Incluye datos filtrados. <br>Descarga rápida del archivo.|EP07|
   <tr>
     <td style="text-align: center;">
-    US07
+    US50
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Exportar historial
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como institución educativa, quiero exportar registros históricos, para respaldar información ante incidentes o auditorías.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Permite exportar en PDF o Excel. 
+    <br>Incluye datos filtrados. 
+    <br>Descarga rápida del archivo.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP07
     </td>
   </tr>
 
   <!-- US 51 -->
-|US51|Registro de evidencia automática|Como institución educativa, quiero que el sistema registre automáticamente datos de cada recorrido, para no depender de procesos manuales.|Criterios de aceptación: <br>Se guarda información de rutas automáticamente. <br>Incluye hora, ubicación y eventos. <br>No requiere intervención del usuario.|EP07|
   <tr>
     <td style="text-align: center;">
-    US07
+    US51
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Registro de evidencia automática
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como institución educativa, quiero que el sistema registre automáticamente datos de cada recorrido, para no depender de procesos manuales.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Se guarda información de rutas automáticamente. 
+    <br>Incluye hora, ubicación y eventos. 
+    <br>No requiere intervención del usuario.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP07
     </td>
   </tr>
 
   <!-- US 52 -->
-|US52|Consulta rápida de eventos|Como institución educativa, quiero acceder rápidamente a eventos relevantes, para responder ante incidentes.|Criterios de aceptación: <br>Lista de eventos importantes. <br>Acceso rápido desde panel. <br>Información clara y resumida.|EP07|
   <tr>
     <td style="text-align: center;">
-    US07
+    US52
     </td>
     <td style="text-align: center;">
-    Confirmación visual rápida
+    Consulta rápida de eventos
     </td>
     <td style="text-align: center;">
-    Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.
+    Como institución educativa, quiero acceder rápidamente a eventos relevantes, para responder ante incidentes.
     </td>
     <td style="text-align: center;">
     Criterios de aceptación: 
-    <br>Código de colores 
-    <br>Vista clara y legible en movimiento. 
-    <br>Interfaz optimizada para uso rápido
+    <br>Lista de eventos importantes. 
+    <br>Acceso rápido desde panel. 
+    <br>Información clara y resumida.
     </td>
     <td style="text-align: center;">
-    EP01
+    EP07
     </td>
   </tr>
  
