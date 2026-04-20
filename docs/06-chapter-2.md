@@ -901,7 +901,25 @@ Luis considera que contar con un dashboard centralizado podría ser clave para m
 </table>
 
 ## **2.3. Needfinding**
-### **2.3.1. User Personas**
+### **2.3.1. User Person**
+
+Los User Persona han sido construidos como representaciones de los principales tipos de usuarios de KidsOnWay. Estos perfiles se basan directamente en los hallazgos obtenidos durante las entrevistas, donde se identificaron problemas recurrentes como el estrés, la dificultad de gestionar varias tareas al mismo tiempo y los riesgos al usar el celular mientras se conduce o se coordina una ruta.
+
+Además, se consideró el análisis de la competencia, lo que permitió entender que los usuarios buscan soluciones más simples y automatizadas que las opciones actuales del mercado. En este contexto, se identificó la necesidad de una herramienta que reduzca la intervención manual y facilite el uso en situaciones reales.
+
+**Segmento 1: Conductores Independientes**
+
+Este arquetipo representa a los conductores propietarios de sus propios vehículos que operan de manera independiente. Su principal motivación es brindar un servicio seguro y mantener una buena reputación, pero se ven constantemente frustrados por el estrés del tráfico de Lima y las interrupciones telefónicas de los padres. Valoran la tecnología, siempre y cuando esta ofrezca herramientas automáticas y extremadamente simples de usar que les permitan mantener su atención total en la conducción.
+
+<img src="../assets/chapter-2/img/user-person-carlos-núñez.png" alt="User Persona - Carlos Núñez" width="600">
+
+
+**Segmento 2: Empresas de Movilidad Escolar**
+
+Este arquetipo representa a los dueños y administradores de pequeñas y medianas empresas de movilidad escolar, cuya principal motivación es optimizar la eficiencia de sus operaciones y proyectar una imagen de seguridad y confianza hacia los padres de familia, sin embargo se ven constantemente limitados por la falta de visibilidad en tiempo real de su flota y por la desorganización que implica coordinar todo de forma manual mediante WhatsApp. Es por esto que valoran soluciones tecnológicas que les permitan centralizar el monitoreo de sus unidades y automatizar la comunicación, reduciendo la carga operativa y evitando la dependencia de llamadas y mensajes, para así enfocarse en mejorar el servicio y fortalecer el crecimiento y prestigio de su negocio.
+
+<img src="../assets/chapter-2/img/user-person-valeria-perez.png" alt="User Persona - Carlos Núñez" width="600">
+
 ### **2.3.2. User Task Matrix**
 ### **2.3.3. User Journey Mapping**
 ### **2.3.4. Empathy Mapping**
