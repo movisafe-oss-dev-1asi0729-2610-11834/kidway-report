@@ -252,7 +252,7 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-1.png" alt="Screenshot Entrevista 1" width="400">
+        <img src="../assets/chapter-2/img/screenshot-interview-carlos-mansilla.png" alt="Screenshot Entrevista 1" width="400">
       </td>
     </tr>
   </tbody>
@@ -310,7 +310,7 @@ Otro punto crítico es la comunicación con los padres, ya que recibe constantem
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-2.png" alt="Screenshot Entrevista 2" width="400">
+        <img src="../assets/chapter-2/img/screenshot-interview-mateo-de-mendiburu.png" alt="Screenshot Entrevista 2" width="400">
       </td>
     </tr>
   </tbody>
@@ -370,7 +370,7 @@ Ante este contexto, Mateo valora de forma muy positiva una solución que automat
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-3.png" alt="Screenshot Entrevista 3" width="400">
+        <img src="../assets/chapter-2/img/screenshot-interview-joao-jimenez.png" alt="Screenshot Entrevista 3" width="400">
       </td>
     </tr>
   </tbody>
@@ -381,6 +381,192 @@ Ante este contexto, Mateo valora de forma muy positiva una solución que automat
 Joao es un conductor de movilidad escolar con varios años de experiencia, lo que le permite organizar sus rutas principalmente de memoria, apoyándose ocasionalmente en herramientas como Waze para evitar el tráfico. Su rutina diaria consiste en recoger a los alumnos respetando horarios establecidos, aunque las condiciones del tráfico en Lima suelen generarle estrés y retrasos. A diferencia de algunos conductores más nuevos, maneja mejor la dinámica del servicio con respecto a la puntualidad, pero igual se ve afectado cuando los alumnos no están listos a tiempo, ya que esto puede alterar su planificación, aunque intenta adaptarse según la situación.
 
 Uno de los principales retos que enfrenta es la constante comunicación con los padres, llegando a recibir varias llamadas al día para consultar su ubicación. Esto lo pone en una situación complicada ya que, aunque entiende la preocupación de los padres, responder mientras conduce implica un riesgo para él y para los estudiantes. Por esto considera que una solución que automatice los avisos sería de gran ayuda, ya que reduciría interrupciones y le permitiría enfocarse en manejar. También, resalta la importancia de que la aplicación sea simple y accesible para todo tipo de conductores. Para acabar menciona que espera que una herramienta así, le ayude a ahorrar tiempo en sus rutas, evitar retrasos y mejorar su reputación, incluso permitiéndole asumir más servicios.
+
+**Segmento 2: Empresas dedicadas a movilidad escolar**
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #1</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Datos del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre completo</b></td>
+      <td>Cheyla Paredes Mattos</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>27 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Administradora de empresa de movilidad escolar</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Ate</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del video</th>
+    </tr>
+    <tr>
+      <td><b>Link</b></td>
+      <td><a href="(link)" target="_blank">(link)</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>3:55</td>
+    </tr>
+    <tr>
+      <td><b>Timing de inicio</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Screenshot</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-2/img/screenshot-interview-cheyla-paredes.png" alt="Screenshot Entrevista 1" width="400">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen de la entrevista**
+
+Cheyla Paredes Mattos administra una empresa de movilidad escolar en Santa Clara con una flota de 15 microbuses que operan principalmente en La Molina y Ate. En su día a día enfrenta retos como la congestión vehicular especialmente en la avenida Javier Prado y la necesidad de reaccionar rápidamente ante cambios de última hora por inasistencias. Actualmente, la supervisión de rutas es manual y dispersa, ya que depende de un GPS básico y de reportes por WhatsApp enviados por los conductores. El control de asistencia también es mixto, combinando registros en papel con fotografías enviadas como respaldo digital.
+
+En el plano operativo, uno de sus mayores costos proviene del mantenimiento correctivo debido al estado de las vías, el cual intenta reducir mediante revisiones preventivas. A nivel de servicio, las principales quejas de los padres están relacionadas con la falta de sincronización en los horarios, ya sea por llegadas anticipadas o retrasos sin previo aviso, lo que afecta la percepción de calidad del servicio.
+
+Cheyla considera que un dashboard centralizado sería clave para mejorar su gestión, ya que le permitiría monitorear todas las unidades en tiempo real sin depender de múltiples canales de comunicación. Además, ve valor en ofrecer una aplicación a los padres como un diferenciador competitivo que proyecte mayor seguridad y modernidad. Para adoptar una solución como KidsOnWay, esperaría contar con reportes claros y útiles, como indicadores de puntualidad de los conductores y estimaciones de consumo de combustible por ruta.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #2</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Datos del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre completo</b></td>
+      <td>Dery Estrella Perez</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>27 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Dueña y conductora de una pequeña empresa familiar</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Los Olivos</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del video</th>
+    </tr>
+    <tr>
+      <td><b>Link</b></td>
+      <td><a href="(link)" target="_blank">(link)</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>4:35</td>
+    </tr>
+    <tr>
+      <td><b>Timing de inicio</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Screenshot</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-2/img/screenshot-interview-dery-estrella.png" alt="Screenshot Entrevista 1" width="400">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen de la entrevista**
+
+Dery Estrella Perez es dueña y conductora de una pequeña empresa familiar de movilidad escolar con una flota de cinco unidades, operando principalmente en Los Olivos y San Martín de Porres. En su día a día enfrenta retos como esquivar zonas con obras constantes y mantener la puntualidad en el recojo y entrega de los alumnos. Al tratarse de un equipo reducido, la coordinación es bastante directa, apoyándose en llamadas entre conductores para avisar retrasos o problemas en la ruta.
+
+La supervisión de las unidades es totalmente manual y depende de la comunicación constante entre el equipo. Asimismo, el registro de asistencia se lleva en cuadernos individuales por cada conductor, lo que genera un control poco centralizado y propenso a errores o pérdida de información. Esta forma de trabajo a pesar de que es funcional, limita la capacidad de tener una visión general del servicio en tiempo real.
+
+En cuanto a los costos, los principales problemas están relacionados con el consumo de combustible y las multas, los cuales intentan reducir buscando rutas alternas para evitar el tráfico. Por el lado del servicio al cliente, el mayor punto de tensión es la incertidumbre de los padres, quienes suelen llamar con frecuencia cuando perciben retrasos, generando presión adicional sobre los conductores mientras están al volante.
+
+Dery percibe un alto valor en contar con un sistema más organizado, como un dashboard centralizado que le permita ver la ubicación de sus unidades y reaccionar rápidamente ante imprevistos, como fallas mecánicas. También, considera que una aplicación para padres aportaría tranquilidad y mejoraría la percepción de seguridad del servicio. Ella esperaría de nuestra solución cuente con reportes claros de incidencias en ruta y asistencia mensual, que le ayuden a llevar un mejor control operativo y administrativo.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #3</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Datos del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre completo</b></td>
+      <td>Luis Fernando Becerra Ninahuanca</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>25 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Coordinador de operaciones de rutas escolares</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Santiago de Surco</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del video</th>
+    </tr>
+    <tr>
+      <td><b>Link</b></td>
+      <td><a href="(link)" target="_blank">(link)</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>3:59</td>
+    </tr>
+    <tr>
+      <td><b>Timing de inicio</b></td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Screenshot</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-2/img/screenshot-interview-luis-becerra.png" alt="Screenshot Entrevista 1" width="400">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen de la entrevista**
+
+Luis Becerra Ninahuanca de 25 años es coordinador de operaciones en Rutas Escolares S.A., una empresa con una flota de 10 minivans que operan en distritos como Surco, San Borja y la zona de Monterrico. En su día a día, enfrenta problemas como el tráfico impredecible y los tiempos muertos cuando los alumnos no están listos, lo que termina afectando toda la planificación de las rutas. Su rol exige coordinar múltiples unidades al mismo tiempo, lo que incrementa la complejidad operativa.
+
+Actualmente, la empresa utiliza un GPS básico que solo brinda una ubicación general, mientras que la supervisión real depende de grupos de WhatsApp donde los conductores reportan manualmente su avance. Este proceso resulta poco eficiente, además fomenta la distracción al volante. El control de asistencia también es manual, ya que se registra en listas físicas que recién se revisan días después, lo que limita la capacidad de reacción ante cualquier incidente.
+
+A nivel operativo, el mayor costo es el combustible, el cual intentan reducir sin mucho éxito debido a la falta de herramientas que optimicen rutas en tiempo real. Desde el lado de los clientes, el principal problema es la falta de información, ya que los padres suelen preocuparse y llamar incluso ante retrasos mínimos, generando presión adicional sobre el equipo.
+
+Luis considera que contar con un dashboard centralizado podría ser clave para mejorar la gestión, ya que le permitiría monitorear todas las unidades en tiempo real sin depender de llamadas constantes. De igual manera ve un gran valor en ofrecer una aplicación a los padres, ya que aumentaría la confianza y reduciría la incertidumbre durante los traslados. Para utilizar KidsOnWay, esperaría contar con reportes claros sobre puntualidad, comportamiento de conducción y asistencia digital, que le ayuden a optimizar tanto la operación como los procesos administrativos.
 
 ### **2.2.3. Interview Analysis**
 
@@ -511,7 +697,6 @@ Uno de los principales retos que enfrenta es la constante comunicación con los 
       <th align="left" width="45%">Fuente en entrevistas</th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><b>Siente presión constante por responder a los padres y generar confianza</b></td>
@@ -573,6 +758,143 @@ Uno de los principales retos que enfrenta es la constante comunicación con los 
       <td align="center">33.3%</td>
       <td>
         <b>Joao:</b> "hay otros colegas... más mayores que yo que pueden tener una dificultad al ver"
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="4" align="center"><h2>Segmento 2: Empresas de Movilidad Escolar (Análisis Objetivo)</h2></th>
+    </tr>
+    <tr>
+      <th align="left" width="30%">Característica</th>
+      <th align="center" width="15%">Frecuencia en entrevistas</th>
+      <th align="center" width="10%">Porcentaje</th>
+      <th align="left" width="45%">Fuente en entrevistas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Gestión del registro de asistencia de forma estrictamente manual (papel o cuadernos)</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Cheyla:</b> "La acompañante marca una lista de papel y luego le envía una foto"<br>
+        <b>Dery:</b> "Es manual... cada conductor tiene su cuaderno"<br>
+        <b>Luis:</b> "El nuestro es manual, en papel... cada chofer lleva una lista y marca con lapicero"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Supervisión operativa dependiente de comunicación directa (WhatsApp/Llamadas)</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Cheyla:</b> "dependemos de que los choferes reporten por WhatsApp al llegar"<br>
+        <b>Dery:</b> "nos supervisamos por llamadas telefónicas constantes"<br>
+        <b>Luis:</b> "la supervisión real es por WhatsApp... avisar por mensaje cada vez que llega a un punto"
+      </td>
+    </tr>
+    <tr>
+      <td><b>El gasto de combustible es identificado como el costo operativo principal a reducir</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Dery:</b> "Las multas y el combustible... buscando rutas alternas para no quemar gasolina"<br>
+        <b>Luis:</b> "el costo más alto es el combustible, que es el gasto más fuerte que tenemos"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Utilizan GPS básicos exigidos por terceros como monitoreo secundario</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Cheyla:</b> "utilizamos el GPS que nos pide la aseguradora" <br>
+        <b>Luis:</b> "utilizamos el GPS básico para ver toda la ubicación, pero la supervisión real es por WhatsApp"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Demandan reportes automáticos de asistencia para agilizar cobros y facturación</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Dery:</b> "asistencia mensual para cobrarles a los padres sin errores"<br>
+        <b>Luis:</b> "el consolidado digital de asistencia para la facturación"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Requieren métricas de gestión de flota (Puntualidad, Velocidad, Incidencias)</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Cheyla:</b> "Necesitaría un ranking de conectores basado en su puntualidad"<br>
+        <b>Dery:</b> "un reporte de incidencias en la ruta"<br>
+        <b>Luis:</b> "un reporte de puntualidad... y uno de velocidad de los choferes"
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="4" align="center"><h2>Segmento 2: Empresas de Movilidad Escolar (Análisis Subjetivo)</h2></th>
+    </tr>
+    <tr>
+      <th align="left" width="30%">Característica</th>
+      <th align="center" width="15%">Frecuencia en entrevistas</th>
+      <th align="center" width="10%">Porcentaje</th>
+      <th align="left" width="45%">Fuente en entrevistas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Perciben la ansiedad de los padres, por falta de información como su mayor foco de quejas</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Cheyla:</b> "reclaman cuando el bus pasa muy temprano... o cuando hay retrasos y no se les avisa"<br>
+        <b>Dery:</b> "La incertidumbre. Los padres se desesperan si no ven llegar a la hora a sus hijos"<br>
+        <b>Luis:</b> "La falta de información. Los padres llaman angustiados si el bus se demora 5 minutos"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sienten pérdida de tiempo al "triangular" la comunicación entre choferes y padres</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Cheyla:</b> "sin tener que estar monitoreando chats individuales"<br>
+        <b>Dery:</b> "empiezan a llamarnos mientras nosotros estamos manejando"<br>
+        <b>Luis:</b> "Me ahorraría muchas horas de estar llamando por teléfono a cada chofer para saber por dónde van"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Consideran que una App elevará el estatus, seguridad y confianza de su empresa</b></td>
+      <td align="center">Mencionado por los 3</td>
+      <td align="center">100%</td>
+      <td>
+        <b>Cheyla:</b> "Mejoraría mucho la imagen... sentirían que somos una empresa moderna y segura"<br>
+        <b>Dery:</b> "Les daría pues mucha seguridad en esta zona... sería un gran alivio"<br>
+        <b>Luis:</b> "Sería un cambio total... sentirían que tienen el control y seguridad"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sienten frustración por la ineficiencia causada por alumnos impuntuales</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Cheyla:</b> "coordinar los cambios de última hora cuando un alumno no va a asistir"<br>
+        <b>Luis:</b> "los minutos que perdemos esperando a los alumnos que no están listos en la puerta"
+      </td>
+    </tr>
+    <tr>
+      <td><b>Ven el dashboard como una herramienta crítica para el soporte en emergencias o crisis</b></td>
+      <td align="center">Mencionado por 2/3</td>
+      <td align="center">66.7%</td>
+      <td>
+        <b>Dery:</b> "Si alguna unidad se malogra, necesitamos ver quién está cerca para poder recoger a los niños"<br>
+        <b>Luis:</b> "saber por dónde van y por qué ruta están detenidos"
       </td>
     </tr>
   </tbody>
