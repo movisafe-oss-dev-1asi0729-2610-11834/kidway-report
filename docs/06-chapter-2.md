@@ -921,6 +921,64 @@ Este arquetipo representa a los dueños y administradores de pequeñas y mediana
 <img src="../assets/chapter-2/img/user-person-valeria-perez.png" alt="User Persona - Carlos Núñez" width="600">
 
 ### **2.3.2. User Task Matrix**
+
+En esta sección se presenta el User Task Matrix, una herramienta que concentra las actividades principales que nuestros dos arquetipos de usuario realizan en su día a día para cumplir sus objetivos logísticos y de seguridad, sin tener en cuenta de si utilizan o no una plataforma digital. Para este análisis, hemos considerado a nuestros 2 segmentos clave representados por Carlos Nuñez que representa al conductor independiente y Valeria Perez que es administradora multifacética.
+
+Las tareas han sido evaluadas en función de dos variables que es la frecuencia, es decir qué tan seguido se realiza la tarea, puede ser Alta, Media, Baja e importancia, qué tan crítica es la tarea para el éxito de su trabajo y se puede medir de igual manera con Alta, Media, Baja.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="40%">User Tasks</th>
+      <th align="center" width="30%">Segmento 1: Carlos<br>(Conductor Independiente)</th>
+      <th align="center" width="30%">Segmento 2: Valeria<br>(Administradora de Flota)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Navegar por el tráfico y cumplir la ruta establecida</b></td>
+      <td align="center">Alta</td>
+      <td align="center">Baja</td>
+    </tr>
+    <tr>
+      <td><b>Registrar la asistencia de los alumnos al subir/bajar</b></td>
+      <td align="center">Alta</td>
+      <td align="center">Nunca</td>
+    </tr>
+    <tr>
+      <td><b>Monitorear el estado y ubicación de múltiples unidades</b></td>
+      <td align="center">Nunca</td>
+      <td align="center">Alta</td>
+    </tr>
+    <tr>
+      <td><b>Enviar notificaciones de proximidad o retraso a los padres</b></td>
+      <td align="center">Alta</td>
+      <td align="center">Alta</td>
+    </tr>
+    <tr>
+      <td><b>Atender llamadas de padres ansiosos consultando ubicación</b></td>
+      <td align="center">Alta</td>
+      <td align="center">Alta</td>
+    </tr>
+    <tr>
+      <td><b>Coordinar cambios de ruta y reasignar vehículos por averías</b></td>
+      <td align="center">Baja</td>
+      <td align="center">Alta</td>
+    </tr>
+    <tr>
+      <td><b>Elaborar reportes de asistencia para cobros a fin de mes</b></td>
+      <td align="center">Baja</i></td>
+      <td align="center">Alta</i></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+El análisis del User Task Matrix evidencia una clara diferencia en las necesidades operativas de ambos segmentos, lo que justifica el diseño de interfaces diferenciadas dentro de la plataforma. Por un lado, el Segmento 1 necesita una interfaz móvil enfocada en la ejecución, que tenga como prioridad una navegación donde no tenga que interactuar lo menos posible y un registro rápido de asistencia, ya que sus tareas se realizan mientras el vehículo está en movimiento y su atención debe centrarse en la conducción. Por otro lado, el Segmento 2 requiere una visión más amplia del sistema, a través de un dashboard o panel centralizado que facilite el monitoreo de múltiples unidades y la gestión eficiente de incidencias.
+
+Hay una clara diferencia, pero también revela un punto clave en común, que es la comunicación con los padres de familia. Ambos segmentos presentan una alta frecuencia en el envío de información y en la atención de consultas, lo que genera una carga operativa significativa. Esta coincidencia confirma que la automatización de notificaciones de proximidad aborda directamente el principal problema compartido, ya que reduce la necesidad de llamadas y mensajes. De esta manera, el conductor puede concentrarse en manejar sin distracciones y el administrador deja de depender de la coordinación manual, cumpliendo así con el objetivo central de la solución.
+
 ### **2.3.3. User Journey Mapping**
 ### **2.3.4. Empathy Mapping**
 ## **2.4. Big Picture Event Storming**
