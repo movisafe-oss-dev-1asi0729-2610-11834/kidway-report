@@ -28,19 +28,19 @@ BatOnRoute es un software de origen europeo que ayuda a gestionar rutas de trans
       <th align="left"></th>
       <th align="center">
         KidsOnWay<br>
-        <img src="../assets/chapter-2/img/logo-kidway.png" alt="KidsOnWay" width="80">
+        <img src="../assets/chapter-2/logo-kidway.png" alt="KidOnWay logo" width="80">
       </th>
       <th align="center">
         titiGO<br>
-        <img src="../assets/chapter-2/img/logo-titiGO.png" alt="titiGO" width="80">
+        <img src="../assets/chapter-2/logo-titiGO.png" alt="titiGO logo" width="80">
       </th>
       <th align="center">
         BatOnRoute<br>
-        <img src="../assets/chapter-2/img/logo-batonrout.png" alt="BatOnRoute" width="80">
+        <img src="../assets/chapter-2/logo-batonrout.png" alt="BatOnRoute logo" width="80">
       </th>
       <th align="center">
         OnTrack School<br>
-        <img src="../assets/chapter-2/img/logo-ontrack.png" alt="OnTrack" width="80">
+        <img src="../assets/chapter-2/logo-ontrack.png" alt="OnTrack logo" width="80">
       </th>
     </tr>
   </thead>
@@ -237,7 +237,7 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
     </tr>
     <tr>
       <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
+      <td><a href="">link</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
@@ -252,7 +252,7 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-carlos-mansilla.png" alt="Screenshot Entrevista 1" width="400">
+        <img src="../assets/chapter-2/screenshot-interview-carlos-mansilla.png" alt="screenshot-interview-carlos-mansilla" width="400">
       </td>
     </tr>
   </tbody>
@@ -310,7 +310,7 @@ Otro punto crítico es la comunicación con los padres, ya que recibe constantem
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-mateo-de-mendiburu.png" alt="Screenshot Entrevista 2" width="400">
+        <img src="../assets/chapter-2/screenshot-interview-mateo-de-mendiburu.png" alt="screenshot-interview-mateo-de-mendiburu" width="400">
       </td>
     </tr>
   </tbody>
@@ -370,7 +370,7 @@ Ante este contexto, Mateo valora de forma muy positiva una solución que automat
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-joao-jimenez.png" alt="Screenshot Entrevista 3" width="400">
+        <img src="../assets/chapter-2/screenshot-interview-joao-jimenez.png" alt="screenshot-interview-joao-jimenez" width="400">
       </td>
     </tr>
   </tbody>
@@ -430,7 +430,7 @@ Uno de los principales retos que enfrenta es la constante comunicación con los 
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-cheyla-paredes.png" alt="Screenshot Entrevista 1" width="400">
+        <img src="../assets/chapter-2/screenshot-interview-cheyla-paredes.png" alt="screenshot-interview-cheyla-paredes" width="400">
       </td>
     </tr>
   </tbody>
@@ -490,7 +490,7 @@ Cheyla considera que un dashboard centralizado sería clave para mejorar su gest
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-dery-estrella.png" alt="Screenshot Entrevista 1" width="400">
+        <img src="../assets/chapter-2/screenshot-interview-dery-estrella.png" alt="screenshot-interview-dery-estrella" width="400">
       </td>
     </tr>
   </tbody>
@@ -552,7 +552,7 @@ Dery percibe un alto valor en contar con un sistema más organizado, como un das
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="../assets/chapter-2/img/screenshot-interview-luis-becerra.png" alt="Screenshot Entrevista 1" width="400">
+        <img src="../assets/chapter-2/screenshot-interview-luis-becerra.png" alt="screenshot-interview-luis-becerra" width="400">
       </td>
     </tr>
   </tbody>
@@ -900,6 +900,8 @@ Luis considera que contar con un dashboard centralizado podría ser clave para m
   </tbody>
 </table>
 
+En conclusión, en este análisis de las entrevistas de ambos segmentos nos revela que el problema central del transporte escolar no radica en la conducción en sí, sino en la ineficiencia, el peligro y el estrés que genera la comunicación manual. La ansiedad de los padres por la falta de visibilidad obliga a los conductores a distraerse al volante y a los administradores a perder horas siendo como intermediarios. Estos hallazgos validan la necesidad de desarrollar KidOnWay. Las entrevistas confirman que la implementación de un monitoreo GPS centralizado y un sistema de notificaciones automáticas de proximidad son los requisitos de software fundamentales para erradicar la incertidumbre de las familias y optimizar la logística de las empresas operadoras.
+
 ## **2.3. Needfinding**
 ### **2.3.1. User Person**
 
@@ -911,14 +913,14 @@ Además, se consideró el análisis de la competencia, lo que permitió entender
 
 Este arquetipo representa a los conductores propietarios de sus propios vehículos que operan de manera independiente. Su principal motivación es brindar un servicio seguro y mantener una buena reputación, pero se ven constantemente frustrados por el estrés del tráfico de Lima y las interrupciones telefónicas de los padres. Valoran la tecnología, siempre y cuando esta ofrezca herramientas automáticas y extremadamente simples de usar que les permitan mantener su atención total en la conducción.
 
-<img src="../assets/chapter-2/img/user-person-carlos-núñez.png" alt="User Persona - Carlos Núñez" width="600">
+<img src="../assets/chapter-2/user-person-carlos-núñez.png" alt="user-person-carlos-núñez" width="600">
 
 
 **Segmento 2: Empresas de Movilidad Escolar**
 
 Este arquetipo representa a los dueños y administradores de pequeñas y medianas empresas de movilidad escolar, cuya principal motivación es optimizar la eficiencia de sus operaciones y proyectar una imagen de seguridad y confianza hacia los padres de familia, sin embargo se ven constantemente limitados por la falta de visibilidad en tiempo real de su flota y por la desorganización que implica coordinar todo de forma manual mediante WhatsApp. Es por esto que valoran soluciones tecnológicas que les permitan centralizar el monitoreo de sus unidades y automatizar la comunicación, reduciendo la carga operativa y evitando la dependencia de llamadas y mensajes, para así enfocarse en mejorar el servicio y fortalecer el crecimiento y prestigio de su negocio.
 
-<img src="../assets/chapter-2/img/user-person-valeria-perez.png" alt="User Persona - Carlos Núñez" width="600">
+<img src="../assets/chapter-2/user-person-valeria-perez.png" alt="user-person-valeria-perez" width="600">
 
 ### **2.3.2. User Task Matrix**
 
@@ -980,6 +982,57 @@ El análisis del User Task Matrix evidencia una clara diferencia en las necesida
 Hay una clara diferencia, pero también revela un punto clave en común, que es la comunicación con los padres de familia. Ambos segmentos presentan una alta frecuencia en el envío de información y en la atención de consultas, lo que genera una carga operativa significativa. Esta coincidencia confirma que la automatización de notificaciones de proximidad aborda directamente el principal problema compartido, ya que reduce la necesidad de llamadas y mensajes. De esta manera, el conductor puede concentrarse en manejar sin distracciones y el administrador deja de depender de la coordinación manual, cumpliendo así con el objetivo central de la solución.
 
 ### **2.3.3. User Journey Mapping**
+
+**Segmento 1: Conductores Independientes**
+
+ Mediante el User Journey Mapping se verá el recorrido operativo de nuestro arquetipo, Carlos Núñez durante su rutina matutina de recojo de estudiantes. El objetivo de este mapa es evidenciar los altos niveles de estrés e inseguridad vial que experimenta el conductor al intentar navegar por el tráfico de Lima y comunicarse manualmente con los padres al mismo tiempo.
+
+<img src="../assets/chapter-2/journey-mapping-carlos-núñez.png" alt="journey-mapping-carlos-núñez" width="800">
+
+El mapa refleja que los momentos más críticos y peligrosos de la jornada del conductor donde se concentran en las etapas de Recojo e Interacción. La demora de los alumnos genera un efecto dominó que retrasa toda la ruta, lo que a su vez provoca llamadas de padres ansiosos. El intento del conductor por responder WhatsApps o llamadas mientras conduce representa un riesgo de accidente grave. Este escenario confirma que la implementación de alertas de proximidad y seguimiento GPS en vivo no solo mejorará la puntualidad, sino que mitigará un riesgo de seguridad vial inminente.
+
+**Segmento 2: Empresas de Movilidad Escolar**
+
+ Este User Journey Mapping nos ilustra el recorrido operativo de nuestra User Persona, Valeria durante la gestión matutina de la flota, desde la planificación del despacho hasta el registro de asistencia. El objetivo de este mapeo es visibilizar los puntos de fricción y el desgaste que genera la coordinación manual de múltiples vehículos.
+
+<img src="../assets/chapter-2/journey-mapping-valeria-perez.png" alt="journey-mapping-valeria-perez" width="800">
+
+Como se evidencia en el mapa, el punto de mayor quiebre en la experiencia del usuario ocurre durante las etapas de Monitoreo y de Atención a Padres. La necesidad de triangular la comunicación telefónica entre conductores y padres ansiosos genera un alto nivel de estrés y sobrecarga cognitiva. Esta ineficiencia operativa confirma la oportunidad crítica de automatizar el flujo de información a través de notificaciones de proximidad.
+
 ### **2.3.4. Empathy Mapping**
+
+El Empathy Map nos permite ponernos en el lugar de nuestros usuarios finales para comprender profundamente su entorno, emociones, pensamientos y actitudes. Nos ayudaran a identificar no solo las necesidades operativas de los usuarios, sino también sus puntos de dolor psicológicos y sus expectativas, garantizando un diseño de software verdaderamente para los segmentos objetivos.
+
+**Segmento 1: Conductores Independientes**
+
+<img src="../assets/chapter-2/empathy-mapping-carlos-núñez.png" alt="empathy-mapping-carlos-núñez" width="600">
+
+El análisis del entorno y los sentimientos de Carlos revela un hallazgo importante, nos muestra que su mayor fuente de frustración y peligro no es la conducción en sí, sino la interrupción constante. Al estar inmerso en un entorno ruidoso y altamente demandante, su nivel de ansiedad al volante se dispara cuando se ve obligado a interactuar con su dispositivo móvil para calmar a los padres. La principal Gains es que busca recuperar la concentración total en la vía. Esto valida técnicamente que la interfaz de KidOnWay para el conductor debe requerir una interacción nula o mínima durante la ruta, automatizando por completo las comunicaciones para proteger su vida y la de los estudiantes.
+
+**Segmento 2: Empresas de Movilidad Escolar**
+
+<img src="../assets/chapter-2/empathy-map-valeria-perez.png" alt="empathy-map-valeria-perez" width="600">
+
+El análisis revela que el principal enemigo de Valeria no es la logística vehicular, sino la saturación de las comunicaciones. Al estar en el centro de un flujo de información manual. La propuesta de valor de nuestra aplicación impacta directamente en sus Gains, ya que al delegar el monitoreo a un software automatizado, ella recupera su tiempo y reduce su carga mental, logrando transformar su negocio y aprovechar mejor el tiempo para otras cosas.
+
+**AS-IS Escenario Mapping**
+
+<img src="../assets/chapter-2/as-is-segmento1.png" alt="as-is-segmento1" width="600">
+
+<img src="../assets/chapter-2/as-is-segmento2.png" alt="as-is-segmento2" width="600">
+
 ## **2.4. Big Picture Event Storming**
 ## **2.5. Ubiquitous Language**
+
+El Lenguaje Ubicuo es un vocabulario común y estandarizado entre el equipo de desarrollo y los expertos del dominio, que en este caso son los conductores de movilidad escolar o administradores y padres de familia. Es un tipo de glosario que garantiza que todos los stakeholders compartan la misma comprensión de los conceptos clave del negocio, reduciendo la ambigüedad en la especificación de requisitos y en el código fuente.
+
+* **Administrador**, es el usuario encargado de la gestión logística de la flota. Su rol principal es monitorear rutas, resolver incidencias y administrar la comunicación macro con los clientes.
+* **Alerta de Proximidad**, es la notificación push automatizada generada por el sistema y enviada al dispositivo móvil del apoderado cuando la unidad se encuentra a una distancia o tiempo predeterminado del punto de recojo.
+* **Padre de familia**, es el cliente final que contrata el servicio de movilidad escolar y requiere visibilidad sobre el estado del transporte de su menor hijo.
+* **Asistencia**, es el registro del momento exacto en el que un estudiante sube o baja del vehículo.
+* **Conductor**, es el usuario responsable de manejar el vehículo, ejecutar la ruta establecida y velar por la seguridad física de los estudiantes durante el trayecto.
+* **Dashboard**, es la interfaz web o de tablet centralizada, diseñada para el administrador y padres, que muestra en tiempo real la ubicación, velocidad y estado de todas las unidades activas mediante integración GPS.
+* **Estudiante**, es el pasajero que va a ser transportado.
+* **Flota**, es el conjunto total de vehículos operativos gestionados por una misma empresa de movilidad escolar.
+* **Ruta**, es el trayecto planificado de puntos de recojo y entrega.
+* **Unidad**, es el vehículo de transporte físico asignado a un conductor y a una ruta específica.
