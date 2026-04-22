@@ -237,11 +237,11 @@ Se presentan, le pides su consentimiento para entrevistarlo y empiezas:
     </tr>
     <tr>
       <td><b>Link</b></td>
-      <td><a href="">link</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQA-DOpWocdhQrjURH4aFymkAf11kUHWX2Q4IBU9GKxnASg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LIyPrn">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>5:36</td>
+      <td>4:53 minutos</td>
     </tr>
     <tr>
       <td><b>Timing de inicio</b></td>
@@ -295,15 +295,15 @@ Otro punto crítico es la comunicación con los padres, ya que recibe constantem
     </tr>
     <tr>
       <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQA-DOpWocdhQrjURH4aFymkAf11kUHWX2Q4IBU9GKxnASg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LIyPrn" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>8:47</td>
+      <td>6.20 minutos</td>
     </tr>
     <tr>
       <td><b>Timing de inicio</b></td>
-      <td>5:37</td>
+      <td>4:54</td>
     </tr>
     <tr>
       <th colspan="2" align="center">Screenshot</th>
@@ -355,15 +355,15 @@ Ante este contexto, Mateo valora de forma muy positiva una solución que automat
     </tr>
     <tr>
       <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQA-DOpWocdhQrjURH4aFymkAf11kUHWX2Q4IBU9GKxnASg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LIyPrn" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>5:42</td>
+      <td>4.33 minutos</td>
     </tr>
     <tr>
       <td><b>Timing de inicio</b></td>
-      <td>14:24</td>
+      <td>11:14</td>
     </tr>
     <tr>
       <th colspan="2" align="center">Screenshot</th>
@@ -396,66 +396,6 @@ Uno de los principales retos que enfrenta es la constante comunicación con los 
     </tr>
     <tr>
       <td width="30%"><b>Nombre completo</b></td>
-      <td>Cheyla Paredes Mattos</td>
-    </tr>
-    <tr>
-      <td><b>Edad</b></td>
-      <td>27 años</td>
-    </tr>
-    <tr>
-      <td><b>Ocupación</b></td>
-      <td>Administradora de empresa de movilidad escolar</td>
-    </tr>
-    <tr>
-      <td><b>Distrito de residencia</b></td>
-      <td>Ate</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="left">Datos del video</th>
-    </tr>
-    <tr>
-      <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
-    </tr>
-    <tr>
-      <td><b>Duración</b></td>
-      <td>3:55</td>
-    </tr>
-    <tr>
-      <td><b>Timing de inicio</b></td>
-      <td>0:00</td>
-    </tr>
-    <tr>
-      <th colspan="2" align="center">Screenshot</th>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="../assets/chapter-2/screenshot-interview-cheyla-paredes.png" alt="screenshot-interview-cheyla-paredes" width="400">
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-**Resumen de la entrevista**
-
-Cheyla Paredes Mattos administra una empresa de movilidad escolar en Santa Clara con una flota de 15 microbuses que operan principalmente en La Molina y Ate. En su día a día enfrenta retos como la congestión vehicular especialmente en la avenida Javier Prado y la necesidad de reaccionar rápidamente ante cambios de última hora por inasistencias. Actualmente, la supervisión de rutas es manual y dispersa, ya que depende de un GPS básico y de reportes por WhatsApp enviados por los conductores. El control de asistencia también es mixto, combinando registros en papel con fotografías enviadas como respaldo digital.
-
-En el plano operativo, uno de sus mayores costos proviene del mantenimiento correctivo debido al estado de las vías, el cual intenta reducir mediante revisiones preventivas. A nivel de servicio, las principales quejas de los padres están relacionadas con la falta de sincronización en los horarios, ya sea por llegadas anticipadas o retrasos sin previo aviso, lo que afecta la percepción de calidad del servicio.
-
-Cheyla considera que un dashboard centralizado sería clave para mejorar su gestión, ya que le permitiría monitorear todas las unidades en tiempo real sin depender de múltiples canales de comunicación. Además, ve valor en ofrecer una aplicación a los padres como un diferenciador competitivo que proyecte mayor seguridad y modernidad. Para adoptar una solución como KidsOnWay, esperaría contar con reportes claros y útiles, como indicadores de puntualidad de los conductores y estimaciones de consumo de combustible por ruta.
-
-<table width="100%">
-  <thead>
-    <tr>
-      <th colspan="2" align="center"><h2>Entrevista #2</h2></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th colspan="2" align="left">Datos del entrevistado</th>
-    </tr>
-    <tr>
-      <td width="30%"><b>Nombre completo</b></td>
       <td>Dery Estrella Perez</td>
     </tr>
     <tr>
@@ -475,15 +415,15 @@ Cheyla considera que un dashboard centralizado sería clave para mejorar su gest
     </tr>
     <tr>
       <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
+      <td><a href="[(link)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQA-DOpWocdhQrjURH4aFymkAf11kUHWX2Q4IBU9GKxnASg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LIyPrn)" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>4:35</td>
+      <td>4:09 minutos</td>
     </tr>
     <tr>
       <td><b>Timing de inicio</b></td>
-      <td>0:00</td>
+      <td>15:47</td>
     </tr>
     <tr>
       <th colspan="2" align="center">Screenshot</th>
@@ -505,6 +445,66 @@ La supervisión de las unidades es totalmente manual y depende de la comunicaci�
 En cuanto a los costos, los principales problemas están relacionados con el consumo de combustible y las multas, los cuales intentan reducir buscando rutas alternas para evitar el tráfico. Por el lado del servicio al cliente, el mayor punto de tensión es la incertidumbre de los padres, quienes suelen llamar con frecuencia cuando perciben retrasos, generando presión adicional sobre los conductores mientras están al volante.
 
 Dery percibe un alto valor en contar con un sistema más organizado, como un dashboard centralizado que le permita ver la ubicación de sus unidades y reaccionar rápidamente ante imprevistos, como fallas mecánicas. También, considera que una aplicación para padres aportaría tranquilidad y mejoraría la percepción de seguridad del servicio. Ella esperaría de nuestra solución cuente con reportes claros de incidencias en ruta y asistencia mensual, que le ayuden a llevar un mejor control operativo y administrativo.
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th colspan="2" align="center"><h2>Entrevista #2</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th colspan="2" align="left">Datos del entrevistado</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>Nombre completo</b></td>
+      <td>Cheyla Paredes Mattos</td>
+    </tr>
+    <tr>
+      <td><b>Edad</b></td>
+      <td>27 años</td>
+    </tr>
+    <tr>
+      <td><b>Ocupación</b></td>
+      <td>Administradora de empresa de movilidad escolar</td>
+    </tr>
+    <tr>
+      <td><b>Distrito de residencia</b></td>
+      <td>Ate</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="left">Datos del video</th>
+    </tr>
+    <tr>
+      <td><b>Link</b></td>
+      <td><a href="[(link)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQA-DOpWocdhQrjURH4aFymkAf11kUHWX2Q4IBU9GKxnASg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LIyPrn)" target="_blank">Entrevista</a></td>
+    </tr>
+    <tr>
+      <td><b>Duración</b></td>
+      <td>3.26 minutos</td>
+    </tr>
+    <tr>
+      <td><b>Timing de inicio</b></td>
+      <td>19:56</td>
+    </tr>
+    <tr>
+      <th colspan="2" align="center">Screenshot</th>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="../assets/chapter-2/screenshot-interview-cheyla-paredes.png" alt="screenshot-interview-cheyla-paredes" width="400">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Resumen de la entrevista**
+
+Cheyla Paredes Mattos administra una empresa de movilidad escolar en Santa Clara con una flota de 15 microbuses que operan principalmente en La Molina y Ate. En su día a día enfrenta retos como la congestión vehicular especialmente en la avenida Javier Prado y la necesidad de reaccionar rápidamente ante cambios de última hora por inasistencias. Actualmente, la supervisión de rutas es manual y dispersa, ya que depende de un GPS básico y de reportes por WhatsApp enviados por los conductores. El control de asistencia también es mixto, combinando registros en papel con fotografías enviadas como respaldo digital.
+
+En el plano operativo, uno de sus mayores costos proviene del mantenimiento correctivo debido al estado de las vías, el cual intenta reducir mediante revisiones preventivas. A nivel de servicio, las principales quejas de los padres están relacionadas con la falta de sincronización en los horarios, ya sea por llegadas anticipadas o retrasos sin previo aviso, lo que afecta la percepción de calidad del servicio.
+
+Cheyla considera que un dashboard centralizado sería clave para mejorar su gestión, ya que le permitiría monitorear todas las unidades en tiempo real sin depender de múltiples canales de comunicación. Además, ve valor en ofrecer una aplicación a los padres como un diferenciador competitivo que proyecte mayor seguridad y modernidad. Para adoptar una solución como KidsOnWay, esperaría contar con reportes claros y útiles, como indicadores de puntualidad de los conductores y estimaciones de consumo de combustible por ruta.
 
 <table width="100%">
   <thead>
@@ -537,15 +537,15 @@ Dery percibe un alto valor en contar con un sistema más organizado, como un das
     </tr>
     <tr>
       <td><b>Link</b></td>
-      <td><a href="(link)" target="_blank">(link)</a></td>
+      <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416276_upc_edu_pe/IQA-DOpWocdhQrjURH4aFymkAf11kUHWX2Q4IBU9GKxnASg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LIyPrn" target="_blank">Entrevista</a></td>
     </tr>
     <tr>
       <td><b>Duración</b></td>
-      <td>3:59</td>
+      <td>3.46 minutos</td>
     </tr>
     <tr>
       <td><b>Timing de inicio</b></td>
-      <td>0:00</td>
+      <td>23:22</td>
     </tr>
     <tr>
       <th colspan="2" align="center">Screenshot</th>
