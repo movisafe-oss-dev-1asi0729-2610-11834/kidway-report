@@ -1,6 +1,6 @@
 # **Chapter IV: Product Design**
 ## **4.1. Style Guidelines**
-### 4.1.1. General Style Guidelines (Guía de Estilo General)
+### 4.1.1. General Style Guidelines 
 
 En esta sección definimos la identidad visual de KidWay para que sea coherente en todas sus plataformas.
 
@@ -17,16 +17,16 @@ En esta sección definimos la identidad visual de KidWay para que sea coherente 
 | 🟡 | **Amarillo Sol** | `#FFB800` | Rutas, iconos de felicidad y alertas. |
 | 🔘 | **Gris Humo** | `#F2F2F2` | Fondos de sección para no cansar la vista. |
 
-### 4.1.2. Web Style Guidelines
+### 4.1.2. Web Style Guidelines 
 
-Para garantizar la consistencia en toda la plataforma web, se aplican las siguientes reglas:
+Reglas específicas para que la página web funcione y se vea bien:
 
-* **Componentes Táctiles:** Todos los botones tienen un radio de borde de `50px` (estilo píldora), lo que facilita el clic en pantallas táctiles y suaviza la estética visual.
-* **Jerarquía de Botones:**
-    * **Primario:** Fondo sólido azul con texto blanco (`Request demo`).
-    * **Secundario:** Borde delineado con texto azul (`Explore solutions`).
-* **Tarjetas (Cards):** Los contenedores de información utilizan bordes redondeados de `20px` y una sombra suave (`box-shadow: 0 4px 6px rgba(0,0,0,0.1)`) para destacar sobre el fondo gris claro.
-* **Iconografía:** Se utilizan iconos de estilo "soft line" que acompañan el texto para reforzar el mensaje sin sobrecargar la vista.
+| Elemento | Estilo Aplicado | ¿Por qué se usa? |
+| :--- | :--- | :--- |
+| **Botones** | Estilo "Pill" (redondeado 50px) | Es más cómodo para hacer clic en el celular. |
+| **Sombras** | Soft Shadows (Sombras leves) | Para que los cuadros resalten sin verse pesados. |
+| **Espaciado** | Márgenes amplios (Whitespace) | Para que la información no se vea amontonada. |
+| **Interactividad**| Cambio de color al pasar el mouse | Para que el usuario sepa que puede hacer clic. |
 
 ## **4.2. Information Architecture**
 ### **4.2.1. Organization Systems**
