@@ -67,12 +67,12 @@ Convertirnos en la plataforma líder y el estándar de seguridad en el transport
         <i></i>
       </td>
       <td width="70%" valign="top" style="padding-left: 20px;">
-        <h3>Nombre</h3>
-        <p><b>Código de estudiante:</b> </p>
-        <p><b>Edad:</b> </p>
-        <p><b>Carrera:</b> </p>
+        <h3>Jose Gabriel Rudas Chavarria</h3>
+        <p><b>Código de estudiante: U202410662</b> </p>
+        <p><b>Edad: 19</b> </p>
+        <p><b>Carrera: Ingeniería de Software</b> </p>
         <br>
-        <p><b>Sobre mí:</b></p>
+        <p><b>Sobre mí: Soy un estudiante enfocado en desarrollar soluciones tecnológicas con impacto real. Me interesa combinar habilidades técnicas con trabajo en equipo para crear sistemas eficientes y centrados en el usuario.</b></p>
         <p></p>
       </td>
     </tr>
