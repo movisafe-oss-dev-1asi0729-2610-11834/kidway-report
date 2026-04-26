@@ -8,773 +8,775 @@
     <thead>
         <tr>
             <th style="width: 8%">Epic/Story ID</th>
-            <th style="width: 15%">Título</th>
-            <th style="width: 30%">Descripción</th>
-            <th style="width: 37%">Criterios de Aceptación</th>
-            <th style="width: 10%">Relacionado con (Epic ID)</th>
+            <th style="width: 15%">Title</th>
+            <th style="width: 30%">Description</th>
+            <th style="width: 37%">Acceptance Criteria</th>
+            <th style="width: 10%">Related to (Epic ID)</th>
         </tr>
     </thead>
     <tbody>
-        <!-- EPICA 1 - AMBOS -->
+        <!-- EPIC 1 - BOTH -->
         <tr>
             <td class="epic-id" style="text-align:center">EP01</td>
-            <td style="text-align:center">Registro digital de abordaje</td>
-            <td>Como <strong>conductor independiente o administrador de empresa</strong>, deseo registrar de forma rápida qué estudiantes suben o faltan en cada parada, para evitar errores y optimizar el recorrido.</td>
+            <td style="text-align:center">Digital boarding record</td>
+            <td>As an <strong>independent driver or company administrator</strong>, I want to quickly record which students board or are absent at each stop, to avoid errors and optimize the route.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el conductor ha llegado a una parada programada, <strong>When</strong> el alumno aborda el vehículo, <strong>Then</strong> el sistema permite registrar el evento de "abordaje" con timestamp.</li>
-                    <li><strong>Given</strong> que el conductor está en una parada y un alumno no se presenta, <strong>When</strong> transcurren 2 minutos sin registro, <strong>Then</strong> el sistema notifica automáticamente al padre sobre la ausencia.</li>
-                    <li><strong>Given</strong> que el conductor opera sin conexión a internet, <strong>When</strong> registra abordajes, <strong>Then</strong> el sistema almacena los eventos localmente y los sincroniza al recuperar conectividad.</li>
-                    <li><strong>Given</strong> que se registra un abordaje, <strong>When</strong> el evento es persistido, <strong>Then</strong> el sistema envía una notificación push al padre del alumno.</li>
+                    <li><strong>Given</strong> that the driver has arrived at a scheduled stop, <strong>When</strong> the student boards the vehicle, <strong>Then</strong> the system allows recording the "boarding" event with a timestamp.</li>
+                    <li><strong>Given</strong> that the driver is at a stop and a student does not show up, <strong>When</strong> 2 minutes pass without registration, <strong>Then</strong> the system automatically notifies the parent about the absence.</li>
+                    <li><strong>Given</strong> that the driver is operating without an internet connection, <strong>When</strong> recording boardings, <strong>Then</strong> the system stores events locally and synchronizes them when connectivity is restored.</li>
+                    <li><strong>Given</strong> that a boarding is recorded, <strong>When</strong> the event is persisted, <strong>Then</strong> the system sends a push notification to the student's parent.</li>
                 </ul>
             </td>
             <td style="text-align:center">-</td>
         </tr>
-        <!-- EPICA 2 - AMBOS -->
+        <!-- EPIC 2 - BOTH -->
         <tr>
             <td class="epic-id" style="text-align:center">EP02</td>
-            <td style="text-align:center">Gestión de rutas</td>
-            <td>Como <strong>conductor independiente o administrador de empresa</strong>, deseo visualizar y seguir una ruta organizada con paradas definidas, para reducir tiempos de espera y consumo de combustible.</td>
+            <td style="text-align:center">Route management</td>
+            <td>As an <strong>independent driver or company administrator</strong>, I want to view and follow an organized route with defined stops, to reduce waiting times and fuel consumption.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el conductor ha iniciado su jornada, <strong>When</strong> accede a la ruta del día, <strong>Then</strong> el sistema muestra el orden secuencial de las paradas con tiempos estimados de llegada.</li>
-                    <li><strong>Given</strong> que ocurre un retraso en una parada, <strong>When</strong> el sistema detecta la demora, <strong>Then</strong> recalcula automáticamente los tiempos estimados para las paradas siguientes.</li>
-                    <li><strong>Given</strong> que el conductor ha registrado una ausencia, <strong>When</strong> la parada corresponde a ese alumno, <strong>Then</strong> el sistema omite automáticamente la parada y reordena la ruta.</li>
-                    <li><strong>Given</strong> que el conductor desea ahorrar combustible, <strong>When</strong> el sistema detecta una alternativa más eficiente, <strong>Then</strong> sugiere la ruta óptima considerando tráfico en tiempo real.</li>
+                    <li><strong>Given</strong> that the driver has started their shift, <strong>When</strong> accessing the day's route, <strong>Then</strong> the system shows the sequential order of stops with estimated arrival times.</li>
+                    <li><strong>Given</strong> that a delay occurs at a stop, <strong>When</strong> the system detects the delay, <strong>Then</strong> it automatically recalculates estimated times for subsequent stops.</li>
+                    <li><strong>Given</strong> that the driver has registered an absence, <strong>When</strong> the stop corresponds to that student, <strong>Then</strong> the system automatically skips the stop and reorders the route.</li>
+                    <li><strong>Given</strong> that the driver wants to save fuel, <strong>When</strong> the system detects a more efficient alternative, <strong>Then</strong> it suggests the optimal route considering real-time traffic.</li>
                 </ul>
             </td>
             <td style="text-align:center">-</td>
         </tr>
-        <!-- EPICA 3 - AMBOS -->
+        <!-- EPIC 3 - BOTH -->
         <tr>
             <td class="epic-id" style="text-align:center">EP03</td>
-            <td style="text-align:center">Registro de incidencias</td>
-            <td>Como <strong>conductor independiente o administrador de empresa</strong>, deseo registrar eventos como retrasos, ausencias o cambios en la ruta, para mantener trazabilidad del servicio.</td>
+            <td style="text-align:center">Incident logging</td>
+            <td>As an <strong>independent driver or company administrator</strong>, I want to record events such as delays, absences, or route changes, to maintain service traceability.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que ocurre una incidencia en ruta, <strong>When</strong> el conductor selecciona el tipo de incidencia (retraso, accidente, cambio de ruta), <strong>Then</strong> el sistema registra el evento con ubicación y timestamp.</li>
-                    <li><strong>Given</strong> que se registra una incidencia, <strong>When</strong> la incidencia afecta el tiempo estimado de llegada, <strong>Then</strong> el sistema notifica automáticamente a los padres afectados.</li>
-                    <li><strong>Given</strong> que el conductor necesita documentar una incidencia, <strong>When</strong> adjunta evidencia (foto, audio, texto), <strong>Then</strong> el sistema guarda el adjunto asociado al evento.</li>
-                    <li><strong>Given</strong> que la incidencia está cerrada, <strong>When</strong> el administrador o conductor consulta el historial, <strong>Then</strong> se muestra la línea de tiempo completa del evento.</li>
+                    <li><strong>Given</strong> that an incident occurs on the route, <strong>When</strong> the driver selects the incident type (delay, accident, route change), <strong>Then</strong> the system records the event with location and timestamp.</li>
+                    <li><strong>Given</strong> that an incident is recorded, <strong>When</strong> the incident affects the estimated arrival time, <strong>Then</strong> the system automatically notifies affected parents.</li>
+                    <li><strong>Given</strong> that the driver needs to document an incident, <strong>When</strong> attaching evidence (photo, audio, text), <strong>Then</strong> the system saves the attachment associated with the event.</li>
+                    <li><strong>Given</strong> that the incident is closed, <strong>When</strong> the administrator or driver checks the history, <strong>Then</strong> the complete event timeline is displayed.</li>
                 </ul>
             </td>
             <td style="text-align:center">-</td>
         </tr>
-        <!-- EPICA 4 - SOLO EMPRESA -->
+        <!-- EPIC 4 - COMPANY ONLY -->
         <tr>
             <td class="epic-id" style="text-align:center">EP04</td>
-            <td style="text-align:center">Monitoreo de flota en tiempo real</td>
-            <td>Como <strong>administrador de empresa de movilidad escolar</strong>, deseo visualizar todas mis unidades en tiempo real, para supervisar el cumplimiento de rutas y gestionar incidencias.</td>
+            <td style="text-align:center">Real-time fleet monitoring</td>
+            <td>As a <strong>school mobility company administrator</strong>, I want to view all my vehicles in real time, to supervise route compliance and manage incidents.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el administrador accede al dashboard, <strong>When</strong> selecciona la vista de flota, <strong>Then</strong> el sistema muestra un mapa con la ubicación actual de todas las unidades activas de su empresa.</li>
-                    <li><strong>Given</strong> que una unidad se desvía de su ruta establecida, <strong>When</strong> la desviación supera un umbral configurable, <strong>Then</strong> el sistema genera una alerta en el dashboard del administrador.</li>
-                    <li><strong>Given</strong> que el administrador selecciona una unidad específica, <strong>When</strong> consulta su detalle, <strong>Then</strong> se muestra la ruta recorrida, paradas realizadas y estado actual.</li>
-                    <li><strong>Given</strong> que ocurre una emergencia en una unidad, <strong>When</strong> el conductor reporta la emergencia, <strong>Then</strong> el sistema destaca la unidad en el dashboard con indicador visual de alerta.</li>
-                    <li><strong>Given</strong> que una unidad no envía ubicación por más de 5 minutos, <strong>When</strong> se ejecuta el monitoreo, <strong>Then</strong> el sistema genera una alerta de "Unidad sin señal".</li>
+                    <li><strong>Given</strong> that the administrator accesses the dashboard, <strong>When</strong> selecting the fleet view, <strong>Then</strong> the system shows a map with the current location of all active units in the company.</li>
+                    <li><strong>Given</strong> that a unit deviates from its established route, <strong>When</strong> the deviation exceeds a configurable threshold, <strong>Then</strong> the system generates an alert on the administrator's dashboard.</li>
+                    <li><strong>Given</strong> that the administrator selects a specific unit, <strong>When</strong> viewing its details, <strong>Then</strong> the route traveled, stops made, and current status are displayed.</li>
+                    <li><strong>Given</strong> that an emergency occurs in a unit, <strong>When</strong> the driver reports the emergency, <strong>Then</strong> the system highlights the unit on the dashboard with a visual alert indicator.</li>
+                    <li><strong>Given</strong> that a unit has not sent a location for more than 5 minutes, <strong>When</strong> monitoring is running, <strong>Then</strong> the system generates a "Unit without signal" alert.</li>
                 </ul>
             </td>
             <td style="text-align:center">-</td>
         </tr>
-        <!-- EPICA 5A - SOLO CONDUCTOR INDEPENDIENTE (Reportes personales) -->
+        <!-- EPIC 5A - INDEPENDENT DRIVER ONLY (Personal reports) -->
         <tr>
             <td class="epic-id" style="text-align:center">EP05A</td>
-            <td style="text-align:center">Reportes personales de viaje</td>
-            <td>Como <strong>conductor independiente</strong>, deseo acceder a mi historial de viajes, puntualidad e incidencias, para evaluar mi desempeño y mejorar mi reputación.</td>
+            <td style="text-align:center">Personal trip reports</td>
+            <td>As an <strong>independent driver</strong>, I want to access my trip history, punctuality, and incidents, to evaluate my performance and improve my reputation.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el conductor accede a su perfil, <strong>When</strong> selecciona "Mi historial", <strong>Then</strong> el sistema muestra la lista de viajes realizados en los últimos 30 días con fechas y horarios.</li>
-                    <li><strong>Given</strong> que el conductor desea conocer su puntualidad, <strong>When</strong> consulta su reporte de desempeño, <strong>Then</strong> el sistema muestra el porcentaje de llegadas a tiempo por parada.</li>
-                    <li><strong>Given</strong> que el conductor ha tenido incidencias, <strong>When</strong> consulta el registro, <strong>Then</strong> visualiza la lista de eventos registrados con sus resoluciones.</li>
-                    <li><strong>Given</strong> que el conductor quiere compartir su reputación, <strong>When</strong> genera un resumen, <strong>Then</strong> el sistema permite exportar un reporte simple (PDF) con sus métricas.</li>
+                    <li><strong>Given</strong> that the driver accesses their profile, <strong>When</strong> selecting "My history", <strong>Then</strong> the system shows the list of trips made in the last 30 days with dates and times.</li>
+                    <li><strong>Given</strong> that the driver wants to know their punctuality, <strong>When</strong> checking their performance report, <strong>Then</strong> the system shows the percentage of on-time arrivals per stop.</li>
+                    <li><strong>Given</strong> that the driver has had incidents, <strong>When</strong> checking the record, <strong>Then</strong> they see the list of recorded events with their resolutions.</li>
+                    <li><strong>Given</strong> that the driver wants to share their reputation, <strong>When</strong> generating a summary, <strong>Then</strong> the system allows exporting a simple report (PDF) with their metrics.</li>
                 </ul>
             </td>
             <td style="text-align:center">-</td>
         </tr>
-        <!-- EPICA 5B - SOLO EMPRESA (Reportes de gestión) -->
+        <!-- EPIC 5B - COMPANY ONLY (Management reports) -->
         <tr>
             <td class="epic-id" style="text-align:center">EP05B</td>
-            <td style="text-align:center">Reportes de gestión de flota</td>
-            <td>Como <strong>administrador de empresa de movilidad escolar</strong>, deseo generar reportes consolidados de toda la flota (puntualidad, asistencia, combustible, facturación), para evaluar el servicio y tomar decisiones.</td>
+            <td style="text-align:center">Fleet management reports</td>
+            <td>As a <strong>school mobility company administrator</strong>, I want to generate consolidated reports for the entire fleet (punctuality, attendance, fuel, billing), to evaluate the service and make decisions.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el administrador necesita un reporte de puntualidad por conductor, <strong>When</strong> selecciona un rango de fechas, <strong>Then</strong> el sistema genera un reporte con el porcentaje de llegadas a tiempo por cada unidad.</li>
-                    <li><strong>Given</strong> que el administrador requiere el consolidado de asistencia mensual, <strong>When</strong> selecciona el mes y la ruta, <strong>Then</strong> el sistema exporta un archivo Excel con los días de servicio por alumno (útil para facturación).</li>
-                    <li><strong>Given</strong> que el administrador desea evaluar el consumo de combustible, <strong>When</strong> consulta el reporte de eficiencia, <strong>Then</strong> el sistema muestra kilómetros recorridos vs. tiempo de motor encendido por unidad.</li>
-                    <li><strong>Given</strong> que el administrador necesita un informe de incidencias, <strong>When</strong> filtra por tipo de incidente y período, <strong>Then</strong> el sistema presenta una tabla con fechas, conductores y descripciones.</li>
-                    <li><strong>Given</strong> que el administrador debe justificar la calidad del servicio ante un colegio, <strong>When</strong> solicita un reporte ejecutivo, <strong>Then</strong> el sistema genera un PDF consolidado con indicadores clave de la flota.</li>
+                    <li><strong>Given</strong> that the administrator needs a punctuality report by driver, <strong>When</strong> selecting a date range, <strong>Then</strong> the system generates a report with the percentage of on-time arrivals per unit.</li>
+                    <li><strong>Given</strong> that the administrator requires the monthly attendance consolidated report, <strong>When</strong> selecting the month and route, <strong>Then</strong> the system exports an Excel file with service days per student (useful for billing).</li>
+                    <li><strong>Given</strong> that the administrator wants to evaluate fuel consumption, <strong>When</strong> checking the efficiency report, <strong>Then</strong> the system shows kilometers traveled vs. engine-on time per unit.</li>
+                    <li><strong>Given</strong> that the administrator needs an incident report, <strong>When</strong> filtering by incident type and period, <strong>Then</strong> the system presents a table with dates, drivers, and descriptions.</li>
+                    <li><strong>Given</strong> that the administrator must justify service quality to a school, <strong>When</strong> requesting an executive report, <strong>Then</strong> the system generates a consolidated PDF with key fleet indicators.</li>
                 </ul>
             </td>
             <td style="text-align:center">-</td>
         </tr>
-        <!-- USER STORY 01 - Registrar abordaje -->
+        <!-- USER STORY 01 - Record student boarding -->
         <tr>
             <td class="user-story-id" style="text-align:center">US01</td>
-            <td style="text-align:center">Registrar abordaje de alumno</td>
-            <td>Como <strong>conductor</strong>, deseo registrar el momento en que un alumno aborda el vehículo en cada parada, para mantener un registro digital de asistencia.</td>
+            <td style="text-align:center">Record student boarding</td>
+            <td>As a <strong>driver</strong>, I want to record the moment a student boards the vehicle at each stop, to maintain a digital attendance record.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el conductor ha llegado a una parada programada y el alumno está presente, <strong>When</strong> el conductor selecciona al alumno en la lista, <strong>Then</strong> el sistema registra el evento con timestamp y ubicación.</li>
-                    <li><strong>Given</strong> que el registro de abordaje es exitoso, <strong>When</strong> se completa la acción, <strong>Then</strong> el sistema envía una notificación push al padre del alumno con el mensaje "Tu hijo ha abordado el bus".</li>
-                    <li><strong>Given</strong> que el conductor opera sin conexión a internet, <strong>When</strong> registra un abordaje, <strong>Then</strong> el sistema almacena el evento localmente y lo sincroniza automáticamente al recuperar conectividad.</li>
+                    <li><strong>Given</strong> that the driver has arrived at a scheduled stop and the student is present, <strong>When</strong> the driver selects the student from the list, <strong>Then</strong> the system records the event with a timestamp and location.</li>
+                    <li><strong>Given</strong> that the boarding registration is successful, <strong>When</strong> the action is completed, <strong>Then</strong> the system sends a push notification to the student's parent with the message "Your child has boarded the bus."</li>
+                    <li><strong>Given</strong> that the driver is operating without an internet connection, <strong>When</strong> recording a boarding, <strong>Then</strong> the system stores the event locally and automatically synchronizes it when connectivity is restored.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP01</td>
         </tr>
-        <!-- USER STORY 02 - Notificar ausencia automática -->
+        <!-- USER STORY 02 - Automatic absence notification -->
         <tr>
             <td class="user-story-id" style="text-align:center">US02</td>
-            <td style="text-align:center">Notificar ausencia automática</td>
-            <td>Como <strong>conductor</strong>, deseo que el sistema detecte automáticamente cuando un alumno no se presenta en su parada, para no tener que esperar más de lo necesario ni llamar manualmente al padre.</td>
+            <td style="text-align:center">Automatic absence notification</td>
+            <td>As a <strong>driver</strong>, I want the system to automatically detect when a student does not show up at their stop, so I don't have to wait longer than necessary or manually call the parent.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el conductor ha llegado a una parada programada, <strong>When</strong> transcurren 2 minutos sin que se registre el abordaje del alumno, <strong>Then</strong> el sistema envía una notificación al padre informando la ausencia.</li>
-                    <li><strong>Given</strong> que se notifica la ausencia, <strong>When</strong> el padre responde que el alumno no asistirá, <strong>Then</strong> el sistema omite automáticamente la parada y continúa con la siguiente.</li>
-                    <li><strong>Given</strong> que se notifica la ausencia pero el alumno aparece después del tiempo límite, <strong>When</strong> el conductor registra el abordaje tardío, <strong>Then</strong> el sistema registra el evento con marca de "retraso por alumno".</li>
+                    <li><strong>Given</strong> that the driver has arrived at a scheduled stop, <strong>When</strong> 2 minutes pass without the student's boarding being recorded, <strong>Then</strong> the system sends a notification to the parent informing them of the absence.</li>
+                    <li><strong>Given</strong> that the absence is notified, <strong>When</strong> the parent responds that the student will not attend, <strong>Then</strong> the system automatically skips the stop and continues to the next one.</li>
+                    <li><strong>Given</strong> that the absence is notified but the student shows up after the time limit, <strong>When</strong> the driver records the late boarding, <strong>Then</strong> the system records the event with a "student delay" mark.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP01</td>
         </tr>
-        <!-- USER STORY 03 - Visualizar ruta optimizada -->
+        <!-- USER STORY 03 - View optimized route -->
         <tr>
             <td class="user-story-id" style="text-align:center">US03</td>
-            <td style="text-align:center">Visualizar ruta optimizada del día</td>
-            <td>Como <strong>conductor</strong>, deseo visualizar la ruta del día con el orden de paradas y tiempos estimados, para reducir tiempos de espera y consumo de combustible.</td>
+            <td style="text-align:center">View optimized daily route</td>
+            <td>As a <strong>driver</strong>, I want to view the day's route with the order of stops and estimated times, to reduce waiting times and fuel consumption.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el conductor ha iniciado su jornada, <strong>When</strong> accede a la pantalla de ruta, <strong>Then</strong> el sistema muestra el orden secuencial de las paradas con la dirección y hora estimada de llegada para cada una.</li>
-                    <li><strong>Given</strong> que el conductor sigue la ruta sugerida, <strong>When</strong> completa una parada, <strong>Then</strong> el sistema actualiza automáticamente la vista mostrando la siguiente parada como destino actual.</li>
-                    <li><strong>Given</strong> que el conductor se desvía de la ruta sugerida, <strong>When</strong> el sistema detecta la desviación, <strong>Then</strong> recalcula la ruta restante y actualiza los tiempos estimados.</li>
+                    <li><strong>Given</strong> that the driver has started their shift, <strong>When</strong> accessing the route screen, <strong>Then</strong> the system shows the sequential order of stops with the address and estimated arrival time for each.</li>
+                    <li><strong>Given</strong> that the driver follows the suggested route, <strong>When</strong> completing a stop, <strong>Then</strong> the system automatically updates the view, showing the next stop as the current destination.</li>
+                    <li><strong>Given</strong> that the driver deviates from the suggested route, <strong>When</strong> the system detects the deviation, <strong>Then</strong> it recalculates the remaining route and updates the estimated times.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP02</td>
         </tr>
-        <!-- USER STORY 04 - Reordenar ruta por ausencia -->
+        <!-- USER STORY 04 - Reorder route due to absence -->
         <tr>
             <td class="user-story-id" style="text-align:center">US04</td>
-            <td style="text-align:center">Reordenar ruta por ausencia</td>
-            <td>Como <strong>conductor</strong>, deseo que la ruta se reordene automáticamente cuando un alumno falta, para no perder tiempo pasando por una parada vacía.</td>
+            <td style="text-align:center">Reorder route due to absence</td>
+            <td>As a <strong>driver</strong>, I want the route to be automatically reordered when a student is absent, so I don't waste time passing by an empty stop.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que se ha confirmado la ausencia de un alumno en su parada, <strong>When</strong> el sistema recibe la confirmación, <strong>Then</strong> omite esa parada de la ruta activa y reordena las siguientes.</li>
-                    <li><strong>Given</strong> que la ruta ha sido reordenada, <strong>When</strong> el conductor visualiza la ruta actualizada, <strong>Then</strong> los tiempos estimados de llegada se han recalculado para todas las paradas restantes.</li>
-                    <li><strong>Given</strong> que la ausencia fue registrada por el padre antes del inicio de la ruta, <strong>When</strong> el conductor inicia la jornada, <strong>Then</strong> la parada del alumno ausente no aparece en la ruta del día.</li>
+                    <li><strong>Given</strong> that a student's absence at their stop has been confirmed, <strong>When</strong> the system receives the confirmation, <strong>Then</strong> it skips that stop from the active route and reorders the following ones.</li>
+                    <li><strong>Given</strong> that the route has been reordered, <strong>When</strong> the driver views the updated route, <strong>Then</strong> the estimated arrival times have been recalculated for all remaining stops.</li>
+                    <li><strong>Given</strong> that the absence was recorded by the parent before the route started, <strong>When</strong> the driver starts the shift, <strong>Then</strong> the absent student's stop does not appear on the day's route.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP02</td>
         </tr>
-        <!-- USER STORY 05 - Registrar incidencia en ruta -->
+        <!-- USER STORY 05 - Record incident on route -->
         <tr>
             <td class="user-story-id" style="text-align:center">US05</td>
-            <td style="text-align:center">Registrar incidencia en ruta</td>
-            <td>Como <strong>conductor</strong>, deseo registrar cualquier incidencia que ocurra durante el recorrido (retraso, accidente, cambio de ruta), para mantener trazabilidad del servicio.</td>
+            <td style="text-align:center">Record incident on route</td>
+            <td>As a <strong>driver</strong>, I want to record any incident that occurs during the trip (delay, accident, route change), to maintain service traceability.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que ocurre una incidencia durante el recorrido, <strong>When</strong> el conductor selecciona el tipo de incidencia (retraso, accidente, desvío, emergencia médica), <strong>Then</strong> el sistema registra el evento con ubicación, timestamp y datos del vehículo.</li>
-                    <li><strong>Given</strong> que el conductor necesita documentar la incidencia, <strong>When</strong> adjunta una foto o nota de texto, <strong>Then</strong> el sistema guarda la evidencia asociada al evento.</li>
-                    <li><strong>Given</strong> que la incidencia afecta los tiempos de llegada, <strong>When</strong> el conductor la registra, <strong>Then</strong> el sistema recalcula los tiempos estimados y notifica a los padres afectados.</li>
+                    <li><strong>Given</strong> that an incident occurs during the trip, <strong>When</strong> the driver selects the incident type (delay, accident, detour, medical emergency), <strong>Then</strong> the system records the event with location, timestamp, and vehicle data.</li>
+                    <li><strong>Given</strong> that the driver needs to document the incident, <strong>When</strong> attaching a photo or text note, <strong>Then</strong> the system saves the evidence associated with the event.</li>
+                    <li><strong>Given</strong> that the incident affects arrival times, <strong>When</strong> the driver records it, <strong>Then</strong> the system recalculates estimated times and notifies affected parents.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP03</td>
         </tr>
-        <!-- USER STORY 06 - Notificar a padres por incidencia (automático) -->
+        <!-- USER STORY 06 - Notify parents due to incident (automatic) -->
         <tr>
             <td class="user-story-id" style="text-align:center">US06</td>
-            <td style="text-align:center">Notificar a padres por incidencia</td>
-            <td>Como <strong>sistema</strong>, deseo notificar automáticamente a los padres cuando se registra una incidencia que afecta la ruta de sus hijos, para mantenerlos informados sin intervención manual del conductor.</td>
+            <td style="text-align:center">Notify parents due to incident</td>
+            <td>As a <strong>system</strong>, I want to automatically notify parents when an incident that affects their children's route is recorded, to keep them informed without manual intervention from the driver.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que se registra una incidencia que afecta los tiempos estimados, <strong>When</strong> el sistema calcula el nuevo tiempo de llegada, <strong>Then</strong> envía una notificación push a los padres de los alumnos afectados con el mensaje "El bus presentará un retraso de X minutos".</li>
-                    <li><strong>Given</strong> que se registra una incidencia grave (accidente, emergencia), <strong>When</strong> el conductor marca el evento como crítico, <strong>Then</strong> el sistema notifica inmediatamente al administrador de la empresa y envía una alerta prioritaria a los padres.</li>
-                    <li><strong>Given</strong> que la incidencia se resuelve, <strong>When</strong> el conductor confirma la normalización del servicio, <strong>Then</strong> el sistema envía una notificación de "Incidencia resuelta - el servicio continúa con normalidad".</li>
+                    <li><strong>Given</strong> that an incident affecting estimated times is recorded, <strong>When</strong> the system calculates the new arrival time, <strong>Then</strong> it sends a push notification to the parents of affected students with the message "The bus will be delayed by X minutes."</li>
+                    <li><strong>Given</strong> that a serious incident (accident, emergency) is recorded, <strong>When</strong> the driver marks the event as critical, <strong>Then</strong> the system immediately notifies the company administrator and sends a priority alert to parents.</li>
+                    <li><strong>Given</strong> that the incident is resolved, <strong>When</strong> the driver confirms the service has returned to normal, <strong>Then</strong> the system sends a notification "Incident resolved - service continues as normal."</li>
                 </ul>
             </td>
             <td style="text-align:center">EP03</td>
         </tr>
-        <!-- USER STORY 07 - Ver flota completa en mapa (Empresa) -->
+        <!-- USER STORY 07 - View complete fleet on map (Company) -->
         <tr>
             <td class="user-story-id" style="text-align:center">US07</td>
-            <td style="text-align:center">Ver flota completa en mapa</td>
-            <td>Como <strong>administrador de empresa de movilidad escolar</strong>, deseo visualizar en un mapa todas mis unidades activas en tiempo real, para supervisar el cumplimiento de rutas sin depender de llamadas telefónicas.</td>
+            <td style="text-align:center">View complete fleet on map</td>
+            <td>As a <strong>school mobility company administrator</strong>, I want to view all my active vehicles on a map in real time, to supervise route compliance without relying on phone calls.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el administrador accede al dashboard de la empresa, <strong>When</strong> selecciona la vista de flota, <strong>Then</strong> el sistema muestra un mapa con la ubicación actual de todas las unidades activas, identificadas por número o nombre del conductor.</li>
-                    <li><strong>Given</strong> que el administrador selecciona una unidad específica en el mapa, <strong>When</strong> hace clic sobre ella, <strong>Then</strong> se despliega un panel con los detalles de la ruta, paradas realizadas, próximo destino y estado actual.</li>
-                    <li><strong>Given</strong> que una unidad tiene activado el modo de emergencia, <strong>When</strong> el administrador visualiza el mapa, <strong>Then</strong> esa unidad se destaca con un ícono o color distintivo de alerta.</li>
+                    <li><strong>Given</strong> that the administrator accesses the company dashboard, <strong>When</strong> selecting the fleet view, <strong>Then</strong> the system shows a map with the current location of all active vehicles, identified by number or driver name.</li>
+                    <li><strong>Given</strong> that the administrator selects a specific vehicle on the map, <strong>When</strong> clicking on it, <strong>Then</strong> a panel displays the route details, stops made, next destination, and current status.</li>
+                    <li><strong>Given</strong> that a vehicle has emergency mode activated, <strong>When</strong> the administrator views the map, <strong>Then</strong> that vehicle is highlighted with a distinctive alert icon or color.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP04</td>
         </tr>
-        <!-- USER STORY 08 - Alerta por desviación de ruta -->
+        <!-- USER STORY 08 - Alert for route deviation -->
         <tr>
             <td class="user-story-id" style="text-align:center">US08</td>
-            <td style="text-align:center">Recibir alerta por desviación de ruta</td>
-            <td>Como <strong>administrador de empresa de movilidad escolar</strong>, deseo recibir una alerta cuando una unidad se desvía significativamente de su ruta establecida, para poder actuar rápidamente ante posibles incidentes.</td>
+            <td style="text-align:center">Receive alert for route deviation</td>
+            <td>As a <strong>school mobility company administrator</strong>, I want to receive an alert when a vehicle significantly deviates from its established route, so I can act quickly in case of possible incidents.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que una unidad activa tiene definida una ruta programada, <strong>When</strong> su ubicación se desvía más de 500 metros de la ruta planificada, <strong>Then</strong> el sistema genera una alerta en el dashboard del administrador.</li>
-                    <li><strong>Given</strong> que se genera una alerta por desviación, <strong>When</strong> el administrador hace clic en la alerta, <strong>Then</strong> el sistema muestra la ubicación actual de la unidad y la ruta programada para comparación.</li>
-                    <li><strong>Given</strong> que la desviación fue autorizada (ej. por cierre de vía), <strong>When</strong> el conductor registró previamente un desvío planificado, <strong>Then</strong> el sistema no genera alerta para ese desvío específico.</li>
+                    <li><strong>Given</strong> that an active vehicle has a defined scheduled route, <strong>When</strong> its location deviates more than 500 meters from the planned route, <strong>Then</strong> the system generates an alert on the administrator's dashboard.</li>
+                    <li><strong>Given</strong> that a deviation alert is generated, <strong>When</strong> the administrator clicks on the alert, <strong>Then</strong> the system shows the vehicle's current location and the scheduled route for comparison.</li>
+                    <li><strong>Given</strong> that the deviation was authorized (e.g., due to road closure), <strong>When</strong> the driver previously recorded a planned detour, <strong>Then</strong> the system does not generate an alert for that specific deviation.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP04</td>
         </tr>
-        <!-- USER STORY 09 - Historial personal de viajes (Conductor) -->
+        <!-- USER STORY 09 - Personal trip history (Driver) -->
         <tr>
             <td class="user-story-id" style="text-align:center">US09</td>
-            <td style="text-align:center">Ver historial personal de viajes</td>
-            <td>Como <strong>conductor independiente</strong>, deseo acceder a mi historial de viajes, puntualidad e incidencias registradas, para evaluar mi desempeño y demostrar mi confiabilidad a los padres.</td>
+            <td style="text-align:center">View personal trip history</td>
+            <td>As an <strong>independent driver</strong>, I want to access my trip history, punctuality, and recorded incidents, to evaluate my performance and demonstrate my reliability to parents.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el conductor accede a su perfil en la app, <strong>When</strong> selecciona "Mi historial", <strong>Then</strong> el sistema muestra una lista de los viajes realizados en los últimos 30 días con fecha, hora de inicio y fin.</li>
-                    <li><strong>Given</strong> que el conductor consulta un día específico, <strong>When</strong> selecciona una fecha, <strong>Then</strong> el sistema muestra el detalle de la ruta: paradas, horarios reales vs. programados, e incidencias registradas.</li>
-                    <li><strong>Given</strong> que el conductor desea compartir su historial con un padre, <strong>When</strong> solicita exportar su reporte, <strong>Then</strong> el sistema genera un PDF resumido con sus métricas de puntualidad y número de incidencias.</li>
+                    <li><strong>Given</strong> that the driver accesses their profile in the app, <strong>When</strong> selecting "My history", <strong>Then</strong> the system shows a list of trips made in the last 30 days with date, start and end time.</li>
+                    <li><strong>Given</strong> that the driver checks a specific day, <strong>When</strong> selecting a date, <strong>Then</strong> the system shows the route details: stops, actual vs. scheduled times, and recorded incidents.</li>
+                    <li><strong>Given</strong> that the driver wants to share their history with a parent, <strong>When</strong> requesting to export their report, <strong>Then</strong> the system generates a summarized PDF with their punctuality metrics and number of incidents.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP05A</td>
         </tr>
-        <!-- USER STORY 10 - Exportar reporte de asistencia mensual (Empresa) -->
+        <!-- USER STORY 10 - Export monthly attendance report (Company) -->
         <tr>
             <td class="user-story-id" style="text-align:center">US10</td>
-            <td style="text-align:center">Exportar reporte de asistencia mensual</td>
-            <td>Como <strong>administrador de empresa de movilidad escolar</strong>, deseo exportar un consolidado de asistencia mensual por alumno, para agilizar el proceso de facturación a los padres sin errores manuales.</td>
+            <td style="text-align:center">Export monthly attendance report</td>
+            <td>As a <strong>school mobility company administrator</strong>, I want to export a monthly attendance consolidated report per student, to streamline the billing process for parents without manual errors.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el administrador necesita facturar por alumno, <strong>When</strong> selecciona un mes y una ruta, <strong>Then</strong> el sistema genera un archivo Excel con la lista de alumnos y los días del mes que efectivamente utilizaron el servicio.</li>
-                    <li><strong>Given</strong> que se ha generado el reporte, <strong>When</strong> el administrador lo descarga, <strong>Then</strong> el archivo contiene columnas: nombre del alumno, grado, dirección de recojo, total de días servidos, ausencias justificadas e injustificadas.</li>
-                    <li><strong>Given</strong> que un alumno tuvo ausencias registradas por el conductor, <strong>When</strong> se genera el reporte, <strong>Then</strong> esas ausencias aparecen marcadas con el tipo (justificada o injustificada) según lo reportado por el padre.</li>
+                    <li><strong>Given</strong> that the administrator needs to bill per student, <strong>When</strong> selecting a month and a route, <strong>Then</strong> the system generates an Excel file with the list of students and the days of the month they actually used the service.</li>
+                    <li><strong>Given</strong> that the report has been generated, <strong>When</strong> the administrator downloads it, <strong>Then</strong> the file contains columns: student name, grade, pickup address, total days served, justified and unjustified absences.</li>
+                    <li><strong>Given</strong> that a student had absences recorded by the driver, <strong>When</strong> the report is generated, <strong>Then</strong> those absences appear marked with the type (justified or unjustified) as reported by the parent.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP05B</td>
         </tr>
-        <!-- USER STORY 11 - Generar reporte de puntualidad por unidad -->
+        <!-- USER STORY 11 - Generate punctuality report per unit -->
         <tr>
             <td class="user-story-id" style="text-align:center">US11</td>
-            <td style="text-align:center">Generar reporte de puntualidad por unidad</td>
-            <td>Como <strong>administrador de empresa de movilidad escolar</strong>, deseo generar un reporte de puntualidad por cada conductor/unidad, para evaluar su desempeño y tomar decisiones de mejora o incentivos.</td>
+            <td style="text-align:center">Generate punctuality report per unit</td>
+            <td>As a <strong>school mobility company administrator</strong>, I want to generate a punctuality report per driver/unit, to evaluate their performance and make improvement or incentive decisions.</td>
             <td class="acceptance-criteria">
                 <ul>
-                    <li><strong>Given</strong> que el administrador selecciona un rango de fechas, <strong>When</strong> solicita el reporte de puntualidad, <strong>Then</strong> el sistema genera una tabla con cada unidad, su porcentaje de llegadas a tiempo por parada, y el promedio de minutos de retraso.</li>
-                    <li><strong>Given</strong> que se ha generado el reporte, <strong>When</strong> el administrador selecciona una unidad específica, <strong>Then</strong> el sistema muestra el detalle día por día con los horarios programados vs. reales.</li>
-                    <li><strong>Given</strong> que el administrador necesita presentar el reporte ante un colegio, <strong>When</strong> solicita exportar en PDF, <strong>Then</strong> el sistema genera un documento profesional con gráficos de puntualidad por semana.</li>
+                    <li><strong>Given</strong> that the administrator selects a date range, <strong>When</strong> requesting the punctuality report, <strong>Then</strong> the system generates a table with each unit, their percentage of on-time arrivals per stop, and the average delay in minutes.</li>
+                    <li><strong>Given</strong> that the report has been generated, <strong>When</strong> the administrator selects a specific unit, <strong>Then</strong> the system shows the day-by-day details with scheduled vs. actual times.</li>
+                    <li><strong>Given</strong> that the administrator needs to present the report to a school, <strong>When</strong> requesting to export as PDF, <strong>Then</strong> the system generates a professional document with weekly punctuality charts.</li>
                 </ul>
             </td>
             <td style="text-align:center">EP05B</td>
         </tr>
           <tr>
     <td style="text-align: center;">US12</td>
-    <td style="text-align: center;">Visualizar lista de estudiantes por ruta</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero ver la lista de estudiantes asignados a mi ruta, para saber a quién debo recoger.</td>
+    <td style="text-align: center;">View student list by route</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to see the list of students assigned to my route, so I know whom to pick up.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha iniciado sesión en la app, <strong>When</strong> accede a la sección de ruta del día, <strong>Then</strong> el sistema presenta la lista de estudiantes ordenada por secuencia de paradas.</li>
-            <li><strong>Given</strong> que la lista de estudiantes es visible, <strong>When</strong> el conductor consulta un estudiante específico, <strong>Then</strong> el sistema muestra su nombre completo y la dirección de punto de recojo.</li>
-            <li><strong>Given</strong> que existen estudiantes asignados a diferentes rutas, <strong>When</strong> el conductor visualiza su lista, <strong>Then</strong> el sistema filtra y muestra únicamente los estudiantes asignados a la ruta activa del conductor.</li>
+            <li><strong>Given</strong> that the driver has logged into the app, <strong>When</strong> accessing the day's route section, <strong>Then</strong> the system presents the list of students ordered by stop sequence.</li>
+            <li><strong>Given</strong> that the student list is visible, <strong>When</strong> the driver checks a specific student, <strong>Then</strong> the system shows their full name and pickup address.</li>
+            <li><strong>Given</strong> that there are students assigned to different routes, <strong>When</strong> the driver views their list, <strong>Then</strong> the system filters and shows only the students assigned to the driver's active route.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US13</td>
-    <td style="text-align: center;">Visualizar estudiantes por parada</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero ver qué estudiantes corresponden a cada parada, para organizar el recojo.</td>
+    <td style="text-align: center;">View students by stop</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to see which students correspond to each stop, to organize the pickup.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha seleccionado una ruta activa, <strong>When</strong> accede a la lista de paradas, <strong>Then</strong> el sistema agrupa los estudiantes por cada parada programada.</li>
-            <li><strong>Given</strong> que el conductor está en una parada específica, <strong>When</strong> consulta la lista, <strong>Then</strong> el sistema identifica cuál es la parada actual con un indicador visual diferenciado.</li>
-            <li><strong>Given</strong> que el conductor necesita revisar otras paradas, <strong>When</strong> navega entre ellas, <strong>Then</strong> el sistema permite cambiar de una parada a otra sin perder el contexto de la ruta.</li>
+            <li><strong>Given</strong> that the driver has selected an active route, <strong>When</strong> accessing the list of stops, <strong>Then</strong> the system groups students by each scheduled stop.</li>
+            <li><strong>Given</strong> that the driver is at a specific stop, <strong>When</strong> checking the list, <strong>Then</strong> the system identifies the current stop with a distinct visual indicator.</li>
+            <li><strong>Given</strong> that the driver needs to review other stops, <strong>When</strong> navigating between them, <strong>Then</strong> the system allows switching from one stop to another without losing route context.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US14</td>
-    <td style="text-align: center;">Registrar abordaje</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero marcar rápidamente cuando un estudiante sube, para llevar control del traslado.</td>
+    <td style="text-align: center;">Record boarding</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to quickly mark when a student gets on, to keep track of the ride.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor está en una parada y el estudiante aborda el vehículo, <strong>When</strong> el conductor ejecuta la acción de registro, <strong>Then</strong> el sistema cambia el estado del estudiante a "abordó" en la lista.</li>
-            <li><strong>Given</strong> que se ha registrado el abordaje, <strong>When</strong> el conductor continúa con la ruta, <strong>Then</strong> el sistema guarda automáticamente el evento con timestamp y ubicación.</li>
-            <li><strong>Given</strong> que el registro es exitoso, <strong>When</strong> el conductor revisa la lista actualizada, <strong>Then</strong> el estudiante aparece como ya abordado y no requiere acción adicional.</li>
+            <li><strong>Given</strong> that the driver is at a stop and the student boards the vehicle, <strong>When</strong> the driver performs the recording action, <strong>Then</strong> the system changes the student's status to "boarded" in the list.</li>
+            <li><strong>Given</strong> that boarding has been recorded, <strong>When</strong> the driver continues with the route, <strong>Then</strong> the system automatically saves the event with timestamp and location.</li>
+            <li><strong>Given</strong> that the recording is successful, <strong>When</strong> the driver checks the updated list, <strong>Then</strong> the student appears as already boarded and no further action is required.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US15</td>
-    <td style="text-align: center;">Registrar ausencia</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero marcar cuando un estudiante no sube, para evitar esperas innecesarias.</td>
+    <td style="text-align: center;">Record absence</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to mark when a student does not get on, to avoid unnecessary waiting.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha llegado a una parada programada y el estudiante no se presenta, <strong>When</strong> el conductor selecciona la opción de ausencia, <strong>Then</strong> el sistema registra al estudiante como "ausente" en esa parada.</li>
-            <li><strong>Given</strong> que el conductor registra una ausencia, <strong>When</strong> el sistema lo solicita, <strong>Then</strong> el conductor puede registrar el motivo de la ausencia (opcional).</li>
-            <li><strong>Given</strong> que se registra una ausencia, <strong>When</strong> el evento es persistido, <strong>Then</strong> la información se actualiza en tiempo real en el sistema y está disponible para el administrador o los padres.</li>
+            <li><strong>Given</strong> that the driver has arrived at a scheduled stop and the student does not show up, <strong>When</strong> the driver selects the absence option, <strong>Then</strong> the system records the student as "absent" at that stop.</li>
+            <li><strong>Given</strong> that the driver records an absence, <strong>When</strong> the system prompts, <strong>Then</strong> the driver can optionally record the reason for the absence.</li>
+            <li><strong>Given</strong> that an absence is recorded, <strong>When</strong> the event is persisted, <strong>Then</strong> the information is updated in real time in the system and available to the administrator or parents.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US16</td>
-    <td style="text-align: center;">Edición rápida de estado</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero corregir el estado de un estudiante en caso de error, para mantener información precisa.</td>
+    <td style="text-align: center;">Quick status editing</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to correct a student's status in case of error, to maintain accurate information.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que un estudiante tiene un estado registrado erróneamente (abordaje o ausencia), <strong>When</strong> el conductor selecciona la opción de edición, <strong>Then</strong> el sistema permite cambiar el estado al valor correcto.</li>
-            <li><strong>Given</strong> que se realiza una corrección de estado, <strong>When</strong> el cambio es guardado, <strong>Then</strong> el sistema registra la última actualización con nuevo timestamp y mantiene trazabilidad del cambio.</li>
-            <li><strong>Given</strong> que el conductor necesita corregir un estado, <strong>When</strong> accede a la edición, <strong>Then</strong> el sistema permite completar la corrección sin requerir múltiples pasos o pantallas adicionales.</li>
+            <li><strong>Given</strong> that a student has an erroneously recorded status (boarding or absence), <strong>When</strong> the driver selects the edit option, <strong>Then</strong> the system allows changing the status to the correct value.</li>
+            <li><strong>Given</strong> that a status correction is made, <strong>When</strong> the change is saved, <strong>Then</strong> the system records the latest update with a new timestamp and maintains traceability of the change.</li>
+            <li><strong>Given</strong> that the driver needs to correct a status, <strong>When</strong> accessing the edit, <strong>Then</strong> the system allows completing the correction without requiring multiple steps or additional screens.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US17</td>
-    <td style="text-align: center;">Funcionamiento offline</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero poder registrar abordajes sin conexión a internet, para no depender de la señal.</td>
+    <td style="text-align: center;">Offline functionality</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to be able to record boardings without an internet connection, so I don't depend on signal.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el dispositivo del conductor no tiene conexión a internet, <strong>When</strong> el conductor registra un abordaje o ausencia, <strong>Then</strong> el sistema almacena el evento localmente en el dispositivo.</li>
-            <li><strong>Given</strong> que existen eventos pendientes de sincronización, <strong>When</strong> el dispositivo recupera la conexión a internet, <strong>Then</strong> el sistema envía automáticamente todos los eventos almacenados al servidor.</li>
-            <li><strong>Given</strong> que se ha completado la sincronización, <strong>When</strong> el sistema verifica los eventos transmitidos, <strong>Then</strong> no se pierde ni se duplica ninguna información registrada durante el modo offline.</li>
+            <li><strong>Given</strong> that the driver's device has no internet connection, <strong>When</strong> the driver records a boarding or absence, <strong>Then</strong> the system stores the event locally on the device.</li>
+            <li><strong>Given</strong> that there are pending events to synchronize, <strong>When</strong> the device regains internet connection, <strong>Then</strong> the system automatically sends all stored events to the server.</li>
+            <li><strong>Given</strong> that synchronization is completed, <strong>When</strong> the system verifies the transmitted events, <strong>Then</strong> no information recorded during offline mode is lost or duplicated.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US18</td>
-    <td style="text-align: center;">Confirmación visual rápida</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas.</td>
+    <td style="text-align: center;">Quick visual confirmation</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to quickly identify who has already gotten on and who hasn't, to make quick decisions.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor visualiza la lista de estudiantes de una parada, <strong>When</strong> un estudiante tiene el estado "abordó", <strong>Then</strong> el sistema lo diferencia visualmente de aquellos con estado pendiente.</li>
-            <li><strong>Given</strong> que el conductor está en movimiento, <strong>When</strong> consulta la lista de estudiantes, <strong>Then</strong> el sistema presenta la información de forma legible y sin necesidad de interacciones complejas.</li>
-            <li><strong>Given</strong> que el conductor necesita conocer el estado general de la parada, <strong>When</strong> revisa la lista, <strong>Then</strong> el sistema permite distinguir de un vistazo cuántos estudiantes han abordado y cuántos faltan.</li>
+            <li><strong>Given</strong> that the driver views the list of students at a stop, <strong>When</strong> a student has the status "boarded", <strong>Then</strong> the system visually differentiates them from those with pending status.</li>
+            <li><strong>Given</strong> that the driver is on the move, <strong>When</strong> checking the student list, <strong>Then</strong> the system presents the information in a readable way without requiring complex interactions.</li>
+            <li><strong>Given</strong> that the driver needs to know the general status of the stop, <strong>When</strong> reviewing the list, <strong>Then</strong> the system allows them to see at a glance how many students have boarded and how many are missing.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  <tr>
+   </>
+    <tr>
     <td style="text-align: center;">US19</td>
-    <td style="text-align: center;">Visualizar ruta asignada</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero visualizar la ruta asignada del día, para saber el orden de recorrido.</td>
+    <td style="text-align: center;">View assigned route</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to view the assigned route for the day, to know the order of travel.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha iniciado su jornada laboral, <strong>When</strong> accede a la sección de ruta, <strong>Then</strong> el sistema presenta la ruta asignada para el día actual.</li>
-            <li><strong>Given</strong> que la ruta del día es visible, <strong>When</strong> el conductor la consulta, <strong>Then</strong> el sistema muestra la lista completa de paradas en el orden secuencial del recorrido.</li>
-            <li><strong>Given</strong> que existen múltiples conductores en la misma empresa, <strong>When</strong> un conductor consulta su ruta, <strong>Then</strong> el sistema muestra únicamente la ruta asignada a ese conductor específico.</li>
+            <li><strong>Given</strong> that the driver has started their work shift, <strong>When</strong> accessing the route section, <strong>Then</strong> the system presents the assigned route for the current day.</li>
+            <li><strong>Given</strong> that the day's route is visible, <strong>When</strong> the driver checks it, <strong>Then</strong> the system shows the complete list of stops in the sequential order of the journey.</li>
+            <li><strong>Given</strong> that there are multiple drivers in the same company, <strong>When</strong> a driver checks their route, <strong>Then</strong> the system shows only the route assigned to that specific driver.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US20</td>
-    <td style="text-align: center;">Visualizar paradas en mapa</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero ver las paradas de mi ruta en un mapa, para ubicarme fácilmente durante el recorrido.</td>
+    <td style="text-align: center;">View stops on map</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to see the stops on my route on a map, to easily locate myself during the journey.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha seleccionado su ruta activa, <strong>When</strong> accede a la vista de mapa, <strong>Then</strong> el sistema muestra todas las paradas de la ruta como puntos geolocalizados.</li>
-            <li><strong>Given</strong> que el mapa está visible, <strong>When</strong> el conductor se desplaza durante el recorrido, <strong>Then</strong> el sistema muestra la ubicación actual del vehículo en el mapa.</li>
-            <li><strong>Given</strong> que las paradas están representadas en el mapa, <strong>When</strong> el conductor las visualiza, <strong>Then</strong> cada parada está claramente diferenciada (ej. paradas completadas vs. pendientes).</li>
+            <li><strong>Given</strong> that the driver has selected their active route, <strong>When</strong> accessing the map view, <strong>Then</strong> the system shows all route stops as geolocated points.</li>
+            <li><strong>Given</strong> that the map is visible, <strong>When</strong> the driver moves during the journey, <strong>Then</strong> the system shows the current vehicle location on the map.</li>
+            <li><strong>Given</strong> that stops are represented on the map, <strong>When</strong> the driver views them, <strong>Then</strong> each stop is clearly differentiated (e.g., completed vs. pending stops).</li>
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
+   </>
   <tr>
     <td style="text-align: center;">US21</td>
-    <td style="text-align: center;">Navegación entre paradas</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero recibir indicaciones para llegar a cada parada, para optimizar mi recorrido.</td>
+    <td style="text-align: center;">Navigation between stops</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to receive directions to reach each stop, to optimize my journey.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha completado una parada, <strong>When</strong> el sistema detecta la finalización, <strong>Then</strong> selecciona automáticamente la siguiente parada como siguiente destino.</li>
-            <li><strong>Given</strong> que la siguiente parada está seleccionada, <strong>When</strong> el conductor requiere orientación, <strong>Then</strong> el sistema proporciona indicaciones de navegación para llegar a esa parada.</li>
-            <li><strong>Given</strong> que el conductor necesita cambiar el orden de navegación, <strong>When</strong> selecciona manualmente otra parada, <strong>Then</strong> el sistema actualiza las indicaciones hacia la nueva parada seleccionada.</li>
+            <li><strong>Given</strong> that the driver has completed a stop, <strong>When</strong> the system detects completion, <strong>Then</strong> it automatically selects the next stop as the next destination.</li>
+            <li><strong>Given</strong> that the next stop is selected, <strong>When</strong> the driver needs guidance, <strong>Then</strong> the system provides navigation directions to reach that stop.</li>
+            <li><strong>Given</strong> that the driver needs to change the navigation order, <strong>When</strong> manually selecting another stop, <strong>Then</strong> the system updates the directions to the newly selected stop.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US22</td>
-    <td style="text-align: center;">Marcar parada como completada</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero marcar una parada como completada, para avanzar en mi ruta de forma ordenada.</td>
+    <td style="text-align: center;">Mark stop as completed</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to mark a stop as completed, to advance along my route in an orderly manner.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha finalizado las acciones en una parada (abordajes y ausencias), <strong>When</strong> el conductor ejecuta la acción para finalizar la parada, <strong>Then</strong> el sistema cambia el estado de la parada a "completada".</li>
-            <li><strong>Given</strong> que una parada ha sido marcada como completada, <strong>When</strong> el conductor visualiza la lista de paradas, <strong>Then</strong> la parada completada se diferencia visualmente de las paradas pendientes.</li>
-            <li><strong>Given</strong> que la parada actual es marcada como completada, <strong>When</strong> el sistema registra el evento, <strong>Then</strong> avanza automáticamente a la siguiente parada de la ruta.</li>
+            <li><strong>Given</strong> that the driver has completed the actions at a stop (boardings and absences), <strong>When</strong> the driver performs the action to finish the stop, <strong>Then</strong> the system changes the stop's status to "completed".</li>
+            <li><strong>Given</strong> that a stop has been marked as completed, <strong>When</strong> the driver views the stop list, <strong>Then</strong> the completed stop is visually differentiated from pending stops.</li>
+            <li><strong>Given</strong> that the current stop is marked as completed, <strong>When</strong> the system records the event, <strong>Then</strong> it automatically advances to the next stop on the route.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US23</td>
-    <td style="text-align: center;">Reordenamiento básico de ruta</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero ajustar el orden de paradas en caso de imprevistos, para adaptarme a cambios en el recorrido.</td>
+    <td style="text-align: center;">Basic route reordering</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to adjust the order of stops in case of unforeseen events, to adapt to changes in the journey.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que ocurre un imprevisto que requiere cambiar el orden de las paradas, <strong>When</strong> el conductor modifica la secuencia de paradas, <strong>Then</strong> el sistema permite reordenar la lista según la nueva prioridad.</li>
-            <li><strong>Given</strong> que el conductor ha reordenado las paradas, <strong>When</strong> confirma los cambios, <strong>Then</strong> el sistema actualiza la ruta activa en tiempo real con el nuevo orden.</li>
-            <li><strong>Given</strong> que la ruta ha sido reordenada, <strong>When</strong> el conductor consulta los registros de estudiantes, <strong>Then</strong> los datos de abordaje y ausencia permanecen correctamente asociados a cada estudiante.</li>
+            <li><strong>Given</strong> that an unforeseen event occurs requiring a change in the order of stops, <strong>When</strong> the driver modifies the stop sequence, <strong>Then</strong> the system allows reordering the list according to the new priority.</li>
+            <li><strong>Given</strong> that the driver has reordered the stops, <strong>When</strong> confirming the changes, <strong>Then</strong> the system updates the active route in real time with the new order.</li>
+            <li><strong>Given</strong> that the route has been reordered, <strong>When</strong> the driver checks student records, <strong>Then</strong> the boarding and absence data remain correctly associated with each student.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US24</td>
-    <td style="text-align: center;">Visualizar estado de la ruta</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero ver el progreso de mi ruta, para saber cuánto falta completar.</td>
+    <td style="text-align: center;">View route status</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to see my route progress, to know how much is left to complete.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor tiene una ruta activa, <strong>When</strong> accede a la vista de progreso, <strong>Then</strong> el sistema muestra la cantidad o porcentaje de paradas completadas sobre el total.</li>
-            <li><strong>Given</strong> que el conductor visualiza el estado de la ruta, <strong>When</strong> consulta la lista de paradas, <strong>Then</strong> el sistema diferencia claramente entre paradas completadas y paradas pendientes.</li>
-            <li><strong>Given</strong> que el conductor avanza en su recorrido, <strong>When</strong> completa una nueva parada, <strong>Then</strong> el sistema actualiza el estado de progreso en tiempo real.</li>
+            <li><strong>Given</strong> that the driver has an active route, <strong>When</strong> accessing the progress view, <strong>Then</strong> the system shows the number or percentage of stops completed out of the total.</li>
+            <li><strong>Given</strong> that the driver views the route status, <strong>When</strong> checking the stop list, <strong>Then</strong> the system clearly differentiates between completed stops and pending stops.</li>
+            <li><strong>Given</strong> that the driver progresses along their journey, <strong>When</strong> completing a new stop, <strong>Then</strong> the system updates the progress status in real time.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US25</td>
-    <td style="text-align: center;">Funcionamiento offline de ruta</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero acceder a mi ruta sin conexión a internet, para no depender de la señal.</td>
+    <td style="text-align: center;">Offline route functionality</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to access my route without an internet connection, so I don't depend on signal.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor tiene conexión a internet al inicio de la jornada, <strong>When</strong> el sistema descarga la ruta asignada, <strong>Then</strong> los datos de la ruta se almacenan localmente en el dispositivo.</li>
-            <li><strong>Given</strong> que la ruta está almacenada localmente, <strong>When</strong> el dispositivo no tiene conexión a internet, <strong>Then</strong> el conductor puede visualizar la ruta y sus paradas sin interrupciones.</li>
-            <li><strong>Given</strong> que el conductor realiza cambios en la ruta (reordenamiento, estados) sin conexión, <strong>When</strong> el dispositivo recupera la conexión, <strong>Then</strong> el sistema sincroniza automáticamente todos los cambios pendientes con el servidor.</li>
+            <li><strong>Given</strong> that the driver has an internet connection at the start of the shift, <strong>When</strong> the system downloads the assigned route, <strong>Then</strong> the route data is stored locally on the device.</li>
+            <li><strong>Given</strong> that the route is stored locally, <strong>When</strong> the device has no internet connection, <strong>Then</strong> the driver can view the route and its stops without interruptions.</li>
+            <li><strong>Given</strong> that the driver makes changes to the route (reordering, statuses) without connection, <strong>When</strong> the device regains connection, <strong>Then</strong> the system automatically synchronizes all pending changes with the server.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US26</td>
-    <td style="text-align: center;">Registrar incidencia rápida</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero registrar una incidencia en pocos pasos, para no distraerme durante el recorrido.</td>
+    <td style="text-align: center;">Quick incident logging</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to record an incident in a few steps, so I don't get distracted during the journey.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que ocurre un evento inesperado durante el recorrido, <strong>When</strong> el conductor necesita reportarlo, <strong>Then</strong> el sistema permite iniciar el registro de incidencia con una acción accesible.</li>
-            <li><strong>Given</strong> que el conductor ha iniciado el registro de una incidencia, <strong>When</strong> selecciona el tipo de evento, <strong>Then</strong> el sistema permite completar la selección en máximo dos interacciones.</li>
-            <li><strong>Given</strong> que el conductor requiere registrar la incidencia, <strong>When</strong> completa el registro, <strong>Then</strong> el sistema no obliga al conductor a escribir texto para guardar el evento.</li>
+            <li><strong>Given</strong> that an unexpected event occurs during the journey, <strong>When</strong> the driver needs to report it, <strong>Then</strong> the system allows starting the incident log with an accessible action.</li>
+            <li><strong>Given</strong> that the driver has started logging an incident, <strong>When</strong> selecting the event type, <strong>Then</strong> the system allows completing the selection in a maximum of two interactions.</li>
+            <li><strong>Given</strong> that the driver needs to log the incident, <strong>When</strong> completing the log, <strong>Then</strong> the system does not require the driver to write text to save the event.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US28</td>
-    <td style="text-align: center;">Seleccionar tipo de incidencia</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero elegir el tipo de incidencia, para clasificar correctamente el evento.</td>
+    <td style="text-align: center;">Select incident type</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to choose the incident type, to correctly classify the event.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor está registrando una incidencia, <strong>When</strong> accede a la selección de tipo, <strong>Then</strong> el sistema presenta una lista predefinida de tipos de incidencia disponibles.</li>
-            <li><strong>Given</strong> que la lista de tipos de incidencia está visible, <strong>When</strong> el conductor la revisa, <strong>Then</strong> cada opción está redactada de forma clara y entendible para su contexto.</li>
-            <li><strong>Given</strong> que el conductor necesita clasificar la incidencia, <strong>When</strong> selecciona un tipo, <strong>Then</strong> el sistema permite elegir únicamente una opción principal por evento.</li>
+            <li><strong>Given</strong> that the driver is logging an incident, <strong>When</strong> accessing the type selection, <strong>Then</strong> the system presents a predefined list of available incident types.</li>
+            <li><strong>Given</strong> that the list of incident types is visible, <strong>When</strong> the driver reviews it, <strong>Then</strong> each option is worded clearly and understandably for their context.</li>
+            <li><strong>Given</strong> that the driver needs to classify the incident, <strong>When</strong> selecting a type, <strong>Then</strong> the system allows choosing only one main option per event.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US29</td>
-    <td style="text-align: center;">Registrar detalle opcional</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero añadir un comentario opcional, para dar más contexto si es necesario.</td>
+    <td style="text-align: center;">Record optional detail</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to add an optional comment, to provide more context if necessary.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor está registrando una incidencia, <strong>When</strong> desea agregar información adicional, <strong>Then</strong> el sistema dispone de un campo para ingresar texto de forma opcional.</li>
-            <li><strong>Given</strong> que el conductor no tiene información adicional que agregar, <strong>When</strong> omite el campo de comentario, <strong>Then</strong> el sistema permite completar el registro sin bloquear la acción.</li>
-            <li><strong>Given</strong> que el conductor ingresa un comentario, <strong>When</strong> se guarda la incidencia, <strong>Then</strong> el sistema almacena el comentario junto al resto de los datos del evento.</li>
+            <li><strong>Given</strong> that the driver is logging an incident, <strong>When</strong> they wish to add additional information, <strong>Then</strong> the system has a field for optionally entering text.</li>
+            <li><strong>Given</strong> that the driver has no additional information to add, <strong>When</strong> skipping the comment field, <strong>Then</strong> the system allows completing the log without blocking the action.</li>
+            <li><strong>Given</strong> that the driver enters a comment, <strong>When</strong> the incident is saved, <strong>Then</strong> the system stores the comment along with the rest of the event data.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US30</td>
-    <td style="text-align: center;">Asociar incidencia a parada o estudiante</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero vincular la incidencia a una parada o estudiante, para mayor precisión en el registro.</td>
+    <td style="text-align: center;">Associate incident with stop or student</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to link the incident to a stop or student, for greater precision in the log.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor está registrando una incidencia, <strong>When</strong> la incidencia está relacionada con un punto específico del recorrido, <strong>Then</strong> el sistema permite seleccionar la parada o el estudiante asociado.</li>
-            <li><strong>Given</strong> que el conductor vincula la incidencia a una parada o estudiante, <strong>When</strong> confirma el registro, <strong>Then</strong> el sistema guarda la asociación como parte del evento.</li>
-            <li><strong>Given</strong> que la incidencia no está relacionada con una parada o estudiante específico, <strong>When</strong> el conductor completa el registro, <strong>Then</strong> el sistema permite guardar la incidencia sin necesidad de realizar una asociación.</li>
+            <li><strong>Given</strong> that the driver is logging an incident, <strong>When</strong> the incident is related to a specific point on the journey, <strong>Then</strong> the system allows selecting the associated stop or student.</li>
+            <li><strong>Given</strong> that the driver links the incident to a stop or student, <strong>When</strong> confirming the log, <strong>Then</strong> the system saves the association as part of the event.</li>
+            <li><strong>Given</strong> that the incident is not related to a specific stop or student, <strong>When</strong> the driver completes the log, <strong>Then</strong> the system allows saving the incident without needing to make an association.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US31</td>
-    <td style="text-align: center;">Registro automático de hora y ubicación</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero que el sistema registre automáticamente la hora y ubicación, para no tener que hacerlo manualmente.</td>
+    <td style="text-align: center;">Automatic time and location logging</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want the system to automatically record the time and location, so I don't have to do it manually.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor registra una incidencia, <strong>When</strong> el evento es creado, <strong>Then</strong> el sistema guarda automáticamente un timestamp con la fecha y hora del momento del registro.</li>
-            <li><strong>Given</strong> que el conductor registra una incidencia, <strong>When</strong> el dispositivo tiene GPS disponible, <strong>Then</strong> el sistema captura y almacena automáticamente la ubicación geográfica del evento.</li>
-            <li><strong>Given</strong> que el sistema registra hora y ubicación, <strong>When</strong> se completa el registro, <strong>Then</strong> no se requiere ninguna acción adicional por parte del conductor para capturar estos datos.</li>
+            <li><strong>Given</strong> that the driver logs an incident, <strong>When</strong> the event is created, <strong>Then</strong> the system automatically saves a timestamp with the date and time of registration.</li>
+            <li><strong>Given</strong> that the driver logs an incident, <strong>When</strong> the device has GPS available, <strong>Then</strong> the system automatically captures and stores the geographic location of the event.</li>
+            <li><strong>Given</strong> that the system records time and location, <strong>When</strong> the log is completed, <strong>Then</strong> no additional action is required from the driver to capture this data.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US32</td>
-    <td style="text-align: center;">Visualizar historial de incidencias</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero ver las incidencias registradas, para hacer seguimiento del recorrido.</td>
+    <td style="text-align: center;">View incident history</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to see the logged incidents, to track the journey.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor necesita revisar los eventos del día, <strong>When</strong> accede al historial de incidencias, <strong>Then</strong> el sistema presenta una lista con todas las incidencias registradas en la jornada actual.</li>
-            <li><strong>Given</strong> que la lista de incidencias está visible, <strong>When</strong> el conductor consulta un evento, <strong>Then</strong> el sistema muestra el tipo de incidencia, la hora de registro y el estado actual.</li>
-            <li><strong>Given</strong> que existen múltiples incidencias registradas, <strong>When</strong> el conductor visualiza el listado, <strong>Then</strong> el sistema las presenta ordenadas cronológicamente (de la más reciente a la más antigua o viceversa).</li>
+            <li><strong>Given</strong> that the driver needs to review the day's events, <strong>When</strong> accessing the incident history, <strong>Then</strong> the system presents a list of all incidents logged during the current shift.</li>
+            <li><strong>Given</strong> that the incident list is visible, <strong>When</strong> the driver checks an event, <strong>Then</strong> the system shows the incident type, registration time, and current status.</li>
+            <li><strong>Given</strong> that multiple incidents have been logged, <strong>When</strong> the driver views the list, <strong>Then</strong> the system presents them in chronological order (from newest to oldest or vice versa).</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US33</td>
-    <td style="text-align: center;">Editar o corregir incidencia</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero corregir una incidencia en caso de error, para mantener información precisa.</td>
+    <td style="text-align: center;">Edit or correct incident</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to correct an incident in case of error, to maintain accurate information.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor identifica un error en una incidencia registrada previamente, <strong>When</strong> accede a la opción de edición, <strong>Then</strong> el sistema permite modificar el tipo de incidencia y/o el comentario asociado.</li>
-            <li><strong>Given</strong> que el conductor ha realizado cambios en una incidencia, <strong>When</strong> confirma la edición, <strong>Then</strong> el sistema guarda correctamente los nuevos valores.</li>
-            <li><strong>Given</strong> que una incidencia es editada, <strong>When</strong> el conductor consulta el historial, <strong>Then</strong> el sistema muestra la información actualizada con el registro de la última modificación.</li>
+            <li><strong>Given</strong> that the driver identifies an error in a previously logged incident, <strong>When</strong> accessing the edit option, <strong>Then</strong> the system allows modifying the incident type and/or associated comment.</li>
+            <li><strong>Given</strong> that the driver has made changes to an incident, <strong>When</strong> confirming the edit, <strong>Then</strong> the system correctly saves the new values.</li>
+            <li><strong>Given</strong> that an incident is edited, <strong>When</strong> the driver checks the history, <strong>Then</strong> the system shows the updated information with the record of the last modification.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US34</td>
-    <td style="text-align: center;">Funcionamiento offline de incidencias</td>
-    <td style="text-align: center;">Como <strong>conductor</strong>, quiero registrar incidencias sin conexión, para no depender de la red.</td>
+    <td style="text-align: center;">Offline incident functionality</td>
+    <td style="text-align: center;">As a <strong>driver</strong>, I want to log incidents without connection, so I don't depend on the network.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el dispositivo del conductor no tiene conexión a internet, <strong>When</strong> el conductor registra una incidencia, <strong>Then</strong> el sistema almacena la incidencia localmente en el dispositivo.</li>
-            <li><strong>Given</strong> que existen incidencias pendientes de sincronización, <strong>When</strong> el dispositivo recupera la conexión a internet, <strong>Then</strong> el sistema envía automáticamente todas las incidencias almacenadas al servidor.</li>
-            <li><strong>Given</strong> que la sincronización se completa, <strong>When</strong> el sistema verifica los datos transmitidos, <strong>Then</strong> no se pierde ninguna incidencia registrada durante el modo offline.</li>
+            <li><strong>Given</strong> that the driver's device has no internet connection, <strong>When</strong> the driver logs an incident, <strong>Then</strong> the system stores the incident locally on the device.</li>
+            <li><strong>Given</strong> that there are pending incidents to synchronize, <strong>When</strong> the device regains internet connection, <strong>Then</strong> the system automatically sends all stored incidents to the server.</li>
+            <li><strong>Given</strong> that synchronization is completed, <strong>When</strong> the system verifies the transmitted data, <strong>Then</strong> no incident logged during offline mode is lost.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP03</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US35</td>
-    <td style="text-align: center;">Visualizar movilidades en mapa</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero ver todas mis unidades en un mapa en tiempo real, para supervisar su ubicación.</td>
+    <td style="text-align: center;">View vehicles on map</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to see all my vehicles on a real-time map, to monitor their location.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el administrador accede al dashboard de monitoreo, <strong>When</strong> selecciona la vista de mapa, <strong>Then</strong> el sistema muestra todas las unidades activas de la empresa geolocalizadas en el mapa.</li>
-            <li><strong>Given</strong> que las unidades están representadas en el mapa, <strong>When</strong> el administrador las visualiza, <strong>Then</strong> cada unidad cuenta con un identificador visible (número o nombre del conductor).</li>
-            <li><strong>Given</strong> que las unidades se desplazan durante la jornada, <strong>When</strong> cambia su ubicación, <strong>Then</strong> el sistema actualiza automáticamente las posiciones en el mapa.</li>
+            <li><strong>Given</strong> that the administrator accesses the monitoring dashboard, <strong>When</strong> selecting the map view, <strong>Then</strong> the system shows all active company vehicles geolocated on the map.</li>
+            <li><strong>Given</strong> that the vehicles are represented on the map, <strong>When</strong> the administrator views them, <strong>Then</strong> each vehicle has a visible identifier (driver number or name).</li>
+            <li><strong>Given</strong> that the vehicles move during the shift, <strong>When</strong> their location changes, <strong>Then</strong> the system automatically updates the positions on the map.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US36</td>
-    <td style="text-align: center;">Visualizar detalle de unidad</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero seleccionar una unidad y ver su información, para conocer su estado actual.</td>
+    <td style="text-align: center;">View vehicle details</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to select a vehicle and see its information, to know its current status.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el administrador visualiza el mapa con las unidades activas, <strong>When</strong> selecciona una unidad específica, <strong>Then</strong> el sistema despliega un panel con la información detallada de esa unidad.</li>
-            <li><strong>Given</strong> que el panel de detalle está visible, <strong>When</strong> el administrador consulta la información, <strong>Then</strong> el sistema muestra los datos del conductor, la ruta asignada y el estado actual de la unidad.</li>
-            <li><strong>Given</strong> que la información de la unidad ha cambiado, <strong>When</strong> el administrador consulta el detalle, <strong>Then</strong> los datos presentados están actualizados al momento de la consulta.</li>
+            <li><strong>Given</strong> that the administrator views the map with active vehicles, <strong>When</strong> selecting a specific vehicle, <strong>Then</strong> the system displays a panel with detailed information about that vehicle.</li>
+            <li><strong>Given</strong> that the detail panel is visible, <strong>When</strong> the administrator checks the information, <strong>Then</strong> the system shows the driver's data, the assigned route, and the vehicle's current status.</li>
+            <li><strong>Given</strong> that the vehicle's information has changed, <strong>When</strong> the administrator checks the details, <strong>Then</strong> the data presented is updated at the time of the query.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US37</td>
-    <td style="text-align: center;">Visualizar estado de unidades</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero identificar el estado de cada unidad, para detectar problemas rápidamente.</td>
+    <td style="text-align: center;">View vehicle statuses</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to identify the status of each vehicle, to quickly detect problems.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el administrador visualiza el mapa o la lista de unidades, <strong>When</strong> consulta el estado de las mismas, <strong>Then</strong> el sistema muestra el estado actual de cada unidad (en ruta, detenido, retrasado).</li>
-            <li><strong>Given</strong> que los estados están representados, <strong>When</strong> el administrador los revisa, <strong>Then</strong> cada estado se diferencia visualmente de los demás (ej. distintivo visual según el tipo de estado).</li>
-            <li><strong>Given</strong> que el estado de una unidad cambia durante la jornada, <strong>When</strong> ocurre el cambio, <strong>Then</strong> el sistema actualiza la información en tiempo real en el dashboard del administrador.</li>
+            <li><strong>Given</strong> that the administrator views the map or vehicle list, <strong>When</strong> checking their status, <strong>Then</strong> the system shows the current status of each vehicle (on route, stopped, delayed).</li>
+            <li><strong>Given</strong> that statuses are represented, <strong>When</strong> the administrator reviews them, <strong>Then</strong> each status is visually differentiated from the others (e.g., visual distinctive mark according to the status type).</li>
+            <li><strong>Given</strong> that a vehicle's status changes during the shift, <strong>When</strong> the change occurs, <strong>Then</strong> the system updates the information in real time on the administrator's dashboard.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US38</td>
-    <td style="text-align: center;">Filtrar unidades</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero filtrar las unidades por estado o ruta, para enfocarme en lo relevante.</td>
+    <td style="text-align: center;">Filter units</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to filter vehicles by status or route, to focus on what is relevant.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el administrador visualiza la lista o mapa de unidades, <strong>When</strong> aplica un filtro por estado, <strong>Then</strong> el sistema muestra únicamente las unidades que coinciden con el estado seleccionado.</li>
-            <li><strong>Given</strong> que el administrador necesita filtrar por ruta, <strong>When</strong> selecciona una ruta específica, <strong>Then</strong> el sistema muestra únicamente las unidades asignadas a esa ruta.</li>
-            <li><strong>Given</strong> que el administrador aplica uno o más filtros, <strong>When</strong> confirma la selección, <strong>Then</strong> la vista se actualiza automáticamente mostrando solo las unidades que cumplen los criterios.</li>
+            <li><strong>Given</strong> that the administrator views the vehicle list or map, <strong>When</strong> applying a filter by status, <strong>Then</strong> the system shows only the vehicles that match the selected status.</li>
+            <li><strong>Given</strong> that the administrator needs to filter by route, <strong>When</strong> selecting a specific route, <strong>Then</strong> the system shows only the vehicles assigned to that route.</li>
+            <li><strong>Given</strong> that the administrator applies one or more filters, <strong>When</strong> confirming the selection, <strong>Then</strong> the view is automatically updated showing only the vehicles that meet the criteria.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US39</td>
-    <td style="text-align: center;">Alertas de desviación</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero recibir alertas cuando una unidad se desvíe de su ruta, para tomar acciones oportunas.</td>
+    <td style="text-align: center;">Deviation alerts</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to receive alerts when a vehicle deviates from its route, to take timely action.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que una unidad activa tiene definida una ruta programada, <strong>When</strong> su ubicación se desvía significativamente de la ruta planificada, <strong>Then</strong> el sistema detecta automáticamente la desviación.</li>
-            <li><strong>Given</strong> que se detecta una desviación, <strong>When</strong> el evento ocurre, <strong>Then</strong> el sistema genera una alerta visible o notificación para el administrador.</li>
-            <li><strong>Given</strong> que se genera una alerta por desviación, <strong>When</strong> el administrador la recibe, <strong>Then</strong> la alerta indica claramente qué unidad presenta el problema.</li>
+            <li><strong>Given</strong> that an active vehicle has a defined scheduled route, <strong>When</strong> its location significantly deviates from the planned route, <strong>Then</strong> the system automatically detects the deviation.</li>
+            <li><strong>Given</strong> that a deviation is detected, <strong>When</strong> the event occurs, <strong>Then</strong> the system generates a visible alert or notification for the administrator.</li>
+            <li><strong>Given</strong> that a deviation alert is generated, <strong>When</strong> the administrator receives it, <strong>Then</strong> the alert clearly indicates which vehicle has the problem.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US40</td>
-    <td style="text-align: center;">Visualizar recorrido en tiempo real</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero ver el recorrido que está realizando cada unidad, para validar el cumplimiento de la ruta.</td>
+    <td style="text-align: center;">View real-time journey</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to see the journey each vehicle is making, to validate route compliance.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el administrador selecciona una unidad activa, <strong>When</strong> accede a la vista de recorrido, <strong>Then</strong> el sistema muestra la trayectoria que la unidad ha seguido en el mapa.</li>
-            <li><strong>Given</strong> que la trayectoria está visible, <strong>When</strong> la unidad avanza durante su recorrido, <strong>Then</strong> el sistema actualiza la trayectoria en el mapa conforme avanza.</li>
-            <li><strong>Given</strong> que el administrador consulta el recorrido de una unidad, <strong>When</strong> la visualiza, <strong>Then</strong> el sistema permite identificar qué parte de la ruta ya ha sido completada y cuál falta.</li>
+            <li><strong>Given</strong> that the administrator selects an active vehicle, <strong>When</strong> accessing the journey view, <strong>Then</strong> the system shows the trajectory the vehicle has followed on the map.</li>
+            <li><strong>Given</strong> that the trajectory is visible, <strong>When</strong> the vehicle advances during its journey, <strong>Then</strong> the system updates the trajectory on the map as it progresses.</li>
+            <li><strong>Given</strong> that the administrator checks a vehicle's journey, <strong>When</strong> viewing it, <strong>Then</strong> the system allows identifying which part of the route has already been completed and what remains.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US41</td>
-    <td style="text-align: center;">Historial reciente de ubicación</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero consultar las ubicaciones recientes de una unidad, para analizar su comportamiento.</td>
+    <td style="text-align: center;">Recent location history</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to check a vehicle's recent locations, to analyze its behavior.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el administrador selecciona una unidad específica, <strong>When</strong> accede a la sección de historial, <strong>Then</strong> el sistema muestra las ubicaciones recientes registradas para esa unidad.</li>
-            <li><strong>Given</strong> que el historial de ubicaciones está visible, <strong>When</strong> el administrador lo consulta, <strong>Then</strong> las ubicaciones se presentan en orden cronológico.</li>
-            <li><strong>Given</strong> que el administrador necesita revisar el historial de una unidad, <strong>When</strong> está en el detalle de la unidad, <strong>Then</strong> el sistema permite acceder al historial desde esa misma vista.</li>
+            <li><strong>Given</strong> that the administrator selects a specific vehicle, <strong>When</strong> accessing the history section, <strong>Then</strong> the system shows the recent locations recorded for that vehicle.</li>
+            <li><strong>Given</strong> that the location history is visible, <strong>When</strong> the administrator checks it, <strong>Then</strong> the locations are presented in chronological order.</li>
+            <li><strong>Given</strong> that the administrator needs to review a vehicle's history, <strong>When</strong> on the vehicle details page, <strong>Then</strong> the system allows accessing the history from that same view.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US42</td>
-    <td style="text-align: center;">Actualización automática de datos</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero que la información se actualice automáticamente, para no tener que recargar manualmente.</td>
+    <td style="text-align: center;">Automatic data refresh</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want the information to refresh automatically, so I don't have to manually reload.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el administrador está visualizando el dashboard de monitoreo, <strong>When</strong> transcurre un intervalo de tiempo definido, <strong>Then</strong> el sistema actualiza automáticamente los datos mostrados.</li>
-            <li><strong>Given</strong> que los datos se actualizan automáticamente, <strong>When</strong> ocurre la actualización, <strong>Then</strong> el administrador no necesita realizar ninguna acción manual para recargar la información.</li>
-            <li><strong>Given</strong> que se ha realizado una actualización automática, <strong>When</strong> el administrador consulta la información, <strong>Then</strong> el sistema indica la hora de la última actualización realizada.</li>
-            <li><strong>Given</strong> que los datos se actualizan en segundo plano, <strong>When</strong> ocurre la actualización, <strong>Then</strong> la navegación o interacción del administrador no se ve interrumpida.</li>
+            <li><strong>Given</strong> that the administrator is viewing the monitoring dashboard, <strong>When</strong> a defined time interval elapses, <strong>Then</strong> the system automatically updates the displayed data.</li>
+            <li><strong>Given</strong> that the data updates automatically, <strong>When</strong> the update occurs, <strong>Then</strong> the administrator does not need to perform any manual action to reload the information.</li>
+            <li><strong>Given</strong> that an automatic update has been performed, <strong>When</strong> the administrator checks the information, <strong>Then</strong> the system indicates the time of the last update performed.</li>
+            <li><strong>Given</strong> that the data updates in the background, <strong>When</strong> the update occurs, <strong>Then</strong> the administrator's navigation or interaction is not interrupted.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP04</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US43</td>
-    <td style="text-align: center;">Generar reporte de recorridos</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero generar reportes de recorridos realizados, para analizar el cumplimiento de rutas.</td>
+    <td style="text-align: center;">Generate journey report</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to generate reports of completed journeys, to analyze route compliance.</td>
     <td class="acceptance-criteria"><ul>
-            <li><strong>Given</strong> que el administrador necesita un reporte de recorridos, <strong>When</strong> selecciona un rango de fechas, <strong>Then</strong> el sistema genera un reporte con los recorridos realizados en ese período.</li>
-            <li><strong>Given</strong> que el reporte ha sido generado, <strong>When</strong> el administrador lo consulta, <strong>Then</strong> el reporte incluye las rutas realizadas por cada unidad.</li>
-            <li><strong>Given</strong> que el reporte está disponible, <strong>When</strong> el administrador lo visualiza, <strong>Then</strong> la información se presenta en pantalla de forma legible.</li>
+            <li><strong>Given</strong> that the administrator needs a journey report, <strong>When</strong> selecting a date range, <strong>Then</strong> the system generates a report with the journeys completed in that period.</li>
+            <li><strong>Given</strong> that the report has been generated, <strong>When</strong> the administrator checks it, <strong>Then</strong> the report includes the routes taken by each vehicle.</li>
+            <li><strong>Given</strong> that the report is available, <strong>When</strong> the administrator views it, <strong>Then</strong> the information is presented on screen in a readable way.</li>
         </ul></td>
     <td style="text-align: center;">EP05B</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US44</td>
-    <td style="text-align: center;">Generar reporte de desempeño</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero visualizar métricas de desempeño de conductores y unidades, para evaluar la eficiencia operativa.</td>
+    <td style="text-align: center;">Generate performance report</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to view driver and vehicle performance metrics, to evaluate operational efficiency.</td>
     <td class="acceptance-criteria"><ul>
-            <li><strong>Given</strong> que el administrador solicita un reporte de desempeño, <strong>When</strong> se genera el reporte, <strong>Then</strong> el sistema muestra métricas clave como tiempos de recorrido y paradas completadas.</li>
-            <li><strong>Given</strong> que el reporte de desempeño está visible, <strong>When</strong> el administrador lo consulta, <strong>Then</strong> la información se presenta agrupada por conductor o por unidad.</li>
-            <li><strong>Given</strong> que el reporte contiene métricas, <strong>When</strong> el administrador las revisa, <strong>Then</strong> los datos son claros, comprensibles y permiten evaluar la eficiencia operativa.</li>
+            <li><strong>Given</strong> that the administrator requests a performance report, <strong>When</strong> the report is generated, <strong>Then</strong> the system shows key metrics such as travel times and stops completed.</li>
+            <li><strong>Given</strong> that the performance report is visible, <strong>When</strong> the administrator checks it, <strong>Then</strong> the information is presented grouped by driver or by vehicle.</li>
+            <li><strong>Given</strong> that the report contains metrics, <strong>When</strong> the administrator reviews them, <strong>Then</strong> the data is clear, understandable, and allows evaluating operational efficiency.</li>
         </ul></td>
     <td style="text-align: center;">EP05B</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US45</td>
-    <td style="text-align: center;">Exportar reportes</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero exportar reportes, para compartirlos o analizarlos externamente.</td>
+    <td style="text-align: center;">Export reports</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to export reports, to share or analyze them externally.</td>
     <td class="acceptance-criteria"><ul>
-            <li><strong>Given</strong> que el administrador ha generado un reporte, <strong>When</strong> selecciona la opción de exportación, <strong>Then</strong> el sistema permite exportar el reporte en formato PDF o Excel.</li>
-            <li><strong>Given</strong> que se inicia la exportación, <strong>When</strong> el proceso se completa, <strong>Then</strong> el archivo se descarga rápidamente en el dispositivo del administrador.</li>
-            <li><strong>Given</strong> que el administrador exporta un reporte, <strong>When</strong> abre el archivo descargado, <strong>Then</strong> el contenido incluye toda la información seleccionada durante la generación del reporte.</li>
+            <li><strong>Given</strong> that the administrator has generated a report, <strong>When</strong> selecting the export option, <strong>Then</strong> the system allows exporting the report in PDF or Excel format.</li>
+            <li><strong>Given</strong> that the export is initiated, <strong>When</strong> the process completes, <strong>Then</strong> the file downloads quickly to the administrator's device.</li>
+            <li><strong>Given</strong> that the administrator exports a report, <strong>When</strong> opening the downloaded file, <strong>Then</strong> the content includes all the information selected during report generation.</li>
         </ul></td>
     <td style="text-align: center;">EP05B</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US46</td>
-    <td style="text-align: center;">Filtrar reportes</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero aplicar filtros a los reportes, para enfocarme en información específica.</td>
+    <td style="text-align: center;">Filter reports</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to apply filters to reports, to focus on specific information.</td>
     <td class="acceptance-criteria"><ul>
-            <li><strong>Given</strong> que el administrador está generando un reporte, <strong>When</strong> aplica un filtro por rango de fechas, <strong>Then</strong> el sistema muestra únicamente la información correspondiente a ese período.</li>
-            <li><strong>Given</strong> que el administrador necesita información específica, <strong>When</strong> aplica un filtro por conductor o por unidad, <strong>Then</strong> el sistema muestra únicamente los datos asociados a ese conductor o unidad.</li>
-            <li><strong>Given</strong> que el administrador aplica uno o más filtros, <strong>When</strong> confirma la selección, <strong>Then</strong> la información del reporte se actualiza automáticamente según los filtros aplicados.</li>
+            <li><strong>Given</strong> that the administrator is generating a report, <strong>When</strong> applying a filter by date range, <strong>Then</strong> the system shows only the information corresponding to that period.</li>
+            <li><strong>Given</strong> that the administrator needs specific information, <strong>When</strong> applying a filter by driver or by vehicle, <strong>Then</strong> the system shows only the data associated with that driver or vehicle.</li>
+            <li><strong>Given</strong> that the administrator applies one or more filters, <strong>When</strong> confirming the selection, <strong>Then</strong> the report information is automatically updated according to the applied filters.</li>
         </ul></td>
     <td style="text-align: center;">EP05B</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US47</td>
-    <td style="text-align: center;">Visualizar incidencias en reportes</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero incluir incidencias en los reportes, para tener contexto completo del servicio.</td>
+    <td style="text-align: center;">Include incidents in reports</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to include incidents in reports, to have complete service context.</td>
     <td class="acceptance-criteria"><ul>
-            <li><strong>Given</strong> que el administrador genera un reporte, <strong>When</strong> el reporte incluye incidencias, <strong>Then</strong> el sistema muestra las incidencias registradas en el período seleccionado.</li>
-            <li><strong>Given</strong> que las incidencias están visibles en el reporte, <strong>When</strong> el administrador las consulta, <strong>Then</strong> cada incidencia está asociada a la ruta o unidad correspondiente.</li>
-            <li><strong>Given</strong> que el administrador exporta el reporte, <strong>When</strong> se genera el archivo, <strong>Then</strong> las incidencias quedan incluidas en el reporte exportado.</li>
+            <li><strong>Given</strong> that the administrator generates a report, <strong>When</strong> the report includes incidents, <strong>Then</strong> the system shows the incidents recorded in the selected period.</li>
+            <li><strong>Given</strong> that incidents are visible in the report, <strong>When</strong> the administrator checks them, <strong>Then</strong> each incident is associated with the corresponding route or vehicle.</li>
+            <li><strong>Given</strong> that the administrator exports the report, <strong>When</strong> the file is generated, <strong>Then</strong> the incidents are included in the exported report.</li>
         </ul></td>
     <td style="text-align: center;">EP05B</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US48</td>
-    <td style="text-align: center;">Resumen general</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero ver un resumen general del desempeño, para tomar decisiones rápidas.</td>
+    <td style="text-align: center;">General summary</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to see a general performance summary, to make quick decisions.</td>
     <td class="acceptance-criteria"><ul>
-            <li><strong>Given</strong> que el administrador accede al dashboard de reportes, <strong>When</strong> visualiza el resumen general, <strong>Then</strong> el sistema muestra indicadores clave resumidos del desempeño operativo.</li>
-            <li><strong>Given</strong> que el resumen general está visible, <strong>When</strong> el administrador lo consulta, <strong>Then</strong> la presentación de los indicadores es simple, clara y de fácil comprensión.</li>
-            <li><strong>Given</strong> que el administrador utiliza el resumen para toma de decisiones, <strong>When</strong> los datos cambian durante la jornada, <strong>Then</strong> el sistema actualiza los indicadores periódicamente.</li>
+            <li><strong>Given</strong> that the administrator accesses the reports dashboard, <strong>When</strong> viewing the general summary, <strong>Then</strong> the system shows summarized key operational performance indicators.</li>
+            <li><strong>Given</strong> that the general summary is visible, <strong>When</strong> the administrator checks it, <strong>Then</strong> the presentation of indicators is simple, clear, and easy to understand.</li>
+            <li><strong>Given</strong> that the administrator uses the summary for decision-making, <strong>When</strong> the data changes during the shift, <strong>Then</strong> the system periodically updates the indicators.</li>
         </ul></td>
     <td style="text-align: center;">EP05B</td>
-  </tr>
+   </>
   <tr>
     <td style="text-align: center;">US49</td>
-    <td style="text-align: center;">Descarga rápida de reportes recientes</td>
-    <td style="text-align: center;">Como <strong>administrador de empresa de movilidad escolar</strong>, quiero acceder rápidamente a reportes recientes, para ahorrar tiempo en consultas frecuentes.</td>
+    <td style="text-align: center;">Quick download of recent reports</td>
+    <td style="text-align: center;">As a <strong>school mobility company administrator</strong>, I want to quickly access recent reports, to save time on frequent queries.</td>
     <td class="acceptance-criteria"><ul>
-            <li><strong>Given</strong> que el administrador ha generado reportes previamente, <strong>When</strong> accede a la sección de reportes recientes, <strong>Then</strong> el sistema presenta una lista de los reportes generados recientemente.</li>
-            <li><strong>Given</strong> que el administrador visualiza la lista de reportes recientes, <strong>When</strong> selecciona uno de ellos, <strong>Then</strong> el sistema permite acceder al reporte con una sola acción.</li>
-            <li><strong>Given</strong> que el administrador necesita un reporte ya generado anteriormente, <strong>When</strong> accede a él desde la lista de recientes, <strong>Then</strong> no es necesario volver a generarlo desde cero.</li>
+            <li><strong>Given</strong> that the administrator has previously generated reports, <strong>When</strong> accessing the recent reports section, <strong>Then</strong> the system presents a list of recently generated reports.</li>
+            <li><strong>Given</strong> that the administrator views the list of recent reports, <strong>When</strong> selecting one of them, <strong>Then</strong> the system allows accessing the report with a single action.</li>
+            <li><strong>Given</strong> that the administrator needs a report already generated previously, <strong>When</strong> accessing it from the recent list, <strong>Then</strong> there is no need to generate it again from scratch.</li>
         </ul></td>
     <td style="text-align: center;">EP05B</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US50</td>
-    <td style="text-align: center;">Ver resumen de viajes personales</td>
-    <td style="text-align: center;">Como <strong>conductor independiente</strong>, quiero ver un resumen de mis viajes realizados, para hacer seguimiento de mi actividad diaria.</td>
+    <td style="text-align: center;">View personal trip summary</td>
+    <td style="text-align: center;">As an <strong>independent driver</strong>, I want to see a summary of my completed trips, to track my daily activity.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha completado uno o más viajes, <strong>When</strong> accede a su sección de reportes, <strong>Then</strong> el sistema muestra un resumen de los viajes realizados en la jornada o período seleccionado.</li>
-            <li><strong>Given</strong> que el resumen de viajes está visible, <strong>When</strong> el conductor lo consulta, <strong>Then</strong> el sistema incluye la cantidad de viajes, paradas realizadas y horarios.</li>
-            <li><strong>Given</strong> que el conductor necesita revisar su actividad, <strong>When</strong> accede al resumen, <strong>Then</strong> la información es clara y de fácil comprensión.</li>
+            <li><strong>Given</strong> that the driver has completed one or more trips, <strong>When</strong> accessing their reports section, <strong>Then</strong> the system shows a summary of trips completed during the shift or selected period.</li>
+            <li><strong>Given</strong> that the trip summary is visible, <strong>When</strong> the driver checks it, <strong>Then</strong> the system includes the number of trips, stops made, and times.</li>
+            <li><strong>Given</strong> that the driver needs to review their activity, <strong>When</strong> accessing the summary, <strong>Then</strong> the information is clear and easy to understand.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP05A</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US51</td>
-    <td style="text-align: center;">Ver métricas de puntualidad personal</td>
-    <td style="text-align: center;">Como <strong>conductor independiente</strong>, quiero ver mis métricas de puntualidad, para evaluar mi desempeño y mejorar mi reputación.</td>
+    <td style="text-align: center;">View personal punctuality metrics</td>
+    <td style="text-align: center;">As an <strong>independent driver</strong>, I want to see my punctuality metrics, to evaluate my performance and improve my reputation.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha realizado recorridos en los últimos días, <strong>When</strong> accede a sus métricas de puntualidad, <strong>Then</strong> el sistema muestra el porcentaje de llegadas a tiempo por parada o por viaje.</li>
-            <li><strong>Given</strong> que las métricas están visibles, <strong>When</strong> el conductor las consulta, <strong>Then</strong> la información se presenta de forma clara y comprensible.</li>
-            <li><strong>Given</strong> que el conductor desea mejorar su reputación, <strong>When</strong> revisa sus métricas, <strong>Then</strong> puede identificar días o paradas donde tuvo retrasos.</li>
+            <li><strong>Given</strong> that the driver has made trips in recent days, <strong>When</strong> accessing their punctuality metrics, <strong>Then</strong> the system shows the percentage of on-time arrivals per stop or per trip.</li>
+            <li><strong>Given</strong> that the metrics are visible, <strong>When</strong> the driver checks them, <strong>Then</strong> the information is presented clearly and understandably.</li>
+            <li><strong>Given</strong> that the driver wants to improve their reputation, <strong>When</strong> reviewing their metrics, <strong>Then</strong> they can identify days or stops where they had delays.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP05A</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US52</td>
-    <td style="text-align: center;">Exportar historial personal de viajes</td>
-    <td style="text-align: center;">Como <strong>conductor independiente</strong>, quiero exportar mi historial de viajes, para compartirlo con padres o empresas que me soliciten referencias.</td>
+    <td style="text-align: center;">Export personal trip history</td>
+    <td style="text-align: center;">As an <strong>independent driver</strong>, I want to export my trip history, to share it with parents or companies that request references.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha seleccionado un período de tiempo, <strong>When</strong> solicita la exportación de su historial, <strong>Then</strong> el sistema permite exportar los datos en formato PDF.</li>
-            <li><strong>Given</strong> que se inicia la exportación, <strong>When</strong> el proceso se completa, <strong>Then</strong> el archivo descargado incluye los viajes realizados, fechas, horarios y puntualidad.</li>
-            <li><strong>Given</strong> que el conductor necesita demostrar su confiabilidad, <strong>When</strong> comparte el reporte exportado, <strong>Then</strong> la información es suficiente para validar su desempeño.</li>
+            <li><strong>Given</strong> that the driver has selected a time period, <strong>When</strong> requesting to export their history, <strong>Then</strong> the system allows exporting the data in PDF format.</li>
+            <li><strong>Given</strong> that the export is initiated, <strong>When</strong> the process completes, <strong>Then</strong> the downloaded file includes the trips made, dates, times, and punctuality.</li>
+            <li><strong>Given</strong> that the driver needs to demonstrate their reliability, <strong>When</strong> sharing the exported report, <strong>Then</strong> the information is sufficient to validate their performance.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP05A</td>
-  </tr>
+   </>
     <tr>
     <td style="text-align: center;">US53</td>
-    <td style="text-align: center;">Ver historial de incidencias personales</td>
-    <td style="text-align: center;">Como <strong>conductor independiente</strong>, quiero ver las incidencias que he registrado, para tener trazabilidad de los eventos ocurridos durante mis servicios.</td>
+    <td style="text-align: center;">View personal incident history</td>
+    <td style="text-align: center;">As an <strong>independent driver</strong>, I want to see the incidents I have recorded, to have traceability of events that occurred during my services.</td>
     <td class="acceptance-criteria">
         <ul>
-            <li><strong>Given</strong> que el conductor ha registrado incidencias en recorridos pasados, <strong>When</strong> accede a su historial de incidencias, <strong>Then</strong> el sistema muestra una lista de las incidencias registradas.</li>
-            <li><strong>Given</strong> que la lista de incidencias está visible, <strong>When</strong> el conductor la consulta, <strong>Then</strong> cada incidencia incluye tipo, fecha, hora y ubicación.</li>
-            <li><strong>Given</strong> que el conductor necesita justificar un evento ante un padre o empresa, <strong>When</strong> consulta el detalle de una incidencia, <strong>Then</strong> la información es suficiente para respaldar su explicación.</li>
+            <li><strong>Given</strong> that the driver has recorded incidents on past trips, <strong>When</strong> accessing their incident history, <strong>Then</strong> the system shows a list of recorded incidents.</li>
+            <li><strong>Given</strong> that the incident list is visible, <strong>When</strong> the driver checks it, <strong>Then</strong> each incident includes the type, date, time, and location.</li>
+            <li><strong>Given</strong> that the driver needs to justify an event to a parent or company, <strong>When</strong> checking the details of an incident, <strong>Then</strong> the information is sufficient to support their explanation.</li>
         </ul>
     </td>
     <td style="text-align: center;">EP05A</td>
@@ -782,63 +784,64 @@
     </tbody>
 </table>
 
+
 ## **3.2. Impact Mapping**
 
 ![Impact Mapping](../assets/chapter-3/impact-mapping.jpg)
 
 ## **3.3. Product Backlog**
 
-| Orden | User Story Id | Título | Descripción | Story Points |
-|-------|---------------|--------|-------------|--------------|
-| 1 | US01 | Registrar abordaje de alumno | Como conductor, deseo registrar el momento en que un alumno aborda el vehículo en cada parada, para mantener un registro digital de asistencia. | 3 |
-| 2 | US02 | Notificar ausencia automática | Como conductor, deseo que el sistema detecte automáticamente cuando un alumno no se presenta en su parada, para no tener que esperar más de lo necesario ni llamar manualmente al padre. | 3 |
-| 3 | US14 | Registrar abordaje | Como conductor, quiero marcar rápidamente cuando un estudiante sube, para llevar control del traslado. | 2 |
-| 4 | US15 | Registrar ausencia | Como conductor, quiero marcar cuando un estudiante no sube, para evitar esperas innecesarias. | 2 |
-| 5 | US12 | Visualizar lista de estudiantes por ruta | Como conductor, quiero ver la lista de estudiantes asignados a mi ruta, para saber a quién debo recoger. | 2 |
-| 6 | US13 | Visualizar estudiantes por parada | Como conductor, quiero ver qué estudiantes corresponden a cada parada, para organizar el recojo. | 2 |
-| 7 | US18 | Confirmación visual rápida | Como conductor, quiero identificar rápidamente quién ya subió y quién no, para tomar decisiones rápidas. | 1 |
-| 8 | US16 | Edición rápida de estado | Como conductor, quiero corregir el estado de un estudiante en caso de error, para mantener información precisa. | 2 |
-| 9 | US17 | Funcionamiento offline | Como conductor, quiero poder registrar abordajes sin conexión a internet, para no depender de la señal. | 5 |
-| 10 | US03 | Visualizar ruta optimizada del día | Como conductor, deseo visualizar la ruta del día con el orden de paradas y tiempos estimados, para reducir tiempos de espera y consumo de combustible. | 3 |
-| 11 | US19 | Visualizar ruta asignada | Como conductor, quiero visualizar la ruta asignada del día, para saber el orden de recorrido. | 2 |
-| 12 | US20 | Visualizar paradas en mapa | Como conductor, quiero ver las paradas de mi ruta en un mapa, para ubicarme fácilmente durante el recorrido. | 3 |
-| 13 | US21 | Navegación entre paradas | Como conductor, quiero recibir indicaciones para llegar a cada parada, para optimizar mi recorrido. | 3 |
-| 14 | US22 | Marcar parada como completada | Como conductor, quiero marcar una parada como completada, para avanzar en mi ruta de forma ordenada. | 1 |
-| 15 | US24 | Visualizar estado de la ruta | Como conductor, quiero ver el progreso de mi ruta, para saber cuánto falta completar. | 2 |
-| 16 | US04 | Reordenar ruta por ausencia | Como conductor, deseo que la ruta se reordene automáticamente cuando un alumno falta, para no perder tiempo pasando por una parada vacía. | 3 |
-| 17 | US23 | Reordenamiento básico de ruta | Como conductor, quiero ajustar el orden de paradas en caso de imprevistos, para adaptarme a cambios en el recorrido. | 3 |
-| 18 | US25 | Funcionamiento offline de ruta | Como conductor, quiero acceder a mi ruta sin conexión a internet, para no depender de la señal. | 5 |
-| 19 | US05 | Registrar incidencia en ruta | Como conductor, deseo registrar cualquier incidencia que ocurra durante el recorrido (retraso, accidente, cambio de ruta), para mantener trazabilidad del servicio. | 3 |
-| 20 | US26 | Registrar incidencia rápida | Como conductor, quiero registrar una incidencia en pocos pasos, para no distraerme durante el recorrido. | 2 |
-| 21 | US28 | Seleccionar tipo de incidencia | Como conductor, quiero elegir el tipo de incidencia, para clasificar correctamente el evento. | 2 |
-| 22 | US29 | Registrar detalle opcional | Como conductor, quiero añadir un comentario opcional, para dar más contexto si es necesario. | 1 |
-| 23 | US30 | Asociar incidencia a parada o estudiante | Como conductor, quiero vincular la incidencia a una parada o estudiante, para mayor precisión en el registro. | 2 |
-| 24 | US31 | Registro automático de hora y ubicación | Como conductor, quiero que el sistema registre automáticamente la hora y ubicación, para no tener que hacerlo manualmente. | 2 |
-| 25 | US32 | Visualizar historial de incidencias | Como conductor, quiero ver las incidencias registradas, para hacer seguimiento del recorrido. | 2 |
-| 26 | US33 | Editar o corregir incidencia | Como conductor, quiero corregir una incidencia en caso de error, para mantener información precisa. | 2 |
-| 27 | US34 | Funcionamiento offline de incidencias | Como conductor, quiero registrar incidencias sin conexión, para no depender de la red. | 5 |
-| 28 | US06 | Notificar a padres por incidencia | Como sistema, deseo notificar automáticamente a los padres cuando se registra una incidencia que afecta la ruta de sus hijos, para mantenerlos informados sin intervención manual del conductor. | 3 |
-| 29 | US07 | Ver flota completa en mapa | Como administrador de empresa de movilidad escolar, deseo visualizar en un mapa todas mis unidades activas en tiempo real, para supervisar el cumplimiento de rutas sin depender de llamadas telefónicas. | 3 |
-| 30 | US35 | Visualizar movilidades en mapa | Como administrador de empresa de movilidad escolar, quiero ver todas mis unidades en un mapa en tiempo real, para supervisar su ubicación. | 3 |
-| 31 | US36 | Visualizar detalle de unidad | Como administrador de empresa de movilidad escolar, quiero seleccionar una unidad y ver su información, para conocer su estado actual. | 2 |
-| 32 | US37 | Visualizar estado de unidades | Como administrador de empresa de movilidad escolar, quiero identificar el estado de cada unidad, para detectar problemas rápidamente. | 2 |
-| 33 | US38 | Filtrar unidades | Como administrador de empresa de movilidad escolar, quiero filtrar las unidades por estado o ruta, para enfocarme en lo relevante. | 2 |
-| 34 | US39 | Alertas de desviación | Como administrador de empresa de movilidad escolar, quiero recibir alertas cuando una unidad se desvíe de su ruta, para tomar acciones oportunas. | 3 |
-| 35 | US08 | Recibir alerta por desviación de ruta | Como administrador de empresa de movilidad escolar, deseo recibir una alerta cuando una unidad se desvía significativamente de su ruta establecida, para poder actuar rápidamente ante posibles incidentes. | 3 |
-| 36 | US40 | Visualizar recorrido en tiempo real | Como administrador de empresa de movilidad escolar, quiero ver el recorrido que está realizando cada unidad, para validar el cumplimiento de la ruta. | 3 |
-| 37 | US41 | Historial reciente de ubicación | Como administrador de empresa de movilidad escolar, quiero consultar las ubicaciones recientes de una unidad, para analizar su comportamiento. | 2 |
-| 38 | US42 | Actualización automática de datos | Como administrador de empresa de movilidad escolar, quiero que la información se actualice automáticamente, para no tener que recargar manualmente. | 3 |
-| 39 | US09 | Ver historial personal de viajes | Como conductor independiente, deseo acceder a mi historial de viajes, puntualidad e incidencias registradas, para evaluar mi desempeño y demostrar mi confiabilidad a los padres. | 3 |
-| 40 | US50 | Ver resumen de viajes personales | Como conductor independiente, quiero ver un resumen de mis viajes realizados, para hacer seguimiento de mi actividad diaria. | 2 |
-| 41 | US51 | Ver métricas de puntualidad personal | Como conductor independiente, quiero ver mis métricas de puntualidad, para evaluar mi desempeño y mejorar mi reputación. | 3 |
-| 42 | US52 | Exportar historial personal de viajes | Como conductor independiente, quiero exportar mi historial de viajes, para compartirlo con padres o empresas que me soliciten referencias. | 3 |
-| 43 | US53 | Ver historial de incidencias personales | Como conductor independiente, quiero ver las incidencias que he registrado, para tener trazabilidad de los eventos ocurridos durante mis servicios. | 2 |
-| 44 | US10 | Exportar reporte de asistencia mensual | Como administrador de empresa de movilidad escolar, deseo exportar un consolidado de asistencia mensual por alumno, para agilizar el proceso de facturación a los padres sin errores manuales. | 5 |
-| 45 | US11 | Generar reporte de puntualidad por unidad | Como administrador de empresa de movilidad escolar, deseo generar un reporte de puntualidad por cada conductor/unidad, para evaluar su desempeño y tomar decisiones de mejora o incentivos. | 5 |
-| 46 | US43 | Generar reporte de recorridos | Como administrador de empresa de movilidad escolar, quiero generar reportes de recorridos realizados, para analizar el cumplimiento de rutas. | 3 |
-| 47 | US44 | Generar reporte de desempeño | Como administrador de empresa de movilidad escolar, quiero visualizar métricas de desempeño de conductores y unidades, para evaluar la eficiencia operativa. | 5 |
-| 48 | US45 | Exportar reportes | Como administrador de empresa de movilidad escolar, quiero exportar reportes, para compartirlos o analizarlos externamente. | 3 |
-| 49 | US46 | Filtrar reportes | Como administrador de empresa de movilidad escolar, quiero aplicar filtros a los reportes, para enfocarme en información específica. | 2 |
-| 50 | US47 | Visualizar incidencias en reportes | Como administrador de empresa de movilidad escolar, quiero incluir incidencias en los reportes, para tener contexto completo del servicio. | 2 |
-| 51 | US48 | Resumen general | Como administrador de empresa de movilidad escolar, quiero ver un resumen general del desempeño, para tomar decisiones rápidas. | 3 |
-| 52 | US49 | Descarga rápida de reportes recientes | Como administrador de empresa de movilidad escolar, quiero acceder rápidamente a reportes recientes, para ahorrar tiempo en consultas frecuentes. | 2 |
+| Order | User Story Id | Title | Description | Story Points |
+|-------|---------------|-------|-------------|--------------|
+| 1 | US01 | Record student boarding | As a driver, I want to record the moment a student boards the vehicle at each stop, to maintain a digital attendance record. | 3 |
+| 2 | US02 | Automatic absence notification | As a driver, I want the system to automatically detect when a student does not show up at their stop, so I don't have to wait longer than necessary or manually call the parent. | 3 |
+| 3 | US14 | Record boarding | As a driver, I want to quickly mark when a student gets on, to keep track of the ride. | 2 |
+| 4 | US15 | Record absence | As a driver, I want to mark when a student does not get on, to avoid unnecessary waiting. | 2 |
+| 5 | US12 | View student list by route | As a driver, I want to see the list of students assigned to my route, so I know whom to pick up. | 2 |
+| 6 | US13 | View students by stop | As a driver, I want to see which students correspond to each stop, to organize the pickup. | 2 |
+| 7 | US18 | Quick visual confirmation | As a driver, I want to quickly identify who has already gotten on and who hasn't, to make quick decisions. | 1 |
+| 8 | US16 | Quick status editing | As a driver, I want to correct a student's status in case of error, to maintain accurate information. | 2 |
+| 9 | US17 | Offline functionality | As a driver, I want to be able to record boardings without an internet connection, so I don't depend on signal. | 5 |
+| 10 | US03 | View optimized daily route | As a driver, I want to view the day's route with the order of stops and estimated times, to reduce waiting times and fuel consumption. | 3 |
+| 11 | US19 | View assigned route | As a driver, I want to view the assigned route for the day, to know the order of travel. | 2 |
+| 12 | US20 | View stops on map | As a driver, I want to see the stops on my route on a map, to easily locate myself during the journey. | 3 |
+| 13 | US21 | Navigation between stops | As a driver, I want to receive directions to reach each stop, to optimize my journey. | 3 |
+| 14 | US22 | Mark stop as completed | As a driver, I want to mark a stop as completed, to advance along my route in an orderly manner. | 1 |
+| 15 | US24 | View route status | As a driver, I want to see my route progress, to know how much is left to complete. | 2 |
+| 16 | US04 | Reorder route due to absence | As a driver, I want the route to be automatically reordered when a student is absent, so I don't waste time passing by an empty stop. | 3 |
+| 17 | US23 | Basic route reordering | As a driver, I want to adjust the order of stops in case of unforeseen events, to adapt to changes in the journey. | 3 |
+| 18 | US25 | Offline route functionality | As a driver, I want to access my route without an internet connection, so I don't depend on signal. | 5 |
+| 19 | US05 | Record incident on route | As a driver, I want to record any incident that occurs during the trip (delay, accident, route change), to maintain service traceability. | 3 |
+| 20 | US26 | Quick incident logging | As a driver, I want to record an incident in a few steps, so I don't get distracted during the journey. | 2 |
+| 21 | US28 | Select incident type | As a driver, I want to choose the incident type, to correctly classify the event. | 2 |
+| 22 | US29 | Record optional detail | As a driver, I want to add an optional comment, to provide more context if necessary. | 1 |
+| 23 | US30 | Associate incident with stop or student | As a driver, I want to link the incident to a stop or student, for greater precision in the log. | 2 |
+| 24 | US31 | Automatic time and location logging | As a driver, I want the system to automatically record the time and location, so I don't have to do it manually. | 2 |
+| 25 | US32 | View incident history | As a driver, I want to see the logged incidents, to track the journey. | 2 |
+| 26 | US33 | Edit or correct incident | As a driver, I want to correct an incident in case of error, to maintain accurate information. | 2 |
+| 27 | US34 | Offline incident functionality | As a driver, I want to log incidents without connection, so I don't depend on the network. | 5 |
+| 28 | US06 | Notify parents due to incident | As a system, I want to automatically notify parents when an incident that affects their children's route is recorded, to keep them informed without manual intervention from the driver. | 3 |
+| 29 | US07 | View complete fleet on map | As a school mobility company administrator, I want to view all my active vehicles on a map in real time, to supervise route compliance without relying on phone calls. | 3 |
+| 30 | US35 | View vehicles on map | As a school mobility company administrator, I want to see all my vehicles on a real-time map, to monitor their location. | 3 |
+| 31 | US36 | View vehicle details | As a school mobility company administrator, I want to select a vehicle and see its information, to know its current status. | 2 |
+| 32 | US37 | View vehicle statuses | As a school mobility company administrator, I want to identify the status of each vehicle, to quickly detect problems. | 2 |
+| 33 | US38 | Filter units | As a school mobility company administrator, I want to filter vehicles by status or route, to focus on what is relevant. | 2 |
+| 34 | US39 | Deviation alerts | As a school mobility company administrator, I want to receive alerts when a vehicle deviates from its route, to take timely action. | 3 |
+| 35 | US08 | Receive alert for route deviation | As a school mobility company administrator, I want to receive an alert when a vehicle significantly deviates from its established route, so I can act quickly in case of possible incidents. | 3 |
+| 36 | US40 | View real-time journey | As a school mobility company administrator, I want to see the journey each vehicle is making, to validate route compliance. | 3 |
+| 37 | US41 | Recent location history | As a school mobility company administrator, I want to check a vehicle's recent locations, to analyze its behavior. | 2 |
+| 38 | US42 | Automatic data refresh | As a school mobility company administrator, I want the information to refresh automatically, so I don't have to manually reload. | 3 |
+| 39 | US09 | View personal trip history | As an independent driver, I want to access my trip history, punctuality, and recorded incidents, to evaluate my performance and demonstrate my reliability to parents. | 3 |
+| 40 | US50 | View personal trip summary | As an independent driver, I want to see a summary of my completed trips, to track my daily activity. | 2 |
+| 41 | US51 | View personal punctuality metrics | As an independent driver, I want to see my punctuality metrics, to evaluate my performance and improve my reputation. | 3 |
+| 42 | US52 | Export personal trip history | As an independent driver, I want to export my trip history, to share it with parents or companies that request references. | 3 |
+| 43 | US53 | View personal incident history | As an independent driver, I want to see the incidents I have recorded, to have traceability of events that occurred during my services. | 2 |
+| 44 | US10 | Export monthly attendance report | As a school mobility company administrator, I want to export a monthly attendance consolidated report per student, to streamline the billing process for parents without manual errors. | 5 |
+| 45 | US11 | Generate punctuality report per unit | As a school mobility company administrator, I want to generate a punctuality report per driver/unit, to evaluate their performance and make improvement or incentive decisions. | 5 |
+| 46 | US43 | Generate journey report | As a school mobility company administrator, I want to generate reports of completed journeys, to analyze route compliance. | 3 |
+| 47 | US44 | Generate performance report | As a school mobility company administrator, I want to view driver and vehicle performance metrics, to evaluate operational efficiency. | 5 |
+| 48 | US45 | Export reports | As a school mobility company administrator, I want to export reports, to share or analyze them externally. | 3 |
+| 49 | US46 | Filter reports | As a school mobility company administrator, I want to apply filters to reports, to focus on specific information. | 2 |
+| 50 | US47 | Include incidents in reports | As a school mobility company administrator, I want to include incidents in reports, to have complete service context. | 2 |
+| 51 | US48 | General summary | As a school mobility company administrator, I want to see a general performance summary, to make quick decisions. | 3 |
+| 52 | US49 | Quick download of recent reports | As a school mobility company administrator, I want to quickly access recent reports, to save time on frequent queries. | 2 |
