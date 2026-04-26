@@ -86,8 +86,7 @@ El wireframe de nuestra Landing Page se enfoca en una estructura de "Confianza P
 * **Hero Section:** Diseñada con un titular de alto impacto a la izquierda y un espacio dedicado para la identidad visual de KidWay (el escudo) a la derecha.
 * **Sección de Métricas:** Ubicada estratégicamente debajo del hero para validar la fiabilidad del sistema con datos reales (segmentos, flujos y experiencia de confianza).
 
-![KidWay Landing Page Wireframe](./images/KidWay_Wireframe.jpg)
-
+![KidWay Wireframe](../images/KidWay_Wireframe.png)
 
 ### **4.3.2. Landing Page Mockup**
 ## **4.4. Web Applications UX/UI Design**
