@@ -62,13 +62,13 @@ Convertirnos en la plataforma líder y el estándar de seguridad en el transport
     </tr>
     <tr>
       <td width="30%" align="center" valign="middle">
-        <img src="" alt="Foto de " width="180" style="border-radius: 8px;">
+        <img src="" alt="Foto de Jose Rudas" width="180" style="border-radius: 8px;">
         <br>
         <i></i>
       </td>
       <td width="70%" valign="top" style="padding-left: 20px;">
         <h3>Jose Gabriel Rudas Chavarria</h3>
-        <p><b>Código de estudiante: U202410662</b> </p>
+        <p><b>Código de estudiante: U202410062</b> </p>
         <p><b>Edad: 19</b> </p>
         <p><b>Carrera: Ingeniería de Software</b> </p>
         <br>
