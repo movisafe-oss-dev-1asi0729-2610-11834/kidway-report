@@ -1,6 +1,6 @@
 # **Chapter V: Product Implementation, Validation & Deployment**
 ## **5.1. Configuration Management Software**
-This section describes the tools, configurations, and conventions adopted by the team to ensure consistency, quality, and traceability throughout the lifecycle of the KidsOnWay product.
+This section describes the tools, configurations, and conventions adopted by the team to ensure consistency, quality, and traceability throughout the lifecycle of the KidWay product.
 The implementation of configuration management practices enabled effective collaboration, proper version control, and a structured development process, ensuring that all components of the solution were aligned and maintainable.
 ### **5.1.1. Software Development Environment Configuration**
 To support the development of the project, the team used a set of tools covering all stages of the software lifecycle:
