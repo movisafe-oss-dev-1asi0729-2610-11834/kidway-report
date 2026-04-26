@@ -18,7 +18,17 @@ Se ha seleccionado la familia **Montserrat** (o similar Sans Serif) por su geome
 * **Headings:** Bold para transmitir autoridad y claridad.
 * **Body:** Regular con un interlineado de 1.5 para facilitar la lectura rápida en dispositivos móviles.
 
-### **4.1.2. Web Style Guidelines**
+### 4.1.2. Web Style Guidelines
+
+Para garantizar la consistencia en toda la plataforma web, se aplican las siguientes reglas:
+
+* **Componentes Táctiles:** Todos los botones tienen un radio de borde de `50px` (estilo píldora), lo que facilita el clic en pantallas táctiles y suaviza la estética visual.
+* **Jerarquía de Botones:**
+    * **Primario:** Fondo sólido azul con texto blanco (`Request demo`).
+    * **Secundario:** Borde delineado con texto azul (`Explore solutions`).
+* **Tarjetas (Cards):** Los contenedores de información utilizan bordes redondeados de `20px` y una sombra suave (`box-shadow: 0 4px 6px rgba(0,0,0,0.1)`) para destacar sobre el fondo gris claro.
+* **Iconografía:** Se utilizan iconos de estilo "soft line" que acompañan el texto para reforzar el mensaje sin sobrecargar la vista.
+
 ## **4.2. Information Architecture**
 ### **4.2.1. Organization Systems**
 ### **4.2.2. Labeling Systems**
