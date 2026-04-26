@@ -62,7 +62,7 @@ Convertirnos en la plataforma líder y el estándar de seguridad en el transport
     </tr>
     <tr>
       <td width="30%" align="center" valign="middle">
-        <img src="" alt="Foto de Jose Rudas" width="180" style="border-radius: 8px;">
+        <img src="../assets/chapter-1/img/jose-rudas-image.jpeg" alt="Foto de Jose Rudas" width="180" style="border-radius: 8px;">
         <br>
         <i></i>
       </td>
