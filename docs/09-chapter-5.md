@@ -1,6 +1,9 @@
 # **Chapter V: Product Implementation, Validation & Deployment**
 ## **5.1. Configuration Management Software**
 ### **5.1.1. Software Development Environment Configuration**
+The development of KidsOnWay was carried out using a modern and collaborative software environment. The main objective was to ensure scalability, maintainability, and efficient teamwork.
+The project was developed as a web-based application using frontend technologies such as HTML, CSS, and JavaScript. Additionally, tools such as Visual Studio Code were used as the main development environment.
+Each team member configured their local environment to maintain consistency across development, ensuring that all dependencies and configurations were aligned.
 ### **5.1.2. Source Code Management**
 ### **5.1.3. Source Code Style Guide & Conventions**
 ### **5.1.4. Software Deployment Configuration**
