@@ -88,7 +88,29 @@ El wireframe de nuestra Landing Page se enfoca en una estructura de "Confianza P
 
 ![KidWay Wireframe](../images/KidWay_Wireframe.png)
 
-### **4.3.2. Landing Page Mockup**
+### 4.3.2. Landing Page Mockup
+
+El Mockup de alta fidelidad representa la interfaz final de KidWay, integrando todos los elementos de la identidad visual y la arquitectura de información definida previamente. Este diseño busca equilibrar la funcionalidad técnica con una experiencia de usuario (UX) intuitiva y reconfortante para los padres.
+
+![KidWay Landing Page Mockup](../images/Mockup-Landing-Page.png)
+
+#### Análisis del Diseño Final:
+
+El diseño se divide en bloques estratégicos para guiar al usuario a través del embudo de conversión:
+
+| Sección | Descripción del Diseño | Propósito UX |
+| :--- | :--- | :--- |
+| **Hero Section** | Uso de tipografía Sans Serif en azul marino y acentos amarillos. | Captar la atención inmediata y comunicar el beneficio principal: seguridad. |
+| **Value Proposition** | Cuadrícula de tarjetas con iconos y descripciones breves. | Detallar los beneficios para familias y operadores de forma digerible. |
+| **Service Cards** | Tarjetas con bordes redondeados y botones "Sign Up" claros. | Facilitar la elección del plan o servicio adecuado según el tipo de usuario. |
+| **Social Proof** | Carrusel de testimonios sobre fondo azul institucional. | Generar confianza a través de la validación de otros usuarios y entrevistas. |
+| **FAQ & Contact** | Sección de acordeones para preguntas y formulario limpio. | Resolver dudas comunes y proporcionar un canal directo de comunicación. |
+
+#### Especificaciones Técnicas de la Interfaz:
+* **Jerarquía Visual:** Se utiliza el patrón de lectura en "Z" para asegurar que los elementos clave (CTA) no pasen desapercibidos.
+* **Micro-interacciones:** Los botones y campos de entrada poseen estados claros (hover/focus) para mejorar la respuesta del sistema.
+* **Accesibilidad:** Contraste de colores verificado para garantizar que la información sea legible en diversas condiciones de iluminación.
+
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
 ### **4.4.2. Web Applications Wireflow Diagrams**
