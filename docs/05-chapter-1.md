@@ -46,18 +46,18 @@ Convertirnos en la plataforma líder y el estándar de seguridad en el transport
     </tr>
     <tr>
       <td width="30%" align="center" valign="middle">
-        <img src="" alt="Foto de " width="180" style="border-radius: 8px;">
+        <img src="../assets/chapter-1/img/luis-huaco-image.jpg" alt="Foto de Luis Huaco" width="180" style="border-radius: 8px;">
         <br>
         <i></i>
       </td>
       <td width="70%" valign="top" style="padding-left: 20px;">
-        <h3>Nombre</h3>
-        <p><b>Código de estudiante:</b> </p>
-        <p><b>Edad:</b> </p>
-        <p><b>Carrera:</b> </p>
+        <h3>Luis Alonso Huaco Oliva</h3>
+        <p><b>Código de estudiante: u202417743</b> </p>
+        <p><b>Edad: 24</b> </p>
+        <p><b>Carrera: Ingeniería de Software</b> </p>
         <br>
         <p><b>Sobre mí:</b></p>
-        <p></p>
+        <p>Me apasiona aprender y me gusta aprender. Tengo conocimientos en html, logica de programación y actualmente ando llevando complejidad algoritmica , aplicaciones web y el curso de open source. Me considero una persona que busca aprender bien las cosas para intentar darle usos variados y no en casillar las cosas en un solo tema</p>
       </td>
     </tr>
     <tr>
