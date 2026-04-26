@@ -351,7 +351,6 @@
         </ul>
     </td>
     <td style="text-align: center;">EP01</td>
-  </table>
   <tr>
     <td style="text-align: center;">US19</td>
     <td style="text-align: center;">Visualizar ruta asignada</td>
@@ -377,7 +376,6 @@
         </ul>
     </td>
     <td style="text-align: center;">EP02</td>
-  </table>
   <tr>
     <td style="text-align: center;">US21</td>
     <td style="text-align: center;">Navegación entre paradas</td>
