@@ -1,35 +1,44 @@
 # **Chapter IV: Product Design**
 ## **4.1. Style Guidelines**
-### 4.1.1. General Style Guidelines 
+### 4.1.1. General Style Guidelines
 
-En esta sección definimos la identidad visual de KidWay para que sea coherente en todas sus plataformas.
+The visual identity of **KidWay** is built on trust, safety, and modern efficiency. We aim to provide parents with peace of mind through a clean and friendly interface.
 
-| Atributo | Detalle | Objetivo |
+| Attribute | Description | Goal |
 | :--- | :--- | :--- |
-| **Personalidad** | Amigable y Segura | Generar confianza inmediata en los padres. |
-| **Formas** | Bordes suaves y redondeados | Evitar una estética rígida o agresiva. |
-| **Tipografía** | Montserrat / Sans Serif | Garantizar legibilidad en pantallas pequeñas. |
+| **Personality** | Trustworthy, tech-savvy, and friendly. | To reduce parental anxiety regarding school transit. |
+| **Shapes** | Rounded corners and organic lines. | To create a soft, non-intimidating user experience. |
+| **Typography** | Montserrat / Sans Serif family. | To ensure high legibility on mobile and web screens. |
 
-#### Paleta de Colores
-| Muestra | Color | Código Hex | Uso |
+#### Color Palette
+| Sample | Color | Hex Code | Primary Usage |
 | :---: | :--- | :--- | :--- |
-| 🔵 | **Azul KidWay** | `#1A4F8B` | Textos principales, logo y seriedad. |
-| 🟡 | **Amarillo Sol** | `#FFB800` | Rutas, iconos de felicidad y alertas. |
-| 🔘 | **Gris Humo** | `#F2F2F2` | Fondos de sección para no cansar la vista. |
+| 🔵 | **KidWay Blue** | `#1A4F8B` | Logo, headings, and primary buttons (Trust). |
+| 🟡 | **Sun Gold** | `#FFB800` | Routes, sun icons, and highlights (Safety/Energy). |
+| 🔘 | **Soft Gray** | `#F2F2F2` | Background sections to reduce eye strain. |
 
-### 4.1.2. Web Style Guidelines 
+### 4.1.2. Web Style Guidelines
 
-Reglas específicas para que la página web funcione y se vea bien:
+These rules ensure the platform remains consistent and easy to use across all browsers:
 
-| Elemento | Estilo Aplicado | ¿Por qué se usa? |
+| Component | Visual Style | Purpose |
 | :--- | :--- | :--- |
-| **Botones** | Estilo "Pill" (redondeado 50px) | Es más cómodo para hacer clic en el celular. |
-| **Sombras** | Soft Shadows (Sombras leves) | Para que los cuadros resalten sin verse pesados. |
-| **Espaciado** | Márgenes amplios (Whitespace) | Para que la información no se vea amontonada. |
-| **Interactividad**| Cambio de color al pasar el mouse | Para que el usuario sepa que puede hacer clic. |
+| **Buttons** | "Pill" shape (50px border-radius). | Makes the UI look modern and touch-friendly. |
+| **Shadows** | Soft, subtle drop shadows. | To make important info (like Route Status) "pop" out. |
+| **Spacing** | Generous whitespace. | To avoid clutter and help users focus on key data. |
+| **Transitions** | Smooth hover effects on buttons. | To provide immediate feedback to the user. |
 
 ## **4.2. Information Architecture**
-### **4.2.1. Organization Systems**
+### 4.2.1. Organization Systems
+
+Information is grouped logically based on the user's specific needs:
+
+| User Role | Primary Focus | Org. Logic |
+| :--- | :--- | :--- |
+| **Parents** | Real-time child location & ETA. | Hierarchical (General to specific). |
+| **Drivers** | Route list and pickup points. | Sequential (Step-by-step journey). |
+| **Schools** | Fleet overview and safety reports. | Matrix (Summary of multiple data points). |
+
 ### **4.2.2. Labeling Systems**
 ### **4.2.3. SEO Tags and Meta Tags**
 ### **4.2.4. Searching Systems**
