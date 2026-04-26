@@ -115,11 +115,11 @@ The Sprint Backlog focused on defining the structure and initial design of the L
 
 #### **5.2.1.4. Development Evidence for Sprint Review**
 During this Sprint, the team completed the conceptual design of the Landing Page.
-| Repository        | Branch            | Commit Id | Commit Message                   | Commit Message Body                           | Committed on |
-| ----------------- | ----------------- | --------- | -------------------------------- | --------------------------------------------- | ------------ |
-| kidway-landing    | feature/wireframe | a1b2c3    | feat: add landing page wireframe | Initial structure and layout defined in Figma | 2026-04-10   |
-| kidway-landing    | feature/content   | d4e5f6    | feat: add landing page content   | Added problem and solution sections text      | 2026-04-11   |
-| kidway-landing    | feature/ux-flow   | g7h8i9    | feat: improve landing page flow  | Improved logical order of sections            | 2026-04-12   |
+| Repository        | Branch            | Committed on |
+| ----------------- | ----------------- | ------------ |
+| kidway-landing    | feature/chapter-4 | 2026-04-10   |
+| kidway-landing    | feature/chapter-4 | 2026-04-11   |
+| kidway-landing    | feature/chapter-4 | 2026-04-12   |
 
 #### **5.2.1.5. Execution Evidence for Sprint Review**
 During this Sprint, the team validated the structure and clarity of the Landing Page.
@@ -143,10 +143,117 @@ During this Sprint, the team validated the structure and clarity of the Landing 
 | Insight                                                                 |
 | ----------------------------------------------------------------------- |
 | The team successfully aligned research with design decisions.           |
-| Collaboration tools like Figma and Trello improved workflow visibility. |
+| Collaboration tools like Figma improved workflow visibility.            |
 | Early definition of the value proposition reduced future rework.        |
 | Task distribution among members improved efficiency and accountability. |
 
+### **5.2.2. Sprint 2**
+
+#### **5.2.2.1. Sprint Planning 2**
+Sprint Planning Background
+| Item        | Detail                                                              |
+| ----------- | ------------------------------------------------------------------- |
+| Date        | 2026-04-10                                                          |
+| Time        | 08:00 PM                                                            |
+| Location    | Virtual meeting (Google Meet)                                       |
+| Prepared By | Jose Rudas                                                          |
+| Attendees   | Jose Rudas / Alonso Higa / Luis Huaco / Tomas Paredes / Ever Carlos |
+
+#### **5.2.2.2. Aspect Leaders and Collaborators**
+| Team Member   | GitHub Username | HTML Structure | CSS Styling | Content Integration | Responsive Design |
+| ------------- | --------------- | -------------- | ----------- | ------------------- | ----------------- |
+| Jose Rudas    | jose-rudas      | L              | C           | C                   | C                 |
+| Alonso Higa   | alonsohiga      | C              | L           | C                   | C                 |
+| Luis Huaco    | lhuaco          | C              | C           | L                   | C                 |
+| Tomas Paredes | tparedes        | C              | C           | C                   | L                 |
+| Ever Carlos   | evercarlos      | C              | C           | C                   | C                 |
+
+#### **5.2.2.3. Sprint Backlog 2**
+| User Story | Work-Item / Task | Description                     | Estimation (Hours) | Assigned To   | Status |
+| ---------- | ---------------- | ------------------------------- | ------------------ | ------------- | ------ |
+| US01       | T1               | Create HTML structure           | 4                  | Jose Rudas    | Done   |
+| US14       | T2               | Implement boarding section UI   | 3                  | Alonso Higa   | Done   |
+| US12       | T3               | Add student list section (mock) | 3                  | Luis Huaco    | Done   |
+| -          | T4               | Integrate CSS styles            | 4                  | Alonso Higa   | Done   |
+| -          | T5               | Basic responsiveness            | 3                  | Tomas Paredes | Done   |
+
+#### **5.2.2.4. Development Evidence for Sprint Review**
+| Repository   | Branch                 | Date       |
+| ------------ | ---------------------- | ---------- |
+| landing-page | feature/chapter-4      | 2026-04-11 |
+| landing-page | feature/chapter-4      | 2026-04-12 |
+| landing-page | feature/chapter-4      | 2026-04-13 |
+
+#### **5.2.2.5. Execution Evidence for Sprint Review**
+During this Sprint, the Landing Page became functional in the browser.
+Users can navigate through:
+
+Hero section
+Problem section
+Solution section
+#### **5.2.2.6. Services Documentation Evidence for Sprint Review**
+Not applicable. No backend services were implemented.
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review**
+The Landing Page was tested locally using Live Server.
+Steps performed:
+
+Open project in VS Code
+Run Live Server
+Validate rendering in browser
+#### **5.2.2.8. Team Collaboration Insights during Sprint**
+The team improved coordination and task distribution. Frontend implementation required close collaboration between design and development. Communication became more efficient.
+
+### **5.2.3. Sprint 3**
+
+#### **5.2.3.1. Sprint Planning 3**
+| Item        | Detail                                                              |
+| ----------- | ------------------------------------------------------------------- |
+| Date        | 2026-04-17                                                          |
+| Time        | 08:00 PM                                                            |
+| Location    | Virtual meeting (Google Meet)                                       |
+| Prepared By | Jose Rudas                                                          |
+| Attendees   | Jose Rudas / Alonso Higa / Luis Huaco / Tomas Paredes / Ever Carlos |
+
+#### **5.2.3.2. Aspect Leaders and Collaborators**
+| Team Member   | GitHub Username | UI Improvements | Animations | Content Refinement | UX Optimization |
+| ------------- | --------------- | --------------- | ---------- | ------------------ | --------------- |
+| Jose Rudas    | jose-rudas      | L               | C          | C                  | C               |
+| Alonso Higa   | alonsohiga      | C               | L          | C                  | C               |
+| Luis Huaco    | lhuaco          | C               | C          | L                  | C               |
+| Tomas Paredes | tparedes        | C               | C          | C                  | L               |
+| Ever Carlos   | evercarlos      | C               | C          | C                  | C               |
+
+#### **5.2.3.3. Sprint Backlog 3**
+| User Story | Work-Item / Task | Description                | Estimation (Hours) | Assigned To   | Status |
+| ---------- | ---------------- | -------------------------- | ------------------ | ------------- | ------ |
+| US18       | T1               | Add visual indicators      | 3                  | Jose Rudas    | Done   |
+| US16       | T2               | Improve interaction design | 3                  | Alonso Higa   | Done   |
+| -          | T3               | Add About section          | 4                  | Luis Huaco    | Done   |
+| -          | T4               | Add Benefits section       | 3                  | Tomas Paredes | Done   |
+| -          | T5               | Add animations             | 3                  | Alonso Higa   | Done   |
+
+#### **5.2.3.4. Development Evidence for Sprint Review**
+| Repository   | Branch                  | Date       |
+| ------------ | ----------------------- | ---------- |
+| landing-page | feature/chapter-4       | 2026-04-18 |
+| landing-page | feature/chapter-4       | 2026-04-19 |
+| landing-page | feature/chapter-4       | 2026-04-20 |
+
+#### **5.2.3.5. Execution Evidence for Sprint Review**
+New sections added:
+
+About the product
+Benefits
+Improved UI and animations
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+Not applicable.
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review**
+Landing Page tested in multiple browsers:
+
+Chrome
+Edge
+#### **5.2.3.8. Team Collaboration Insights during Sprint**
+The team achieved better design consistency. Collaboration between designers and developers improved significantly. UI decisions were made faster.
 
 ## **5.3. Validation Interviews**
 
