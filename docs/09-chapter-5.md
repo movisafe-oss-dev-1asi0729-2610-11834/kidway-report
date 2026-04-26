@@ -16,7 +16,19 @@ The following branches were defined:
 
 Each member worked independently on feature branches and merged changes through Pull Requests, ensuring code quality and collaboration.
 ### **5.1.3. Source Code Style Guide & Conventions**
+To maintain consistency, the team followed coding conventions such as:
 
+- Clear and descriptive variable names
+- Modular structure
+- Separation of concerns
+
+Additionally, Conventional Commits were used:
+
+- feat: new features
+- docs: documentation
+- fix: bug fixes
+
+This improved traceability and version control clarity.
 ### **5.1.4. Software Deployment Configuration**
 
 ## **5.2. Landing Page, Services & Applications Implementation**
