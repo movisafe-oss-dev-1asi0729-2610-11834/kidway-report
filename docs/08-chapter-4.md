@@ -1,22 +1,21 @@
 # **Chapter IV: Product Design**
 ## **4.1. Style Guidelines**
-### 4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines (Guía de Estilo General)
 
-KidWay se define como una plataforma que equilibra la **seguridad tecnológica** con la **calidez humana**. El diseño busca reducir la ansiedad de los padres mediante interfaces limpias y colores que evocan protección.
+En esta sección definimos la identidad visual de KidWay para que sea coherente en todas sus plataformas.
 
-#### Paleta de Colores (Brand Colors)
+| Atributo | Detalle | Objetivo |
+| :--- | :--- | :--- |
+| **Personalidad** | Amigable y Segura | Generar confianza inmediata en los padres. |
+| **Formas** | Bordes suaves y redondeados | Evitar una estética rígida o agresiva. |
+| **Tipografía** | Montserrat / Sans Serif | Garantizar legibilidad en pantallas pequeñas. |
 
-| Color | Hexadecimal | Muestra | Uso Principal |
-| :--- | :--- | :--- | :--- |
-| **Dark Blue** | `#1A4F8B` | ![](https://geps.dev/v1/bg/1A4F8B/000?height=20&width=80) | Logotipo, títulos y confianza institucional. |
-| **Sky Blue** | `#3498DB` | ![](https://geps.dev/v1/bg/3498DB/000?height=20&width=80) | Botones de acción y elementos interactivos. |
-| **Sun Gold** | `#FFB800` | ![](https://geps.dev/v1/bg/FFB800/000?height=20&width=80) | Acentos visuales, rutas y optimismo. |
-| **Pure White** | `#FFFFFF` | ![](https://geps.dev/v1/bg/FFFFFF/000?height=20&width=80) | Fondos y legibilidad. |
-
-#### Tipografía
-Se ha seleccionado la familia **Montserrat** (o similar Sans Serif) por su geometría moderna:
-* **Headings:** Bold para transmitir autoridad y claridad.
-* **Body:** Regular con un interlineado de 1.5 para facilitar la lectura rápida en dispositivos móviles.
+#### Paleta de Colores
+| Muestra | Color | Código Hex | Uso |
+| :---: | :--- | :--- | :--- |
+| 🔵 | **Azul KidWay** | `#1A4F8B` | Textos principales, logo y seriedad. |
+| 🟡 | **Amarillo Sol** | `#FFB800` | Rutas, iconos de felicidad y alertas. |
+| 🔘 | **Gris Humo** | `#F2F2F2` | Fondos de sección para no cansar la vista. |
 
 ### 4.1.2. Web Style Guidelines
 
