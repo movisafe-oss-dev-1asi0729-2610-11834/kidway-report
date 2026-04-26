@@ -97,11 +97,11 @@ Sprint Goal & User Stories
 During this Sprint, the team worked on Landing Page design, UX structure, and content creation.
 | Team Member           | GitHub Username | Wireframe Design | Content Writing | UX Structure |
 | --------------------- | --------------- | ---------------- | --------------- | ------------ |
-| Rudas , Jose          | jose-rudas      | L                | C               | L            |
-| Higa, Alonso          | alonso-higa     | C                | L               | C            |
-| Huaco, Luis           | luis-huaco      | C                | C               | C            |
+| Rudas , Jose          | josegabriel1604 | L                | C               | L            |
+| Higa, Alonso          | Alonso-Higa     | C                | L               | C            |
+| Huaco, Luis           | perghomarv-pixel| C                | C               | C            |
 | Paredes, Tomas        | tomas-paredes   | C                | C               | L            |
-| Carlos, Ever          | ever-carlos     | C                | C               | C            |
+| Carlos, Ever          | sephi-dev05     | C                | C               | C            |
 
 #### **5.2.1.3. Sprint Backlog 1**
 The Sprint Backlog focused on defining the structure and initial design of the Landing Page.
@@ -162,11 +162,11 @@ Sprint Planning Background
 #### **5.2.2.2. Aspect Leaders and Collaborators**
 | Team Member   | GitHub Username | HTML Structure | CSS Styling | Content Integration | Responsive Design |
 | ------------- | --------------- | -------------- | ----------- | ------------------- | ----------------- |
-| Jose Rudas    | jose-rudas      | L              | C           | C                   | C                 |
-| Alonso Higa   | alonsohiga      | C              | L           | C                   | C                 |
-| Luis Huaco    | lhuaco          | C              | C           | L                   | C                 |
+| Jose Rudas    | josegabriel1604 | L              | C           | C                   | C                 |
+| Alonso Higa   | Alonso-Higa     | C              | L           | C                   | C                 |
+| Luis Huaco    | perghomav-pixel | C              | C           | L                   | C                 |
 | Tomas Paredes | tparedes        | C              | C           | C                   | L                 |
-| Ever Carlos   | evercarlos      | C              | C           | C                   | C                 |
+| Ever Carlos   | sephi-dev05     | C              | C           | C                   | C                 |
 
 #### **5.2.2.3. Sprint Backlog 2**
 | User Story | Work-Item / Task | Description                     | Estimation (Hours) | Assigned To   | Status |
@@ -217,11 +217,11 @@ The team improved coordination and task distribution. Frontend implementation re
 #### **5.2.3.2. Aspect Leaders and Collaborators**
 | Team Member   | GitHub Username | UI Improvements | Animations | Content Refinement | UX Optimization |
 | ------------- | --------------- | --------------- | ---------- | ------------------ | --------------- |
-| Jose Rudas    | jose-rudas      | L               | C          | C                  | C               |
-| Alonso Higa   | alonsohiga      | C               | L          | C                  | C               |
-| Luis Huaco    | lhuaco          | C               | C          | L                  | C               |
+| Jose Rudas    | josegabriel1604 | L               | C          | C                  | C               |
+| Alonso Higa   | Alonso-Higa     | C               | L          | C                  | C               |
+| Luis Huaco    | perghomarv-pixel| C               | C          | L                  | C               |
 | Tomas Paredes | tparedes        | C               | C          | C                  | L               |
-| Ever Carlos   | evercarlos      | C               | C          | C                  | C               |
+| Ever Carlos   | sephi-dev05     | C               | C          | C                  | C               |
 
 #### **5.2.3.3. Sprint Backlog 3**
 | User Story | Work-Item / Task | Description                | Estimation (Hours) | Assigned To   | Status |
