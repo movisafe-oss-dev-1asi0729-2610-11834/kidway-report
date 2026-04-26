@@ -50,7 +50,16 @@ We use clear, empathetic language to guide the user without technical jargon:
 | **Route Status** | Quick update on pickup or arrival progress. |
 | **Request Demo** | For schools to test the platform before joining. |
 
-### **4.2.3. SEO Tags and Meta Tags**
+### 4.2.3. SEO Tags and Meta Tags
+
+To ensure KidWay is easily found by schools and parents on Google:
+
+| Tag Type | Content Example |
+| :--- | :--- |
+| **Title** | KidWay | Smart School Mobility & Real-Time Tracking |
+| **Description** | Helping families keep every school route predictable and safe. |
+| **Keywords** | School bus tracker, student safety, KidWay app, Lima mobility. |
+
 ### **4.2.4. Searching Systems**
 ### **4.2.5. Navigation Systems**
 ## **4.3. Landing Page UI Design**
