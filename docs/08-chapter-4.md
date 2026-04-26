@@ -60,7 +60,15 @@ To ensure KidWay is easily found by schools and parents on Google:
 | **Description** | Helping families keep every school route predictable and safe. |
 | **Keywords** | School bus tracker, student safety, KidWay app, Lima mobility. |
 
-### **4.2.4. Searching Systems**
+### 4.2.4. Searching Systems
+
+The search functionality in KidWay is not just a text box; it is a multi-layered system designed for high-stress situations where parents or administrators need information instantly.
+
+* **Predictive Student Search:** We implemented an "Autocomplete" feature that queries the database in real-time as the user types. This is essential for parents with multiple children or school coordinators managing hundreds of students.
+* **Filter-Based Discovery:** To avoid information overload, the system allows users to "Search by State." For example, an administrator can filter for "Delayed" units to focus only on vehicles currently facing issues in traffic.
+* **Geographical Search:** Users can search for specific "Nodes" or "Pickup Points" on the map. By entering an address, the system identifies the nearest active route, facilitating the onboarding of new students.
+* **Search Results Prioritization:** The system is programmed to show "Active" alerts first in search results, ensuring that urgent information is never buried under historical data.
+
 ### **4.2.5. Navigation Systems**
 ## **4.3. Landing Page UI Design**
 ### **4.3.1. Landing Page Wireframe**
