@@ -79,7 +79,16 @@ KidWay’s navigation is designed to minimize "cognitive load," ensuring that ev
 * **Feedback Loops:** The navigation system includes "Breadcrumbs," allowing users to see their path (e.g., Home > History > Route April 26) and return to previous states without using the browser's back button.
 
 ## **4.3. Landing Page UI Design**
-### **4.3.1. Landing Page Wireframe**
+
+### 4.3.1. Landing Page Wireframe
+El wireframe de nuestra Landing Page se enfoca en una estructura de "Confianza Primero". Utilizamos un diseño que guía la vista del usuario desde la propuesta de valor hacia la evidencia social.
+
+* **Hero Section:** Diseñada con un titular de alto impacto a la izquierda y un espacio dedicado para la identidad visual de KidWay (el escudo) a la derecha.
+* **Sección de Métricas:** Ubicada estratégicamente debajo del hero para validar la fiabilidad del sistema con datos reales (segmentos, flujos y experiencia de confianza).
+
+![KidWay Wireframe](./images/KidWay_Wireframe.png)
+
+
 ### **4.3.2. Landing Page Mockup**
 ## **4.4. Web Applications UX/UI Design**
 ### **4.4.1. Web Applications Wireframes**
