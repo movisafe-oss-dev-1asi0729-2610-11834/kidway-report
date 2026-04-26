@@ -1,6 +1,25 @@
 # **Report Version Log**
-| Versión | Fecha | Autor | Descripción de modificación |
-| :--- | :--- | :--- | :--- |
-| TB1 | 2026-04-12 | Higa Kohatsu, Alonso Enrique | Adición de la sección 2.1.1. Competitive Analysis |
-| TB1 | 2026-04-12 | Higa Kohatsu, Alonso Enrique | Adición de la sección 2.1.2. Strategies and Tactics Against Competitors |
-| TB1 | 2026-04-12 | Higa Kohatsu, Alonso Enrique | Adición de la sección 2.2.1. Interview Design |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">Versión</th>
+      <th align="left">Fecha</th>
+      <th align="left">Autor</th>
+      <th align="left">Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TB1</td>
+      <td>2026-04-11</td>
+      <td>Higa Kohatsu, Alonso Enrique</td>
+      <td>Finalización del capítulo I</td>
+    </tr>
+    <tr>
+      <td>TB1</td>
+      <td>2026-04-21</td>
+      <td>Higa Kohatsu, Alonso Enrique</td>
+      <td>Finalización del capítulo II</td>
+    </tr>
+  </tbody>
+</table>
