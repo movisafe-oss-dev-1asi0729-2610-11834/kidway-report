@@ -39,7 +39,17 @@ Information is grouped logically based on the user's specific needs:
 | **Drivers** | Route list and pickup points. | Sequential (Step-by-step journey). |
 | **Schools** | Fleet overview and safety reports. | Matrix (Summary of multiple data points). |
 
-### **4.2.2. Labeling Systems**
+### 4.2.2. Labeling Systems
+
+We use clear, empathetic language to guide the user without technical jargon:
+
+| Label | Meaning to the User |
+| :--- | :--- |
+| **Live Route** | View the bus moving on the map right now. |
+| **Guardian Mode** | Security settings for child monitoring. |
+| **Route Status** | Quick update on pickup or arrival progress. |
+| **Request Demo** | For schools to test the platform before joining. |
+
 ### **4.2.3. SEO Tags and Meta Tags**
 ### **4.2.4. Searching Systems**
 ### **4.2.5. Navigation Systems**
