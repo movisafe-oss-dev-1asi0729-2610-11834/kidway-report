@@ -166,7 +166,7 @@ The following wireflow diagram illustrates the navigational architecture and int
 
 ---
 
-**Wireflow Diagram: System Interaction Logic** ![KidWay Wireflow](../images/DIAGRAMA_WIREFLOW.jpg)  
+**Wireflow Diagram: System Interaction Logic** ![KidWay Wireflow](../images/DIAGRAMA_WIREFLOW.png)  
 
 ---
 
