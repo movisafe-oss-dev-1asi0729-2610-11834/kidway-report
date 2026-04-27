@@ -112,7 +112,16 @@ El diseño se divide en bloques estratégicos para guiar al usuario a través de
 * **Accesibilidad:** Contraste de colores verificado para garantizar que la información sea legible en diversas condiciones de iluminación.
 
 ## **4.4. Web Applications UX/UI Design**
+
 ### **4.4.1. Web Applications Wireframes**
+
+The wireframes for the **KidWay** web application represent the structural foundation of our interface, focusing on functionality and the user’s journey. These low-fidelity designs allow us to validate the information hierarchy and ensure that parents, drivers, and administrators can navigate the platform with zero friction.
+
+Our core design objectives include:
+* **Safety-First Navigation:** Prioritizing real-time data and emergency alerts.
+* **Operational Efficiency:** Minimizing the steps required for drivers to manage student attendance.
+* **Consistency:** Maintaining a unified layout across all administrative and user modules.
+
 ### **4.4.2. Web Applications Wireflow Diagrams**
 ### **4.4.2. Web Applications Mock-ups**
 ### **4.4.3. Web Applications User Flow Diagrams**
