@@ -172,6 +172,52 @@ The following wireflow diagram illustrates the navigational architecture and int
 ---
 
 ### **4.4.2. Web Applications Mock-ups**
+
+The **KidWay** Mock-ups represent the high-fidelity phase of our product design. In this stage, we integrated our visual identity—including the **KidWay Blue** and **Sun Gold** palette—with the structural layouts previously defined. These designs focus on creating a trustworthy and modern experience, ensuring that every interface is not only functional but also emotionally reassuring for parents and school staff.
+
+Key visual elements applied:
+* **Color Psychology:** Use of deep blues to evoke trust and gold accents for visibility and energy.
+* **Accessibility:** High-contrast text and standard font sizes for readability in mobile and web environments.
+* **Micro-interactions:** Visual feedback for buttons and input fields to guide the user intuitively.
+
+---
+
+**Mock-up 1: User Login** ![Mock-up 1](../images/MOCKUP%201.png)  
+*Final high-fidelity login screen with branding and security-focused UI.*
+
+**Mock-up 2: Parent Dashboard** ![Mock-up 2](../images/MOCKUP%202.png)  
+*Color-coded overview for parents with real-time status indicators.*
+
+**Mock-up 3: Live Tracking Map** ![Mock-up 3](../images/MOCKUP%203.png)  
+*Interactive map interface featuring custom bus markers and dynamic ETA cards.*
+
+**Mock-up 4: Student Profile Management** ![Mock-up 4](../images/MOCKUP%204.png)  
+*Detailed view for managing student profiles with intuitive data entry fields.*
+
+**Mock-up 5: Trip History** ![Mock-up 5](../images/MOCKUP%205.png)  
+*Data-rich historical log with a clean, organized layout for past route analysis.*
+
+**Mock-up 6: Driver Main Interface** ![Mock-up 6](../images/MOCKUP%206.png)  
+*Optimized night/day mode for drivers, prioritizing navigation and large touch targets.*
+
+**Mock-up 7: Attendance Checklist** ![Mock-up 7](../images/MOCKUP%207.png)  
+*High-contrast checklist for real-time student boarding and security verification.*
+
+**Mock-up 8: School Admin Overview** ![Mock-up 8](../images/MOCKUP%208.png)  
+*Administrative dashboard with fleet metrics and active trip monitoring.*
+
+**Mock-up 9: Route Optimization** ![Mock-up 9](../images/MOCKUP%209.png)  
+*Visual route builder for administrators to design and assign pickup points.*
+
+**Mock-up 10: Incident Reporting** ![Mock-up 10](../images/MOCKUP%2010.png)  
+*Urgent alert interface designed for quick reporting under high-stress situations.*
+
+**Mock-up 11: Notification Settings** ![Mock-up 11](../images/MOCKUP%2011.png)  
+*Customization panel for alerts, maintaining visual consistency with the mobile app.*
+
+**Mock-up 12: Analytics & Reports** ![Mock-up 12](../images/MOCKUP%2012.png)  
+*Comprehensive performance graphs and data tables for school management.*
+
 ### **4.4.3. Web Applications User Flow Diagrams**
 ## **4.5. Web Applications Prototyping**
 ## **4.6. Domain-Driven Software Architecture**
