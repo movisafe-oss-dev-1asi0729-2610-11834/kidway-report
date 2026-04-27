@@ -122,6 +122,44 @@ Our core design objectives include:
 * **Operational Efficiency:** Minimizing the steps required for drivers to manage student attendance.
 * **Consistency:** Maintaining a unified layout across all administrative and user modules.
 
+---
+
+**Wireframe 1: User Login** ![Wireframe 1](../images/WIREFRAME%201.png)  
+*Secure authentication portal for parents, drivers, and school administrators.*
+
+**Wireframe 2: Parent Dashboard** ![Wireframe 2](../images/WIREFRAME%202.png)  
+*Main control panel for parents, displaying active services and quick child status.*
+
+**Wireframe 3: Live Tracking Map** ![Wireframe 3](../images/WIREFRAME%203.png)  
+*Real-time GPS interface showing the bus location and Estimated Time of Arrival (ETA).*
+
+**Wireframe 4: Student Profile Management** ![Wireframe 4](../images/WIREFRAME%204.png)  
+*Section dedicated to managing student information, emergency contacts, and medical notes.*
+
+**Wireframe 5: Trip History** ![Wireframe 5](../images/WIREFRAME%205.png)  
+*Detailed log of past routes, including timestamps for every pick-up and drop-off.*
+
+**Wireframe 6: Driver Main Interface** ![Wireframe 6](../images/WIREFRAME%206.png)  
+*Operational view for drivers with active route navigation and stop management.*
+
+**Wireframe 7: Attendance Checklist** ![Wireframe 7](../images/WIREFRAME%207.png)  
+*Digital student roster for real-time boarding and deboarding confirmation.*
+
+**Wireframe 8: School Admin Overview** ![Wireframe 8](../images/WIREFRAME%208.png)  
+*Global monitoring dashboard for schools to track multiple units and safety status.*
+
+**Wireframe 9: Route Optimization** ![Wireframe 9](../images/WIREFRAME%209.png)  
+*Administrative tool for creating nodes and optimizing transportation paths.*
+
+**Wireframe 10: Incident Reporting** ![Wireframe 10](../images/WIREFRAME%2010.png)  
+*Standardized form for reporting delays, mechanical issues, or behavior alerts.*
+
+**Wireframe 11: Notification Settings** ![Wireframe 11](../images/WIREFRAME%2011.png)  
+*Preferences for push notifications, SMS alerts, and email communication.*
+
+**Wireframe 12: Analytics & Reports** ![Wireframe 12](../images/WIREFRAME%2012.png)  
+*Fleet performance dashboard displaying completed trips, average attendance, and incident metrics.*
+
 ### **4.4.2. Web Applications Wireflow Diagrams**
 ### **4.4.2. Web Applications Mock-ups**
 ### **4.4.3. Web Applications User Flow Diagrams**
