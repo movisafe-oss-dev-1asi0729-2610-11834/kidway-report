@@ -164,6 +164,7 @@ Our core design objectives include:
 
 The following wireflow diagram illustrates the navigational architecture and interaction logic of the **KidWay** platform. It details the journey from the initial authentication phase to the role-specific dashboards designed for Parents, Drivers, and School Administrators, ensuring a logical flow across all 12 core wireframes.
 
+
 ---
 
 **Wireflow Diagram: System Interaction Logic** ![KidWay Wireflow](../images/DIAGRAMA_WIREFLOW.png)  
