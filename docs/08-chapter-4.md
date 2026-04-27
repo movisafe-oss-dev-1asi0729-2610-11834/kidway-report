@@ -219,6 +219,21 @@ Key visual elements applied:
 *Comprehensive performance graphs and data tables for school management.*
 
 ### **4.4.3. Web Applications User Flow Diagrams**
+
+The **User Flow Diagrams** for KidWay map out the precise logical paths that different users follow to achieve their objectives. These flows are designed to minimize friction and ensure that critical actions—such as emergency reporting or real-time tracking—are accessible within a maximum of three interactions.
+
+We have prioritized the following three critical flows:
+
+1.  **Parental Monitoring Flow:** Focuses on the security check and the immediate access to the live location of the student.
+2.  **Driver Operational Flow:** Streamlines the attendance process and the synchronization of route data with the central server.
+3.  **Administrator Oversight Flow:** Provides a top-down view of fleet status and the generation of automated safety reports.
+
+---
+
+**User Flow Diagram: Core Platform Interactions** ![User Flow](../images/USER_FLOW.png)  
+*This diagram details the decision nodes and action paths for Parents, Drivers, and Administrators within the web ecosystem.*
+
+---
 ## **4.5. Web Applications Prototyping**
 ## **4.6. Domain-Driven Software Architecture**
 ### **4.6.1. Design-Level EventStorming**
