@@ -13,9 +13,15 @@
 <table style="width: 100%; border-collapse: collapse;">
   <!-- ROW 0 -->
   <tr>
-    <th style="text-align: center;">Specific Criterion</th>
-    <th style="text-align: center;">Actions Performed</th>
-    <th style="text-align: center;">Conclusions</th>
+    <th style="text-align: center;">
+      Specific Criterion
+    </th>
+    <th style="text-align: center;">
+      Actions Performed
+    </th>
+    <th style="text-align: center;">
+      Conclusions
+    </th>
   </tr>
   
   <!-- ROW 1 -->
@@ -46,7 +52,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        During the AV1 development of the project I managed to communicate effectively with different types of audiences, adapting my language according to the context. On the one hand, In interviews with real users, I used simple and friendly language so that drivers and administrators could clearly express their problems without feeling confused.
       <br><br>
         ------------------------------------
       <br><br>
@@ -122,7 +128,7 @@
         AV1
       </i></b>
       <br>
-        (replace content)
+        In this AV1 I developed the ability to communicate in writing effectively for different types of audiences. On the one hand, I wrote documents such as the Startup Profile and the Solution Profile in a clear and orderly format, thinking that anyone interested could understand the idea of ​​the project. I also managed to transform the information obtained in the interviews into tools such as User Personas and Journey Maps, explaining them in a simple way so that the development team can use them without confusion.
       <br><br>
         ------------------------------------
       <br><br>
