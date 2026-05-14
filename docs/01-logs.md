@@ -27,7 +27,7 @@
     <td style="text-align: center;">
       Carlos Lavado, Ever Giusephi
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Completed Domain-Driven Architecture, UML Class Diagrams, Database Design, repository organization, team coordination, and landing page base development.
     </td>
   </tr>
@@ -42,7 +42,7 @@
     <td style="text-align: center;">
       Higa Kohatsu, Alonso Enrique
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Adición de la sección 1.1.1. Startup Description
     </td>
   </tr>
@@ -57,7 +57,7 @@
     <td style="text-align: center;">
       Higa Kohatsu, Alonso Enrique
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Adición de la sección 1.2.1 Background and Problem Statement
     </td>
   </tr>
@@ -72,7 +72,7 @@
     <td style="text-align: center;">
       Higa Kohatsu, Alonso Enrique
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Adición de la sección 1.2.2.1. Lean UX Problem Statements
     </td>
   </tr>
@@ -87,7 +87,7 @@
     <td style="text-align: center;">
       Higa Kohatsu, Alonso Enrique
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Adición de la sección 1.2.2.2. Lean UX Assumptions
     </td>
   </tr>
@@ -102,7 +102,7 @@
     <td style="text-align: center;">
       Higa Kohatsu, Alonso Enrique
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Adición de la sección 1.2.2.3. Lean UX Hypothesis Statements
     </td>
   </tr>
@@ -117,7 +117,7 @@
     <td style="text-align: center;">
       Higa Kohatsu, Alonso Enrique
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Adición de la sección 1.2.2.4. Lean UX Canvas
     </td>
   </tr>
@@ -132,7 +132,7 @@
     <td style="text-align: center;">
       Higa Kohatsu, Alonso Enrique
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Adición de la sección 1.3. Target Segments
     </td>
   </tr>
@@ -147,7 +147,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Addition of section 3.1. Epic Stories
     </td>
   <!-- ROW 3.1 -->
@@ -161,7 +161,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Addition of section 3.1. User Stories
     </td>
   <!-- ROW 3.2 -->
@@ -175,7 +175,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Addition of section 3.2. Impact Mapping
     </td>
   <!-- ROW 3.3 -->
@@ -189,7 +189,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Addition of section 3.3. Product Backlog
     </td>
     <!-- ROW 3.4 -->
@@ -203,7 +203,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Formatting adjustments for section 3.1. User Stories
     </td>
     <!-- ROW 3.5 -->
@@ -217,7 +217,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Formatting adjustments for section 3.3. Product Backlog
     </td>
     <!-- ROW 3.6 -->
@@ -231,7 +231,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Formatting adjustments for section 3.1. User Stories
     </td>
     <!-- ROW 3.7 -->
@@ -245,7 +245,7 @@
     <td style="text-align: center;">
       Huaco Oliva, Luis Alonso
     </td>
-    <td style="text-align: center;">
+    <td style="text-align: justify;">
       Traduction for standardization
     </td>
   <!-- ROW 4 -->
@@ -254,13 +254,13 @@
       1.3.0
     </td>
     <td style="text-align: center;">
-      (date)
+      04/26/2026
     </td>
     <td style="text-align: center;">
       Paredes Diaz, Tomás Alessandro
     </td>
-    <td style="text-align: center;">
-      (description)
+    <td style="text-align: justify;">
+      Added and documented the Information Architecture section, including organization, labeling, and navigation systems. Developed the low-fidelity wireframes, high-fidelity mockups, and interactive prototype in Figma to validate the main user flows before the implementation stage.
     </td>
   <!-- ROW 5 -->
   <tr>
@@ -268,13 +268,13 @@
       1.4.0
     </td>
     <td style="text-align: center;">
-      (date)
+      04/26/2026
     </td>
     <td style="text-align: center;">
       Rudas Chavarria, Jose Gabriel
     </td>
-    <td style="text-align: center;">
-      (description)
+    <td style="text-align: justify;">
+      Developed the Product Implementation, Validation & Deployment documentation. Added the initial sprint structure to support team organization during the first delivery and completed the conclusions with technical observations and recommendations for future project stages.
     </td>
   </tr>
 </table>
