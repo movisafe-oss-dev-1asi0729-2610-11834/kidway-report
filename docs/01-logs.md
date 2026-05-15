@@ -277,4 +277,296 @@
       Developed the Product Implementation, Validation & Deployment documentation. Added the initial sprint structure to support team organization during the first delivery and completed the conclusions with technical observations and recommendations for future project stages.
     </td>
   </tr>
+  <!-- ROW 6.0 -->
+  <tr>
+    <td style="text-align: center;">
+      2.0.0
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Carlos Lavado, Ever Giusephi
+    </td>
+    <td style="text-align: justify;">
+      Refactored and standardized all report chapters to maintain consistent Markdown syntax, HTML formatting, documentation structure, and visual presentation across the project report.
+    </td>
+  </tr>
+  <!-- ROW 6.1 -->
+  <tr>
+    <td style="text-align: center;">
+      2.0.1
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Carlos Lavado, Ever Giusephi
+    </td>
+    <td style="text-align: justify;">
+      Developed and documented BC1 Identity & Access Management, BC2 User Profiles, BC3 Subscriptions & Payments, and BC16 Company Management, including their architectural organization and bounded context integration.
+    </td>
+  </tr>
+  <!-- ROW 6.2 -->
+  <tr>
+    <td style="text-align: center;">
+      2.0.2
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Carlos Lavado, Ever Giusephi
+    </td>
+    <td style="text-align: justify;">
+      Created and configured the KidWay report repository and frontend repository structure, including branch organization, GitFlow workflow, collaboration guidelines, and merge synchronization strategies.
+    </td>
+  </tr>
+  <!-- ROW 6.3 -->
+  <tr>
+    <td style="text-align: center;">
+      2.0.3
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Carlos Lavado, Ever Giusephi
+    </td>
+    <td style="text-align: justify;">
+      Coordinated the integration and organization processes of the team, supervising repository synchronization, merge standardization, collaborative workflows, and technical consistency across deliverables.
+    </td>
+  </tr>
+  <!-- ROW 7.0 -->
+  <tr>
+    <td style="text-align: center;">
+      2.1.0
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Higa Kohatsu, Alonso Enrique
+    </td>
+    <td style="text-align: justify;">
+      Developed and structured BC8 Student Management, BC9 Assignment Management, and BC12 Attendance Tracking, including administrative CRUD interfaces and tracking views for parents.
+    </td>
+  </tr>
+  <!-- ROW 7.1 -->
+  <tr>
+    <td style="text-align: center;">
+      2.1.1
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Higa Kohatsu, Alonso Enrique
+    </td>
+    <td style="text-align: justify;">
+      Implemented internationalization support using @ngx-translate/core, creating scalable JSON dictionaries for English and Spanish and refactoring static interface texts.
+    </td>
+  </tr>
+  <!-- ROW 7.2 -->
+  <tr>
+    <td style="text-align: center;">
+      2.1.2
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Higa Kohatsu, Alonso Enrique
+    </td>
+    <td style="text-align: justify;">
+      Designed the architecture of the assigned bounded contexts following Domain-Driven Design and clean architecture principles, separating domain, infrastructure, application, and presentation layers.
+    </td>
+  </tr>
+  <!-- ROW 7.3 -->
+  <tr>
+    <td style="text-align: center;">
+      2.1.3
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Higa Kohatsu, Alonso Enrique
+    </td>
+    <td style="text-align: justify;">
+      Implemented reactive state management using Angular Signals Stores and integrated data communication through a simulated REST API with JSON Server.
+    </td>
+  </tr>
+  <!-- ROW 3.0 -->
+  <tr>
+    <td style="text-align: center;">
+      2.2.0
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Huaco Oliva, Luis Alonso
+    </td>
+    <td style="text-align: justify;">
+      Designed and implemented the Incident Management views and components, including incident creation/editing forms, paginated lists, filters, validation rules, and HTTP communication with JSON Server.
+    </td>
+  <!-- ROW 3.1 -->
+  <tr>
+    <td style="text-align: center;">
+      2.2.1
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Huaco Oliva, Luis Alonso
+    </td>
+    <td style="text-align: justify;">
+      Developed the Dashboard module with summary cards, active routes, recent incidents, notifications, event evolution charts, and quick access to operational modules.
+    </td>
+  <!-- ROW 3.2 -->
+  <tr>
+    <td style="text-align: center;">
+      2.2.2
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Huaco Oliva, Luis Alonso
+    </td>
+    <td style="text-align: justify;">
+      Implemented BC15 Analytics & Reports, allowing the visualization of key metrics such as incident trends, route performance, assignment efficiency, and fleet usage.
+    </td>
+  <!-- ROW 3.3 -->
+  <tr>
+    <td style="text-align: center;">
+      2.2.3
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Huaco Oliva, Luis Alonso
+    </td>
+    <td style="text-align: justify;">
+      Integrated interactive charts, date filters, KPI panels, report export features, domain logic, and HTTP adapters to consume analytical endpoints from the mock API.
+    </td>
+  <!-- ROW 4 -->
+  <tr>
+    <td style="text-align: center;">
+      2.3.0
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Paredes Diaz, Tomás Alessandro
+    </td>
+    <td style="text-align: justify;">
+      Designed and developed the technical architecture of BC10 Real-Time Tracking, BC11 Trip Management, and BC13 Alerts & Notifications using Domain-Driven Design patterns.
+    </td>
+  <!-- ROW 4 -->
+  <tr>
+    <td style="text-align: center;">
+      2.3.1
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Paredes Diaz, Tomás Alessandro
+    </td>
+    <td style="text-align: justify;">
+      Implemented bidirectional and reactive communication logic through infrastructure services for fleet monitoring in selected districts of Lima, integrating real-time data flows with RxJS.
+    </td>
+  <!-- ROW 4 -->
+  <tr>
+    <td style="text-align: center;">
+      2.3.2
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Paredes Diaz, Tomás Alessandro
+    </td>
+    <td style="text-align: justify;">
+      Standardized the internationalization system in the assigned modules, configuring localization keys in JSON files and ensuring dynamic language switching between English and Spanish.
+    </td>
+  <!-- ROW 4 -->
+  <tr>
+    <td style="text-align: center;">
+      2.3.3
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Paredes Diaz, Tomás Alessandro
+    </td>
+    <td style="text-align: justify;">
+      Developed advanced UI components, including interactive cards, progress bars, and priority-based visual alert systems aligned with the KidWay visual design.
+    </td>
+  <!-- ROW 5 -->
+  <tr>
+    <td style="text-align: center;">
+      2.4.0
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Rudas Chavarria, Jose Gabriel
+    </td>
+    <td style="text-align: justify;">
+      Implemented the frontend architecture of BC5 Fleet Management, BC6 Driver Management, and BC7 Route Management following Domain-Driven Design principles and layered separation.
+    </td>
+  </tr>
+  <!-- ROW 5 -->
+  <tr>
+    <td style="text-align: center;">
+      2.4.1
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Rudas Chavarria, Jose Gabriel
+    </td>
+    <td style="text-align: justify;">
+      Developed responsive administrative modules for fleet, driver, and school route management, integrating dynamic tables, operational states, and mock data consumption through JSON Server.
+    </td>
+  </tr>
+  <!-- ROW 5 -->
+  <tr>
+    <td style="text-align: center;">
+      2.4.2
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Rudas Chavarria, Jose Gabriel
+    </td>
+    <td style="text-align: justify;">
+      Implemented modular routing and decoupled navigation for the assigned bounded contexts, configuring lazy-loaded routes, standalone components, and i18n support in English and Spanish.
+    </td>
+  </tr>
+  <!-- ROW 5 -->
+  <tr>
+    <td style="text-align: center;">
+      2.4.3
+    </td>
+    <td style="text-align: center;">
+      05/14/2026
+    </td>
+    <td style="text-align: center;">
+      Rudas Chavarria, Jose Gabriel
+    </td>
+    <td style="text-align: justify;">
+      Developed reusable UI components for Fleet, Drivers, and Routes modules, incorporating status visualization, administrative table structures, and visual consistency with KidWay UX/UI guidelines.
+    </td>
+  </tr>
 </table>
