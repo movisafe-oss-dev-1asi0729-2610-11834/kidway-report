@@ -1,14 +1,10 @@
 # **Student Outcome**
 
 <p style="text-align: justify;">
-  This course contributes to the achievement of ABET Student Outcome 3:
+  This course contributes to the achievement of ABET Student Outcome 3
 </p>
 
-<p style="text-align: justify;">
-  <b>ABET – EAC - Student Outcome 3</b>
-  
-  Criterion: Ability to communicate effectively with a range of audiences.
-</p>
+> **ABET – EAC - Student Outcome 3:** Criterion: Ability to communicate effectively with a range of audiences.
 
 <table style="width: 100%; border-collapse: collapse;">
   <!-- ROW 0 -->
@@ -48,6 +44,12 @@
       <br>
         I strengthened my oral communication by coordinating team organization, explaining repository workflows, merge strategies, GitFlow usage, and the architectural integration of the assigned bounded contexts. I supported the team by communicating technical decisions clearly during coordination sessions, helping teammates understand how the report, frontend structure, and bounded contexts had to remain consistent across all deliverables.
       <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
         ------------------------------------
       <br><br>
       <b>
@@ -65,6 +67,12 @@
       </i></b>
       <br>
         During TB1, I contributed to oral communication by explaining the behavior and purpose of BC8 Student Management, BC9 Assignment Management, and BC12 Attendance Tracking during team coordination. I communicated how administrative users and parents interact with the system, using clear explanations that helped technical and non-technical audiences understand the value of the implemented modules.
+      <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
       <br><br>
         ------------------------------------
       <br><br>
@@ -84,6 +92,12 @@
       <br>
         I contributed to oral communication by explaining the implemented Incident Management, Dashboard, and Analytics & Reports modules. I helped communicate how incidents, operational indicators, charts, KPIs, and reports support decision-making in the KidWay platform, adapting the explanation for teammates, evaluators, and users interested in understanding the system’s monitoring capabilities.
       <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
         ------------------------------------
       <br><br>
       <b>
@@ -101,6 +115,12 @@
       </i></b>
       <br>
         I contributed to oral communication by explaining the technical and functional behavior of BC10 Real-Time Tracking, BC11 Trip Management, and BC13 Alerts & Notifications. I helped the team communicate how real-time monitoring, trip control, and priority alerts improve the safety and visibility of school transportation operations for different audiences.
+      <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
       <br><br>
         ------------------------------------
       <br><br>
@@ -120,6 +140,12 @@
       <br>
         I contributed to oral communication by explaining the frontend architecture and functionality of BC5 Fleet Management, BC6 Driver Management, and BC7 Route Management. I helped communicate how the administrative modules allow users to manage fleets, drivers, and school routes, using clear explanations suitable for teammates, evaluators, and potential users of the platform.
       <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
       <b><i>
@@ -133,6 +159,12 @@
       </i></b>
       <br>
         During TB1, the team strengthened its oral communication skills by explaining the progress, architecture, implementation, and technical decisions of the KidWay platform through coordination meetings and project discussions. Each member communicated the purpose and behavior of their assigned bounded contexts, including identity management, user profiles, subscriptions, company management, student management, attendance tracking, incident management, dashboard, analytics, real-time tracking, trip management, alerts, fleet management, driver management, and route management. As a result, the team was able to communicate project progress clearly to different audiences, including teammates, professors, evaluators, and potential users, adapting the level of technical detail according to each context.
+      <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
     </td>
   </tr>
   
@@ -160,6 +192,12 @@
       <br>
         I contributed to written communication by refactoring and standardizing the report chapters, documenting BC1, BC2, BC3, and BC16, and defining repository documentation structures. These actions helped ensure that the project report, technical architecture, and collaboration guidelines were clear, organized, and understandable for professors, teammates, and evaluators.
       <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
         ------------------------------------
       <br><br>
       <b>
@@ -177,6 +215,12 @@
       </i></b>
       <br>
         I contributed to written communication by documenting the structure and implementation of the assigned bounded contexts, including their DDD layers, i18n configuration, reactive state management, and REST API integration. This documentation helped present the technical organization of the modules in a structured and understandable way for teammates and academic evaluators.
+      <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
       <br><br>
         ------------------------------------
       <br><br>
@@ -196,6 +240,12 @@
       <br>
         I contributed to written communication by documenting the implementation of incident forms, incident lists, dashboard cards, analytical charts, filters, KPI panels, and report export features. These contributions helped describe the functionality and business value of the monitoring and analytics modules in a clear and organized way.
       <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
         ------------------------------------
       <br><br>
       <b>
@@ -213,6 +263,12 @@
       </i></b>
       <br>
         I contributed to written communication by documenting the architecture and implementation of the assigned bounded contexts, including reactive communication with RxJS, i18n configuration, localization keys, and advanced UI components. This helped make the technical design and user interaction logic understandable for both technical reviewers and non-technical stakeholders.
+      <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
       <br><br>
         ------------------------------------
       <br><br>
@@ -232,6 +288,12 @@
       <br>
         I contributed to written communication by documenting the implementation of the Fleet, Driver, and Route Management modules, including DDD structure, modular routing, lazy-loaded routes, standalone components, i18n support, reusable UI components, and JSON Server integration. This helped present the module architecture and functionality in a clear and professional way.
       <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
+      <br><br>
     </td>
     <td style="text-align: justify; vertical-align: top;">
       <b><i>
@@ -245,6 +307,12 @@
       </i></b>
       <br>
         During TB1, the team improved its written communication by documenting the implementation, architecture, configuration, and functionality of the main KidWay modules in a structured and consistent way. The report included standardized chapters, bounded context documentation, DDD layer descriptions, frontend implementation evidence, i18n configuration, mock API integration, UI components, routing structure, dashboards, reports, and technical recommendations. These written contributions allowed the project documentation to communicate both technical and functional information effectively to professors, teammates, evaluators, and stakeholders interested in understanding the solution.
+      <br><br>
+      <b><i>
+        AV2
+      </i></b>
+      <br>
+        (replace content)
     </td>
   </tr>
 </table>
