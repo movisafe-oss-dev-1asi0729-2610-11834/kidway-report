@@ -8,10 +8,12 @@
   <p style="text-align: center;">
     Faculty of Engineering
   </p>
-
+  
   <p style="text-align: center;">
     Software engineering
   </p>
+
+  <br><br>
 
   <p style="text-align: center;">
     Cycle: 202610
@@ -29,13 +31,17 @@
     NRC: 11834
   </p>
 
+  <br><br>
+
   <p style="text-align: center;">
     Teacher: Ivan Robles Fernández
   </p>
 
   <p style="text-align: center;">
-    TB1 Work Report
+    AV2 Work Report
   </p>
+
+  <br>
 
   <p style="text-align: center;">
     Startup Name: MoviSafe
@@ -44,20 +50,18 @@
   <p style="text-align: center;">
     Product Name: KidWay
   </p>
+  
+  <br>
 
-  <table>
-    <thead>
-      <tr>
-        <th style="
-        text-align: center;
-        background-color: #333;
+  <table>   
+    <thead style="
+        background-color: #676767;
         color: #fff;">
+      <tr>
+        <th style="text-align: center">
           Last Name and First Name
         </th>
-        <th style="
-        text-align: center;
-        background-color: #333;
-        color: #fff;">
+        <th style="text-align: center">
           Student Code
         </th>
       </tr>
@@ -106,7 +110,9 @@
     </tbody>
   </table>
 
+  <br>
+
   <p style="text-align: center;">
-    May 2026
+    June 2026
   </p>
 </div>
